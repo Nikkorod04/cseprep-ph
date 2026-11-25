@@ -1,0 +1,667 @@
+[
+  {
+    "id": "seed-verb-vocab-0223",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "The clerk was ______ in following up every request until it was resolved.",
+    "choices": [
+      { "key": "A", "text": "persistent" },
+      { "key": "B", "text": "negligent" },
+      { "key": "C", "text": "indifferent" },
+      { "key": "D", "text": "careless" }
+    ],
+    "answer": "A",
+    "explanation": "The clue is that she followed up until the request was resolved. Persistent means continuing despite difficulty. The other choices mean the opposite.",
+    "tip": "Use the action after the blank to confirm the meaning.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0224",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "The report was ______; it contained only a summary and no supporting data.",
+    "choices": [
+      { "key": "A", "text": "exhaustive" },
+      { "key": "B", "text": "detailed" },
+      { "key": "C", "text": "incomplete" },
+      { "key": "D", "text": "verbose" }
+    ],
+    "answer": "C",
+    "explanation": "The phrase after the semicolon explains the blank: only a summary and no supporting data means something is missing. Exhaustive and detailed are the opposite.",
+    "tip": "A semicolon often restates the first clause.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0225",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "The auditor remained ______ despite pressure to ignore the discrepancy.",
+    "choices": [
+      { "key": "A", "text": "corrupt" },
+      { "key": "B", "text": "impartial" },
+      { "key": "C", "text": "careless" },
+      { "key": "D", "text": "partial" }
+    ],
+    "answer": "B",
+    "explanation": "Impartial means unbiased. Remaining impartial despite pressure fits an auditor who refuses to favor one side. Partial means biased, the opposite.",
+    "tip": "Watch out for partial and impartial; one prefix reverses the meaning.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0226",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "The agency's policy was ______: it applied to all employees without exception.",
+    "choices": [
+      { "key": "A", "text": "optional" },
+      { "key": "B", "text": "temporary" },
+      { "key": "C", "text": "vague" },
+      { "key": "D", "text": "universal" }
+    ],
+    "answer": "D",
+    "explanation": "The colon explains the blank. Applying to all employees without exception means the policy is universal. Optional and temporary contradict the idea.",
+    "tip": "Look for a definition after the colon.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0227",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "The speaker's argument was ______, moving from one unrelated point to another.",
+    "choices": [
+      { "key": "A", "text": "disjointed" },
+      { "key": "B", "text": "coherent" },
+      { "key": "C", "text": "persuasive" },
+      { "key": "D", "text": "concise" }
+    ],
+    "answer": "A",
+    "explanation": "Moving between unrelated points means the parts do not connect. Disjointed describes exactly that. Coherent means logically connected.",
+    "tip": "The phrase after the comma describes the blank.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0228",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "The new employee was ______ about the procedures, so she asked many questions.",
+    "choices": [
+      { "key": "A", "text": "knowledgeable" },
+      { "key": "B", "text": "indifferent" },
+      { "key": "C", "text": "uncertain" },
+      { "key": "D", "text": "expert" }
+    ],
+    "answer": "C",
+    "explanation": "Asking many questions shows she did not yet understand the procedures. Uncertain fits. Knowledgeable and expert would mean she already knew them.",
+    "tip": "Ask what would cause someone to ask many questions.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0229",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "The deadline was moved ______, giving the team only one extra day.",
+    "choices": [
+      { "key": "A", "text": "drastically" },
+      { "key": "B", "text": "slightly" },
+      { "key": "C", "text": "indefinitely" },
+      { "key": "D", "text": "permanently" }
+    ],
+    "answer": "B",
+    "explanation": "One extra day is a small change, so slightly fits. Drastically means by a large amount, and indefinitely means with no fixed end.",
+    "tip": "Let the quantity in the sentence set the degree.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0230",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "The witness gave a ______ account, changing details each time she was asked.",
+    "choices": [
+      { "key": "A", "text": "consistent" },
+      { "key": "B", "text": "credible" },
+      { "key": "C", "text": "detailed" },
+      { "key": "D", "text": "inconsistent" }
+    ],
+    "answer": "D",
+    "explanation": "Changing details means the accounts do not match. Inconsistent is correct. Consistent means the same each time, and credible means believable.",
+    "tip": "Match the blank to the behavior described.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0231",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "Choose the word closest in meaning to abundant.",
+    "choices": [
+      { "key": "A", "text": "plentiful" },
+      { "key": "B", "text": "scarce" },
+      { "key": "C", "text": "limited" },
+      { "key": "D", "text": "rare" }
+    ],
+    "answer": "A",
+    "explanation": "Abundant means existing in large quantities. Plentiful is its closest synonym. Scarce, limited, and rare all mean the opposite.",
+    "tip": "Eliminate the antonyms first, then choose the synonym.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0232",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "Choose the word opposite in meaning to transparent.",
+    "choices": [
+      { "key": "A", "text": "clear" },
+      { "key": "B", "text": "obvious" },
+      { "key": "C", "text": "opaque" },
+      { "key": "D", "text": "visible" }
+    ],
+    "answer": "C",
+    "explanation": "Transparent means light passes through and can be seen through. Opaque means light does not pass through, making it the opposite.",
+    "tip": "For antonyms, look for the true opposite, not just a related word.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0233",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "Choose the word closest in meaning to candid.",
+    "choices": [
+      { "key": "A", "text": "evasive" },
+      { "key": "B", "text": "frank" },
+      { "key": "C", "text": "shy" },
+      { "key": "D", "text": "secretive" }
+    ],
+    "answer": "B",
+    "explanation": "Candid means honest and direct, often about something difficult. Frank is the closest synonym. Evasive and secretive mean the opposite.",
+    "tip": "Candid and frank both suggest straight talk.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0234",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "Choose the word opposite in meaning to frugal.",
+    "choices": [
+      { "key": "A", "text": "thrifty" },
+      { "key": "B", "text": "economical" },
+      { "key": "C", "text": "careful" },
+      { "key": "D", "text": "wasteful" }
+    ],
+    "answer": "D",
+    "explanation": "Frugal means sparing with money or resources. Wasteful is its opposite. Thrifty and economical are synonyms of frugal.",
+    "tip": "The other three choices are synonyms of the word, so the leftover is the antonym.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0235",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "The instructions were ______; even a beginner could follow them.",
+    "choices": [
+      { "key": "A", "text": "straightforward" },
+      { "key": "B", "text": "convoluted" },
+      { "key": "C", "text": "ambiguous" },
+      { "key": "D", "text": "tedious" }
+    ],
+    "answer": "A",
+    "explanation": "If a beginner could follow them, the instructions were simple and clear. Straightforward fits. Convoluted and ambiguous describe confusing instructions.",
+    "tip": "The result clause tells you whether the blank is positive or negative.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0236",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "The evidence was ______, so the case was dismissed for lack of proof.",
+    "choices": [
+      { "key": "A", "text": "conclusive" },
+      { "key": "B", "text": "overwhelming" },
+      { "key": "C", "text": "insufficient" },
+      { "key": "D", "text": "reliable" }
+    ],
+    "answer": "C",
+    "explanation": "The case was dismissed for lack of proof, so the evidence could not support it. Insufficient means not enough. Conclusive and overwhelming are the opposite.",
+    "tip": "Look for the stated consequence of the blank.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0237",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "The manager's tone was ______, leaving no doubt that the decision was final.",
+    "choices": [
+      { "key": "A", "text": "tentative" },
+      { "key": "B", "text": "emphatic" },
+      { "key": "C", "text": "hesitant" },
+      { "key": "D", "text": "uncertain" }
+    ],
+    "answer": "B",
+    "explanation": "The phrase leaving no doubt shows firmness. Emphatic means expressed with force. Tentative, hesitant, and uncertain all suggest doubt.",
+    "tip": "The result clause signals certainty, so pick the word that matches it.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0238",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "The barangay project was ______ because funding was withdrawn.",
+    "choices": [
+      { "key": "A", "text": "completed" },
+      { "key": "B", "text": "expanded" },
+      { "key": "C", "text": "approved" },
+      { "key": "D", "text": "abandoned" }
+    ],
+    "answer": "D",
+    "explanation": "Losing funding usually stops a project. Abandoned means given up or left unfinished, which fits. Completed and expanded mean the project continued.",
+    "tip": "Cause and effect must be consistent: no funding, no progress.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0239",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "Choose the word closest in meaning to meticulous.",
+    "choices": [
+      { "key": "A", "text": "thorough" },
+      { "key": "B", "text": "careless" },
+      { "key": "C", "text": "hasty" },
+      { "key": "D", "text": "sloppy" }
+    ],
+    "answer": "A",
+    "explanation": "Meticulous means showing great attention to detail. Thorough is the closest synonym. Careless, hasty, and sloppy all mean the opposite.",
+    "tip": "Group the three negative choices and remove them.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0240",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "Choose the word opposite in meaning to hostile.",
+    "choices": [
+      { "key": "A", "text": "aggressive" },
+      { "key": "B", "text": "unfriendly" },
+      { "key": "C", "text": "friendly" },
+      { "key": "D", "text": "threatening" }
+    ],
+    "answer": "C",
+    "explanation": "Hostile means unfriendly or opposed. Friendly is the direct opposite. Aggressive, unfriendly, and threatening all share the hostile meaning.",
+    "tip": "Three choices express the same idea; the odd one is the answer.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0241",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "The two reports were ______; they gave exactly the same figures.",
+    "choices": [
+      { "key": "A", "text": "contradictory" },
+      { "key": "B", "text": "identical" },
+      { "key": "C", "text": "unrelated" },
+      { "key": "D", "text": "incomplete" }
+    ],
+    "answer": "B",
+    "explanation": "Exactly the same figures means the reports match. Identical fits. Contradictory means they disagree.",
+    "tip": "The clause after the semicolon is the evidence for the blank.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0242",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "Her explanation was ______, so the committee asked her to clarify.",
+    "choices": [
+      { "key": "A", "text": "lucid" },
+      { "key": "B", "text": "precise" },
+      { "key": "C", "text": "detailed" },
+      { "key": "D", "text": "vague" }
+    ],
+    "answer": "D",
+    "explanation": "A committee asks for clarification when an explanation is unclear. Vague means not clearly expressed. Lucid and precise are the opposite.",
+    "tip": "The reaction of the listeners reveals the meaning.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0243",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "Choose the word closest in meaning to reluctant.",
+    "choices": [
+      { "key": "A", "text": "unwilling" },
+      { "key": "B", "text": "eager" },
+      { "key": "C", "text": "excited" },
+      { "key": "D", "text": "ready" }
+    ],
+    "answer": "A",
+    "explanation": "Reluctant means hesitant or not willing. Unwilling is the closest synonym. Eager, excited, and ready all mean the opposite.",
+    "tip": "Reluctant and unwilling both suggest resistance.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0244",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "Choose the word opposite in meaning to expand.",
+    "choices": [
+      { "key": "A", "text": "enlarge" },
+      { "key": "B", "text": "extend" },
+      { "key": "C", "text": "contract" },
+      { "key": "D", "text": "widen" }
+    ],
+    "answer": "C",
+    "explanation": "To expand is to grow larger. To contract is to become smaller, the direct opposite. Enlarge, extend, and widen are synonyms of expand.",
+    "tip": "Three synonyms point to the remaining antonym.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0245",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "The official was ______ for accepting gifts from a contractor.",
+    "choices": [
+      { "key": "A", "text": "commended" },
+      { "key": "B", "text": "censured" },
+      { "key": "C", "text": "promoted" },
+      { "key": "D", "text": "praised" }
+    ],
+    "answer": "B",
+    "explanation": "Accepting gifts from a contractor is a violation, so the official would be criticized. Censured means formally reprimanded. Commended and praised are the opposite.",
+    "tip": "Match the word to whether the behavior is good or bad.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0246",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "The data were ______: the same survey produced different results each time.",
+    "choices": [
+      { "key": "A", "text": "reliable" },
+      { "key": "B", "text": "stable" },
+      { "key": "C", "text": "accurate" },
+      { "key": "D", "text": "inconsistent" }
+    ],
+    "answer": "D",
+    "explanation": "Different results from the same survey mean the data do not agree. Inconsistent fits. Reliable, stable, and accurate all mean the opposite.",
+    "tip": "The colon gives the evidence for the blank.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0247",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "Choose the word closest in meaning to inevitable.",
+    "choices": [
+      { "key": "A", "text": "certain" },
+      { "key": "B", "text": "avoidable" },
+      { "key": "C", "text": "doubtful" },
+      { "key": "D", "text": "optional" }
+    ],
+    "answer": "A",
+    "explanation": "Inevitable means certain to happen and impossible to avoid. Certain is the closest synonym. Avoidable and optional mean the opposite.",
+    "tip": "The prefix in- often signals the opposite of the base word.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0248",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "Choose the word opposite in meaning to scarce.",
+    "choices": [
+      { "key": "A", "text": "rare" },
+      { "key": "B", "text": "limited" },
+      { "key": "C", "text": "abundant" },
+      { "key": "D", "text": "few" }
+    ],
+    "answer": "C",
+    "explanation": "Scarce means in short supply. Abundant means in large supply, the direct opposite. Rare, limited, and few all mean scarce.",
+    "tip": "If three choices mean the same thing, the fourth is the answer.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0249",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "The clerk's handwriting was ______, so the form had to be returned.",
+    "choices": [
+      { "key": "A", "text": "legible" },
+      { "key": "B", "text": "illegible" },
+      { "key": "C", "text": "neat" },
+      { "key": "D", "text": "clear" }
+    ],
+    "answer": "B",
+    "explanation": "The form was returned because the writing could not be read. Illegible means not readable. Legible, neat, and clear mean the opposite.",
+    "tip": "The prefix il- negates legible.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0250",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "The proposal was rejected because it was ______; it duplicated an existing program.",
+    "choices": [
+      { "key": "A", "text": "necessary" },
+      { "key": "B", "text": "unique" },
+      { "key": "C", "text": "original" },
+      { "key": "D", "text": "redundant" }
+    ],
+    "answer": "D",
+    "explanation": "Duplicating an existing program makes the proposal unnecessary repetition. Redundant means needlessly repeated. Unique and original are the opposite.",
+    "tip": "The explanation after the semicolon defines the blank.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0251",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "Choose the word closest in meaning to prudent.",
+    "choices": [
+      { "key": "A", "text": "wise" },
+      { "key": "B", "text": "reckless" },
+      { "key": "C", "text": "careless" },
+      { "key": "D", "text": "impulsive" }
+    ],
+    "answer": "A",
+    "explanation": "Prudent means showing careful judgment about the future. Wise is the closest synonym. Reckless, careless, and impulsive mean the opposite.",
+    "tip": "Prudent decisions consider consequences.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0252",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "Choose the word opposite in meaning to ambiguous.",
+    "choices": [
+      { "key": "A", "text": "unclear" },
+      { "key": "B", "text": "vague" },
+      { "key": "C", "text": "definite" },
+      { "key": "D", "text": "doubtful" }
+    ],
+    "answer": "C",
+    "explanation": "Ambiguous means open to more than one interpretation. Definite means clear and specific, the opposite. Unclear, vague, and doubtful all mean ambiguous.",
+    "tip": "Three choices are synonyms, so choose the remaining antonym.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0253",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "The agency acted ______, responding to the complaint within a day.",
+    "choices": [
+      { "key": "A", "text": "sluggishly" },
+      { "key": "B", "text": "promptly" },
+      { "key": "C", "text": "reluctantly" },
+      { "key": "D", "text": "carelessly" }
+    ],
+    "answer": "B",
+    "explanation": "Responding within a day is fast. Promptly means without delay. Sluggishly and reluctantly mean the opposite.",
+    "tip": "The time detail tells you the speed.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0254",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "The rumor was ______ by an official statement denying it.",
+    "choices": [
+      { "key": "A", "text": "confirmed" },
+      { "key": "B", "text": "spread" },
+      { "key": "C", "text": "supported" },
+      { "key": "D", "text": "dispelled" }
+    ],
+    "answer": "D",
+    "explanation": "An official denial would end the rumor. Dispelled means driven away or eliminated. Confirmed and supported would mean the rumor was true.",
+    "tip": "Denying something removes its effect.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0255",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "The contract was ______ after both parties signed every page.",
+    "choices": [
+      { "key": "A", "text": "binding" },
+      { "key": "B", "text": "void" },
+      { "key": "C", "text": "invalid" },
+      { "key": "D", "text": "optional" }
+    ],
+    "answer": "A",
+    "explanation": "A contract signed by both parties becomes legally enforceable. Binding means legally required to be followed. Void and invalid are the opposite.",
+    "tip": "Signing makes an agreement binding.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0256",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "Choose the word closest in meaning to comply.",
+    "choices": [
+      { "key": "A", "text": "disobey" },
+      { "key": "B", "text": "resist" },
+      { "key": "C", "text": "conform" },
+      { "key": "D", "text": "refuse" }
+    ],
+    "answer": "C",
+    "explanation": "To comply is to act in accordance with a rule or request. Conform carries the same idea. Disobey, resist, and refuse are the opposite.",
+    "tip": "Comply with, conform to.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0257",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "The report's conclusion was ______ with the data; it contradicted every table.",
+    "choices": [
+      { "key": "A", "text": "consistent" },
+      { "key": "B", "text": "incompatible" },
+      { "key": "C", "text": "aligned" },
+      { "key": "D", "text": "supported" }
+    ],
+    "answer": "B",
+    "explanation": "Contradicting every table means the conclusion does not fit the data. Incompatible means unable to exist together. Consistent and aligned are the opposite.",
+    "tip": "The clause after the semicolon settles the meaning.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  }
+]

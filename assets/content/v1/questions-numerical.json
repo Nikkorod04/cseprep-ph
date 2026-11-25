@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "seed-num-word-0063",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 1,
+    "stem": "A barangay budget of P250,000 is allocated as follows: 40% for salaries, 30% for supplies, and the rest for equipment. How much goes to equipment?",
+    "choices": [
+      { "key": "A", "text": "P25,000" },
+      { "key": "B", "text": "P50,000" },
+      { "key": "C", "text": "P70,000" },
+      { "key": "D", "text": "P75,000" }
+    ],
+    "answer": "D",
+    "explanation": "Salaries and supplies take 40% + 30% = 70%, so equipment gets 30%. Then 0.30 x 250,000 = 75,000.",
+    "tip": "Add the given percents first, then subtract from 100%.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0064",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 1,
+    "stem": "A clerk types 45 words per minute. How many words can the clerk type in 12 minutes at the same rate?",
+    "choices": [
+      { "key": "A", "text": "450" },
+      { "key": "B", "text": "510" },
+      { "key": "C", "text": "540" },
+      { "key": "D", "text": "560" }
+    ],
+    "answer": "C",
+    "explanation": "Multiply the rate by the time: 45 x 12 = 540 words.",
+    "tip": "Words = rate x time. Watch the units.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0065",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "A shirt costs P850 after a 15% discount. What was the original price?",
+    "choices": [
+      { "key": "A", "text": "P950" },
+      { "key": "B", "text": "P1,000" },
+      { "key": "C", "text": "P1,050" },
+      { "key": "D", "text": "P1,150" }
+    ],
+    "answer": "B",
+    "explanation": "P850 is 85% of the original price, because 100% - 15% = 85%. Divide: 850 / 0.85 = 1,000. Adding 15% of 850 would wrongly give 977.50.",
+    "tip": "After a discount, divide by the percent you actually paid.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0066",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 1,
+    "stem": "An office has 48 employees. If 25% are supervisors, how many are not supervisors?",
+    "choices": [
+      { "key": "A", "text": "12" },
+      { "key": "B", "text": "24" },
+      { "key": "C", "text": "36" },
+      { "key": "D", "text": "40" }
+    ],
+    "answer": "C",
+    "explanation": "Non-supervisors are 75% of the staff. Then 0.75 x 48 = 36. Choice A is the number of supervisors.",
+    "tip": "Answer the quantity asked, not the one you computed first.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0067",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 1,
+    "stem": "The ratio of men to women in a seminar is 5:7. If there are 144 participants, how many are women?",
+    "choices": [
+      { "key": "A", "text": "60" },
+      { "key": "B", "text": "72" },
+      { "key": "C", "text": "80" },
+      { "key": "D", "text": "84" }
+    ],
+    "answer": "D",
+    "explanation": "Total parts = 5 + 7 = 12. One part is 144 / 12 = 12 people. Women are 7 parts, so 7 x 12 = 84.",
+    "tip": "Find the value of one ratio part before multiplying.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0068",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 1,
+    "stem": "Two numbers are in the ratio 4:9. If the smaller number is 48, what is the larger number?",
+    "choices": [
+      { "key": "A", "text": "108" },
+      { "key": "B", "text": "96" },
+      { "key": "C", "text": "112" },
+      { "key": "D", "text": "120" }
+    ],
+    "answer": "A",
+    "explanation": "The smaller number is 4 parts, so one part is 48 / 4 = 12. The larger number is 9 parts: 9 x 12 = 108.",
+    "tip": "Match the known number to its ratio part.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0069",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 1,
+    "stem": "A car travels 240 kilometers in 3 hours. At the same speed, how far will it travel in 5 hours?",
+    "choices": [
+      { "key": "A", "text": "320 km" },
+      { "key": "B", "text": "360 km" },
+      { "key": "C", "text": "380 km" },
+      { "key": "D", "text": "400 km" }
+    ],
+    "answer": "D",
+    "explanation": "The speed is 240 / 3 = 80 km per hour. In 5 hours the car covers 80 x 5 = 400 km.",
+    "tip": "Find the unit rate first, then multiply.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0070",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "A bus travels 150 km at 60 km/h, then 90 km at 45 km/h. What is the total travel time?",
+    "choices": [
+      { "key": "A", "text": "4 hours" },
+      { "key": "B", "text": "4 hours 15 minutes" },
+      { "key": "C", "text": "4 hours 30 minutes" },
+      { "key": "D", "text": "5 hours" }
+    ],
+    "answer": "C",
+    "explanation": "Time is distance divided by speed. First leg: 150 / 60 = 2.5 hours. Second leg: 90 / 45 = 2 hours. Total = 4.5 hours, or 4 hours 30 minutes.",
+    "tip": "Average speeds do not add; the times do.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0071",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "Clerk A can finish a report in 12 days, and Clerk B can finish it in 18 days. Working together, how long will they take?",
+    "choices": [
+      { "key": "A", "text": "6 days" },
+      { "key": "B", "text": "7.2 days" },
+      { "key": "C", "text": "8 days" },
+      { "key": "D", "text": "9 days" }
+    ],
+    "answer": "B",
+    "explanation": "Their combined rate is 1/12 + 1/18 = 3/36 + 2/36 = 5/36 of the report per day. Invert to get the time: 36/5 = 7.2 days.",
+    "tip": "Add work rates, then invert to get time.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0072",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "A pipe fills a tank in 6 hours, while a drain empties it in 9 hours. If both are open, how long will the tank take to fill?",
+    "choices": [
+      { "key": "A", "text": "3 hours" },
+      { "key": "B", "text": "9 hours" },
+      { "key": "C", "text": "15 hours" },
+      { "key": "D", "text": "18 hours" }
+    ],
+    "answer": "D",
+    "explanation": "Net rate = 1/6 - 1/9 = 3/18 - 2/18 = 1/18 of the tank per hour. Invert: the tank fills in 18 hours.",
+    "tip": "When one rate works against another, subtract the rates.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0073",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "How much simple interest is earned on P20,000 at 6% per year for 2 years?",
+    "choices": [
+      { "key": "A", "text": "P1,200" },
+      { "key": "B", "text": "P2,400" },
+      { "key": "C", "text": "P2,600" },
+      { "key": "D", "text": "P3,000" }
+    ],
+    "answer": "B",
+    "explanation": "Simple interest is I = P x r x t = 20,000 x 0.06 x 2 = 2,400. Choice A is only one year of interest.",
+    "tip": "Simple interest = principal x rate x time.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0074",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 3,
+    "stem": "A P1,200 item is discounted 20%, then an additional 10% is taken off the sale price. What is the final price?",
+    "choices": [
+      { "key": "A", "text": "P864" },
+      { "key": "B", "text": "P840" },
+      { "key": "C", "text": "P900" },
+      { "key": "D", "text": "P960" }
+    ],
+    "answer": "A",
+    "explanation": "After 20% off, the price is 1,200 x 0.80 = 960. The second discount applies to 960: 960 x 0.90 = 864. The total discount is 28%, not 30%.",
+    "tip": "Successive discounts multiply; they do not add.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0075",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "A seller buys an item for P600 and sells it for P750. What is the profit rate based on the cost?",
+    "choices": [
+      { "key": "A", "text": "25%" },
+      { "key": "B", "text": "20%" },
+      { "key": "C", "text": "30%" },
+      { "key": "D", "text": "33%" }
+    ],
+    "answer": "A",
+    "explanation": "Profit = 750 - 600 = 150. Profit rate based on cost = 150 / 600 = 0.25, or 25%.",
+    "tip": "Profit rate based on cost divides by the cost price.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0076",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 1,
+    "stem": "The average of 8 numbers is 35. What is their sum?",
+    "choices": [
+      { "key": "A", "text": "240" },
+      { "key": "B", "text": "260" },
+      { "key": "C", "text": "280" },
+      { "key": "D", "text": "300" }
+    ],
+    "answer": "C",
+    "explanation": "Sum = average x count = 35 x 8 = 280.",
+    "tip": "Average x count = sum. Memorize this rearrangement.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0077",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "A student scored 78, 85, 90, and 82 on four tests. What score is needed on the fifth test to average exactly 85?",
+    "choices": [
+      { "key": "A", "text": "86" },
+      { "key": "B", "text": "88" },
+      { "key": "C", "text": "90" },
+      { "key": "D", "text": "92" }
+    ],
+    "answer": "C",
+    "explanation": "Five tests at an average of 85 require a total of 425 points. The first four total 335, so the fifth must be 425 - 335 = 90.",
+    "tip": "Convert the target average into a target total.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0078",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 3,
+    "stem": "A mother is four times as old as her daughter. In 10 years, she will be twice as old. How old is the daughter now?",
+    "choices": [
+      { "key": "A", "text": "5" },
+      { "key": "B", "text": "8" },
+      { "key": "C", "text": "10" },
+      { "key": "D", "text": "12" }
+    ],
+    "answer": "A",
+    "explanation": "Let the daughter be x, so the mother is 4x. In 10 years: 4x + 10 = 2(x + 10). Solving gives 4x + 10 = 2x + 20, so 2x = 10 and x = 5.",
+    "tip": "Write one column for now and one for later.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0079",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 1,
+    "stem": "A 40-liter solution is 25% solute. How many liters of solute does it contain?",
+    "choices": [
+      { "key": "A", "text": "8 liters" },
+      { "key": "B", "text": "10 liters" },
+      { "key": "C", "text": "12 liters" },
+      { "key": "D", "text": "15 liters" }
+    ],
+    "answer": "B",
+    "explanation": "Solute = 25% of 40 liters = 0.25 x 40 = 10 liters.",
+    "tip": "Percent of a total means multiply by the decimal form.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0080",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "Six workers can finish a job in 10 days. At the same rate, how long will four workers take?",
+    "choices": [
+      { "key": "A", "text": "12 days" },
+      { "key": "B", "text": "13 days" },
+      { "key": "C", "text": "14 days" },
+      { "key": "D", "text": "15 days" }
+    ],
+    "answer": "D",
+    "explanation": "The job takes 6 x 10 = 60 worker-days. With 4 workers: 60 / 4 = 15 days. Fewer workers means more days, so the answer must exceed 10.",
+    "tip": "Work = workers x days. Keep the total constant.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0081",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "A phone priced at P12,000 is paid in 12 equal monthly installments with 10% interest on the price. What is the monthly payment?",
+    "choices": [
+      { "key": "A", "text": "P1,000" },
+      { "key": "B", "text": "P1,100" },
+      { "key": "C", "text": "P1,200" },
+      { "key": "D", "text": "P1,320" }
+    ],
+    "answer": "B",
+    "explanation": "Total payable = 12,000 + 10% of 12,000 = 12,000 + 1,200 = 13,200. Divide by 12 months: 13,200 / 12 = 1,100.",
+    "tip": "Add the interest to the price before dividing into installments.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0082",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 1,
+    "stem": "A barangay has 2,400 residents, 45% of whom are male. How many residents are female?",
+    "choices": [
+      { "key": "A", "text": "1,080" },
+      { "key": "B", "text": "1,200" },
+      { "key": "C", "text": "1,320" },
+      { "key": "D", "text": "1,400" }
+    ],
+    "answer": "C",
+    "explanation": "Females are 100% - 45% = 55% of the residents. Then 0.55 x 2,400 = 1,320. Choice A is the male population.",
+    "tip": "Subtract from 100% before multiplying.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0083",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "A typist completes 3/5 of a report in 6 hours. At the same rate, how long will the remaining part take?",
+    "choices": [
+      { "key": "A", "text": "3 hours" },
+      { "key": "B", "text": "4 hours" },
+      { "key": "C", "text": "5 hours" },
+      { "key": "D", "text": "6 hours" }
+    ],
+    "answer": "B",
+    "explanation": "The full report would take 6 / (3/5) = 10 hours. The remaining 2/5 takes 10 x 2/5 = 4 hours. Choice D repeats the time already spent.",
+    "tip": "Find the time for the whole job, then take the remaining fraction.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0084",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 3,
+    "stem": "A train 120 meters long passes a pole in 8 seconds. What is its speed in kilometers per hour?",
+    "choices": [
+      { "key": "A", "text": "45 km/h" },
+      { "key": "B", "text": "48 km/h" },
+      { "key": "C", "text": "54 km/h" },
+      { "key": "D", "text": "60 km/h" }
+    ],
+    "answer": "C",
+    "explanation": "Speed = 120 / 8 = 15 meters per second. Convert to km/h by multiplying by 3.6: 15 x 3.6 = 54 km/h.",
+    "tip": "m/s to km/h: multiply by 3.6.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0085",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 1,
+    "stem": "Simplify: 12 + 8 x 3 - 6",
+    "choices": [
+      { "key": "A", "text": "30" },
+      { "key": "B", "text": "24" },
+      { "key": "C", "text": "42" },
+      { "key": "D", "text": "54" }
+    ],
+    "answer": "A",
+    "explanation": "Multiply before adding or subtracting: 8 x 3 = 24. Then 12 + 24 - 6 = 30. Adding 12 + 8 first gives the common wrong answer of 54.",
+    "tip": "Follow PEMDAS: multiplication before addition.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0086",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 1,
+    "stem": "Simplify: 144 / 12 + 7 x 2",
+    "choices": [
+      { "key": "A", "text": "24" },
+      { "key": "B", "text": "26" },
+      { "key": "C", "text": "38" },
+      { "key": "D", "text": "48" }
+    ],
+    "answer": "B",
+    "explanation": "Do division and multiplication first: 144 / 12 = 12 and 7 x 2 = 14. Then 12 + 14 = 26.",
+    "tip": "Division and multiplication are equal in priority; work left to right.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0087",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 1,
+    "stem": "Simplify: (-8) + 15 - (-4)",
+    "choices": [
+      { "key": "A", "text": "3" },
+      { "key": "B", "text": "11" },
+      { "key": "C", "text": "19" },
+      { "key": "D", "text": "27" }
+    ],
+    "answer": "B",
+    "explanation": "Subtracting a negative is adding: -8 + 15 + 4 = 11. Treating the double negative as subtraction gives the wrong answer 3.",
+    "tip": "Two negatives in a row become a plus.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0088",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 2,
+    "stem": "Add: 3/4 + 2/3",
+    "choices": [
+      { "key": "A", "text": "5/7" },
+      { "key": "B", "text": "1 1/12" },
+      { "key": "C", "text": "1 5/12" },
+      { "key": "D", "text": "1 2/3" }
+    ],
+    "answer": "C",
+    "explanation": "Use a common denominator of 12: 3/4 = 9/12 and 2/3 = 8/12. Their sum is 17/12, which is 1 5/12. Adding numerators and denominators gives the wrong 5/7.",
+    "tip": "Never add fractions across the bar; find a common denominator.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0089",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 1,
+    "stem": "Subtract: 5/6 - 1/3",
+    "choices": [
+      { "key": "A", "text": "1/2" },
+      { "key": "B", "text": "1/6" },
+      { "key": "C", "text": "2/3" },
+      { "key": "D", "text": "4/9" }
+    ],
+    "answer": "A",
+    "explanation": "Convert 1/3 to 2/6. Then 5/6 - 2/6 = 3/6, which reduces to 1/2.",
+    "tip": "Convert to a common denominator before subtracting.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0090",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 1,
+    "stem": "Multiply: 0.25 x 80",
+    "choices": [
+      { "key": "A", "text": "2" },
+      { "key": "B", "text": "20" },
+      { "key": "C", "text": "200" },
+      { "key": "D", "text": "320" }
+    ],
+    "answer": "B",
+    "explanation": "0.25 is one fourth, so 80 / 4 = 20. Counting decimal places incorrectly produces 2 or 200.",
+    "tip": "Recognize 0.25 as 1/4 to multiply quickly.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0091",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 1,
+    "stem": "Divide: 2.4 / 0.6",
+    "choices": [
+      { "key": "A", "text": "0.4" },
+      { "key": "B", "text": "1.4" },
+      { "key": "C", "text": "4" },
+      { "key": "D", "text": "40" }
+    ],
+    "answer": "C",
+    "explanation": "Move both decimals one place to divide by a whole number: 24 / 6 = 4. The decimal points cancel out.",
+    "tip": "Make the divisor a whole number by shifting both decimals equally.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0092",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 1,
+    "stem": "What is 2 to the fifth power?",
+    "choices": [
+      { "key": "A", "text": "10" },
+      { "key": "B", "text": "16" },
+      { "key": "C", "text": "25" },
+      { "key": "D", "text": "32" }
+    ],
+    "answer": "D",
+    "explanation": "2 to the fifth power means 2 x 2 x 2 x 2 x 2 = 32. Multiplying the base by the exponent gives the wrong answer 10.",
+    "tip": "An exponent counts how many times the base is a factor.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0093",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 1,
+    "stem": "What is the square root of 169?",
+    "choices": [
+      { "key": "A", "text": "11" },
+      { "key": "B", "text": "12" },
+      { "key": "C", "text": "13" },
+      { "key": "D", "text": "14" }
+    ],
+    "answer": "C",
+    "explanation": "13 x 13 = 169, so the square root is 13. The nearby squares are 144 (12 squared) and 196 (14 squared).",
+    "tip": "Memorize squares up to 20 to answer these in seconds.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0094",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 2,
+    "stem": "What is the least common multiple of 12 and 18?",
+    "choices": [
+      { "key": "A", "text": "6" },
+      { "key": "B", "text": "24" },
+      { "key": "C", "text": "36" },
+      { "key": "D", "text": "72" }
+    ],
+    "answer": "C",
+    "explanation": "Multiples of 12 are 12, 24, 36; multiples of 18 are 18, 36. The smallest shared multiple is 36. Choice A is the greatest common factor, not the LCM.",
+    "tip": "LCM is the smallest shared multiple; GCF is the largest shared factor.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0095",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 2,
+    "stem": "What is the greatest common factor of 48 and 60?",
+    "choices": [
+      { "key": "A", "text": "6" },
+      { "key": "B", "text": "12" },
+      { "key": "C", "text": "24" },
+      { "key": "D", "text": "60" }
+    ],
+    "answer": "B",
+    "explanation": "The factors of 48 include 1, 2, 3, 4, 6, 8, 12, 16, 24, 48. The factors of 60 include 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60. The largest shared factor is 12.",
+    "tip": "List factors or use prime factorization to find the GCF.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0096",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 1,
+    "stem": "What is 7,845 rounded to the nearest hundred?",
+    "choices": [
+      { "key": "A", "text": "7,800" },
+      { "key": "B", "text": "7,850" },
+      { "key": "C", "text": "7,900" },
+      { "key": "D", "text": "8,000" }
+    ],
+    "answer": "A",
+    "explanation": "The hundreds digit is 8, and the tens digit is 4. Since 4 is below 5, keep the hundreds digit: 7,800.",
+    "tip": "Look only at the digit immediately to the right of the place you are rounding.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0097",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 1,
+    "stem": "Divide 47 by 5 and give the quotient and remainder.",
+    "choices": [
+      { "key": "A", "text": "8 remainder 7" },
+      { "key": "B", "text": "9 remainder 2" },
+      { "key": "C", "text": "9 remainder 3" },
+      { "key": "D", "text": "10 remainder 2" }
+    ],
+    "answer": "B",
+    "explanation": "5 x 9 = 45, and 47 - 45 = 2. The quotient is 9 with remainder 2. A remainder must be smaller than the divisor, so choice A is impossible.",
+    "tip": "The remainder is always less than the divisor.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-basic-0098",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "basic-operations",
+    "difficulty": 2,
+    "stem": "Which number is the largest?",
+    "choices": [
+      { "key": "A", "text": "0.6" },
+      { "key": "B", "text": "0.06" },
+      { "key": "C", "text": "0.66" },
+      { "key": "D", "text": "0.606" }
+    ],
+    "answer": "C",
+    "explanation": "Compare tenths first: 0.6, 0.66, and 0.606 all have 6 tenths, while 0.06 has 0. Then compare hundredths: 0.66 has 6, versus 0 for 0.6 and 0.606. So 0.66 is largest.",
+    "tip": "Compare decimal places from left to right, not by length.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0099",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 1,
+    "stem": "5, 10, 20, 40, ______",
+    "choices": [
+      { "key": "A", "text": "60" },
+      { "key": "B", "text": "70" },
+      { "key": "C", "text": "80" },
+      { "key": "D", "text": "100" }
+    ],
+    "answer": "C",
+    "explanation": "Each term doubles: 5 x 2 = 10, 10 x 2 = 20, 40 x 2 = 80. The jump is not a constant addition.",
+    "tip": "If the numbers grow quickly, check for a constant ratio.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0100",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 2,
+    "stem": "2, 5, 10, 17, 26, ______",
+    "choices": [
+      { "key": "A", "text": "35" },
+      { "key": "B", "text": "36" },
+      { "key": "C", "text": "37" },
+      { "key": "D", "text": "39" }
+    ],
+    "answer": "C",
+    "explanation": "The differences are 3, 5, 7, and 9, increasing by 2. The next difference is 11, so 26 + 11 = 37.",
+    "tip": "Write the differences above the series; look for a pattern in them.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0101",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 1,
+    "stem": "81, 27, 9, 3, ______",
+    "choices": [
+      { "key": "A", "text": "0" },
+      { "key": "B", "text": "1" },
+      { "key": "C", "text": "2" },
+      { "key": "D", "text": "6" }
+    ],
+    "answer": "B",
+    "explanation": "Each term is divided by 3: 81 / 3 = 27, 27 / 3 = 9, 9 / 3 = 3, and 3 / 3 = 1.",
+    "tip": "Decreasing series often use division or subtraction.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0102",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 2,
+    "stem": "1, 4, 9, 16, 25, ______",
+    "choices": [
+      { "key": "A", "text": "30" },
+      { "key": "B", "text": "34" },
+      { "key": "C", "text": "49" },
+      { "key": "D", "text": "36" }
+    ],
+    "answer": "D",
+    "explanation": "The terms are perfect squares: 1 squared, 2 squared, 3 squared, 4 squared, 5 squared. The next is 6 squared = 36.",
+    "tip": "Recognize squares: 1, 4, 9, 16, 25, 36, 49.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0103",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 2,
+    "stem": "1, 1, 2, 3, 5, 8, ______",
+    "choices": [
+      { "key": "A", "text": "13" },
+      { "key": "B", "text": "10" },
+      { "key": "C", "text": "11" },
+      { "key": "D", "text": "12" }
+    ],
+    "answer": "A",
+    "explanation": "This is the Fibonacci sequence: each term is the sum of the two before it. 5 + 8 = 13.",
+    "tip": "Check whether each term equals the sum of the previous two.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0104",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 1,
+    "stem": "2, 4, 8, 16, 32, ______",
+    "choices": [
+      { "key": "A", "text": "48" },
+      { "key": "B", "text": "56" },
+      { "key": "C", "text": "72" },
+      { "key": "D", "text": "64" }
+    ],
+    "answer": "D",
+    "explanation": "Each term doubles: 2, 4, 8, 16, 32, 64.",
+    "tip": "Doubling sequences are common; memorize powers of 2.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0105",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 2,
+    "stem": "100, 95, 85, 70, 50, ______",
+    "choices": [
+      { "key": "A", "text": "20" },
+      { "key": "B", "text": "25" },
+      { "key": "C", "text": "30" },
+      { "key": "D", "text": "35" }
+    ],
+    "answer": "B",
+    "explanation": "The differences are -5, -10, -15, and -20, increasing by 5 each time. The next change is -25, so 50 - 25 = 25.",
+    "tip": "Watch for differences that grow by a constant amount.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0106",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 1,
+    "stem": "7, 14, 28, 56, ______",
+    "choices": [
+      { "key": "A", "text": "84" },
+      { "key": "B", "text": "98" },
+      { "key": "C", "text": "120" },
+      { "key": "D", "text": "112" }
+    ],
+    "answer": "D",
+    "explanation": "Each term doubles: 7, 14, 28, 56, 112.",
+    "tip": "Check the ratio between consecutive terms.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0107",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 3,
+    "stem": "3, 7, 15, 31, ______",
+    "choices": [
+      { "key": "A", "text": "47" },
+      { "key": "B", "text": "55" },
+      { "key": "C", "text": "63" },
+      { "key": "D", "text": "71" }
+    ],
+    "answer": "C",
+    "explanation": "Each term is one less than a power of two: 4-1, 8-1, 16-1, 32-1. The next is 64-1 = 63. Equivalently, the rule is x2 + 1.",
+    "tip": "When terms sit just below 4, 8, 16, 32, think powers of two.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0108",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 2,
+    "stem": "1, 8, 27, 64, ______",
+    "choices": [
+      { "key": "A", "text": "81" },
+      { "key": "B", "text": "100" },
+      { "key": "C", "text": "125" },
+      { "key": "D", "text": "128" }
+    ],
+    "answer": "C",
+    "explanation": "The terms are perfect cubes: 1 cubed, 2 cubed, 3 cubed, 4 cubed. The next is 5 cubed = 125.",
+    "tip": "Recognize cubes: 1, 8, 27, 64, 125, 216.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0109",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 1,
+    "stem": "12, 24, 36, 48, ______",
+    "choices": [
+      { "key": "A", "text": "58" },
+      { "key": "B", "text": "60" },
+      { "key": "C", "text": "62" },
+      { "key": "D", "text": "72" }
+    ],
+    "answer": "B",
+    "explanation": "The series lists multiples of 12: 12, 24, 36, 48, 60.",
+    "tip": "Check whether the terms share a common multiple.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0110",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 1,
+    "stem": "45, 41, 37, 33, ______",
+    "choices": [
+      { "key": "A", "text": "27" },
+      { "key": "B", "text": "28" },
+      { "key": "C", "text": "29" },
+      { "key": "D", "text": "31" }
+    ],
+    "answer": "C",
+    "explanation": "Each term decreases by 4: 45, 41, 37, 33, 29.",
+    "tip": "Subtract consecutive terms to find a constant difference.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0111",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 2,
+    "stem": "2, 6, 12, 20, 30, ______",
+    "choices": [
+      { "key": "A", "text": "38" },
+      { "key": "B", "text": "40" },
+      { "key": "C", "text": "44" },
+      { "key": "D", "text": "42" }
+    ],
+    "answer": "D",
+    "explanation": "The terms are products of consecutive integers: 1x2, 2x3, 3x4, 4x5, 5x6. The next is 6x7 = 42. The differences are 4, 6, 8, 10, so the next difference is 12.",
+    "tip": "If second differences are constant, the pattern is quadratic.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0112",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 3,
+    "stem": "1, 2, 6, 24, 120, ______",
+    "choices": [
+      { "key": "A", "text": "240" },
+      { "key": "B", "text": "480" },
+      { "key": "C", "text": "600" },
+      { "key": "D", "text": "720" }
+    ],
+    "answer": "D",
+    "explanation": "Each term is multiplied by the next integer: 1x2, 2x3, 6x4, 24x5, 120x6 = 720. These are factorials.",
+    "tip": "If the multipliers are 2, 3, 4, 5, the pattern is factorial.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-frac-0113",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "fractions-percent",
+    "difficulty": 1,
+    "stem": "Which fraction is equal to 0.75?",
+    "choices": [
+      { "key": "A", "text": "7/10" },
+      { "key": "B", "text": "3/4" },
+      { "key": "C", "text": "4/3" },
+      { "key": "D", "text": "7/5" }
+    ],
+    "answer": "B",
+    "explanation": "0.75 means 75/100, which reduces to 3/4. Also, 3 divided by 4 equals 0.75.",
+    "tip": "Read the decimal as hundredths, then reduce.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-frac-0114",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "fractions-percent",
+    "difficulty": 1,
+    "stem": "What is 2/5 as a percent?",
+    "choices": [
+      { "key": "A", "text": "40%" },
+      { "key": "B", "text": "20%" },
+      { "key": "C", "text": "25%" },
+      { "key": "D", "text": "45%" }
+    ],
+    "answer": "A",
+    "explanation": "Divide 2 by 5 to get 0.40, then multiply by 100 to get 40%.",
+    "tip": "Fraction to percent: divide, then multiply by 100.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-frac-0115",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "fractions-percent",
+    "difficulty": 1,
+    "stem": "What is 15% of 240?",
+    "choices": [
+      { "key": "A", "text": "24" },
+      { "key": "B", "text": "32" },
+      { "key": "C", "text": "36" },
+      { "key": "D", "text": "48" }
+    ],
+    "answer": "C",
+    "explanation": "15% equals 0.15, so 0.15 x 240 = 36. A quick check: 10% is 24 and 5% is 12; 24 + 12 = 36.",
+    "tip": "Break awkward percents into 10% and 5% parts.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-frac-0116",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "fractions-percent",
+    "difficulty": 2,
+    "stem": "What is 3/8 of 96?",
+    "choices": [
+      { "key": "A", "text": "32" },
+      { "key": "B", "text": "36" },
+      { "key": "C", "text": "40" },
+      { "key": "D", "text": "48" }
+    ],
+    "answer": "B",
+    "explanation": "Divide by the denominator first: 96 / 8 = 12. Then multiply by the numerator: 12 x 3 = 36.",
+    "tip": "Of means multiply; divide by the bottom, multiply by the top.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-frac-0117",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "fractions-percent",
+    "difficulty": 1,
+    "stem": "Add: 0.6 + 0.35",
+    "choices": [
+      { "key": "A", "text": "0.85" },
+      { "key": "B", "text": "0.90" },
+      { "key": "C", "text": "1.05" },
+      { "key": "D", "text": "0.95" }
+    ],
+    "answer": "D",
+    "explanation": "Line up the decimal places: 0.60 + 0.35 = 0.95. Writing 0.6 as 0.06 causes the common error.",
+    "tip": "Pad with zeros so both numbers have the same decimal places.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-frac-0118",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "fractions-percent",
+    "difficulty": 1,
+    "stem": "Increase 80 by 25%.",
+    "choices": [
+      { "key": "A", "text": "95" },
+      { "key": "B", "text": "100" },
+      { "key": "C", "text": "105" },
+      { "key": "D", "text": "120" }
+    ],
+    "answer": "B",
+    "explanation": "25% of 80 is 20. Adding gives 80 + 20 = 100. Equivalently, multiply by 1.25.",
+    "tip": "A 25% increase means multiplying by 1.25.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-frac-0119",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "fractions-percent",
+    "difficulty": 1,
+    "stem": "Decrease 150 by 20%.",
+    "choices": [
+      { "key": "A", "text": "110" },
+      { "key": "B", "text": "120" },
+      { "key": "C", "text": "130" },
+      { "key": "D", "text": "135" }
+    ],
+    "answer": "B",
+    "explanation": "20% of 150 is 30, so 150 - 30 = 120. Equivalently, multiply by 0.80: 150 x 0.8 = 120.",
+    "tip": "A 20% decrease means paying 80% of the original.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-frac-0120",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "fractions-percent",
+    "difficulty": 1,
+    "stem": "Which decimal is equal to 5/8?",
+    "choices": [
+      { "key": "A", "text": "0.58" },
+      { "key": "B", "text": "0.625" },
+      { "key": "C", "text": "0.65" },
+      { "key": "D", "text": "0.68" }
+    ],
+    "answer": "B",
+    "explanation": "Divide 5 by 8: 5.000 / 8 = 0.625. This is also 62.5%.",
+    "tip": "Memorize the eighths: 5/8 = 0.625.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-frac-0121",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "fractions-percent",
+    "difficulty": 1,
+    "stem": "40 is what percent of 200?",
+    "choices": [
+      { "key": "A", "text": "15%" },
+      { "key": "B", "text": "20%" },
+      { "key": "C", "text": "25%" },
+      { "key": "D", "text": "40%" }
+    ],
+    "answer": "B",
+    "explanation": "Percent means part divided by base: 40 / 200 = 0.20, or 20%.",
+    "tip": "What percent = part / base x 100.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-frac-0122",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "fractions-percent",
+    "difficulty": 2,
+    "stem": "Add: 1/3 + 1/6",
+    "choices": [
+      { "key": "A", "text": "1/2" },
+      { "key": "B", "text": "1/9" },
+      { "key": "C", "text": "1/3" },
+      { "key": "D", "text": "2/3" }
+    ],
+    "answer": "A",
+    "explanation": "Convert 1/3 to 2/6. Then 2/6 + 1/6 = 3/6, which reduces to 1/2.",
+    "tip": "Use the larger denominator as the common denominator when one divides the other.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  }
+]

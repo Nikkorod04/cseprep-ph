@@ -1,0 +1,572 @@
+[
+  {
+    "id": "seed-geni-const-0193",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "constitution",
+    "difficulty": 1,
+    "stem": "How many articles does the 1987 Constitution have?",
+    "choices": [
+      { "key": "A", "text": "16" },
+      { "key": "B", "text": "17" },
+      { "key": "C", "text": "18" },
+      { "key": "D", "text": "20" }
+    ],
+    "answer": "C",
+    "explanation": "The 1987 Constitution has 18 articles, from Article I on National Territory to Article XVIII on Transitory Provisions.",
+    "tip": "Remember 18 articles and 1987 ratification.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-const-0194",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "constitution",
+    "difficulty": 1,
+    "stem": "Which body has the final power to declare a law unconstitutional?",
+    "choices": [
+      { "key": "A", "text": "Supreme Court" },
+      { "key": "B", "text": "Congress" },
+      { "key": "C", "text": "President" },
+      { "key": "D", "text": "COMELEC" }
+    ],
+    "answer": "A",
+    "explanation": "Judicial review belongs to the courts, with the Supreme Court as the final arbiter. Congress makes laws and the President executes them, but neither can void a law as unconstitutional.",
+    "tip": "Judicial review equals the Supreme Court.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-const-0195",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "constitution",
+    "difficulty": 1,
+    "stem": "How many members does the Senate have?",
+    "choices": [
+      { "key": "A", "text": "12" },
+      { "key": "B", "text": "20" },
+      { "key": "C", "text": "24" },
+      { "key": "D", "text": "30" }
+    ],
+    "answer": "C",
+    "explanation": "The Senate is composed of 24 senators elected at large nationwide.",
+    "tip": "24 senators, six-year terms.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-const-0196",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "constitution",
+    "difficulty": 1,
+    "stem": "What is the term of office of a senator?",
+    "choices": [
+      { "key": "A", "text": "3 years" },
+      { "key": "B", "text": "6 years" },
+      { "key": "C", "text": "4 years" },
+      { "key": "D", "text": "9 years" }
+    ],
+    "answer": "B",
+    "explanation": "Senators serve six-year terms and may serve a maximum of two consecutive terms.",
+    "tip": "Senate 6 years, House 3 years.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-const-0197",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "constitution",
+    "difficulty": 2,
+    "stem": "How many consecutive terms may a member of the House of Representatives serve?",
+    "choices": [
+      { "key": "A", "text": "1" },
+      { "key": "B", "text": "2" },
+      { "key": "C", "text": "3" },
+      { "key": "D", "text": "4" }
+    ],
+    "answer": "C",
+    "explanation": "A representative serves three-year terms and may serve a maximum of three consecutive terms, for nine years.",
+    "tip": "Three terms of three years for the House.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-const-0198",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "constitution",
+    "difficulty": 1,
+    "stem": "What is the minimum age requirement to become President of the Philippines?",
+    "choices": [
+      { "key": "A", "text": "40" },
+      { "key": "B", "text": "35" },
+      { "key": "C", "text": "45" },
+      { "key": "D", "text": "50" }
+    ],
+    "answer": "A",
+    "explanation": "A presidential candidate must be at least 40 years old, a natural-born citizen, a registered voter, able to read and write, and a resident for at least 10 years.",
+    "tip": "President 40, Senator 35, Representative 25.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-const-0199",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "constitution",
+    "difficulty": 2,
+    "stem": "Which constitutional commission audits the expenditures of the government?",
+    "choices": [
+      { "key": "A", "text": "Civil Service Commission" },
+      { "key": "B", "text": "COMELEC" },
+      { "key": "C", "text": "Ombudsman" },
+      { "key": "D", "text": "Commission on Audit" }
+    ],
+    "answer": "D",
+    "explanation": "The Commission on Audit examines government revenues and expenditures. The CSC handles the civil service and COMELEC handles elections.",
+    "tip": "COA audits, CSC employs, COMELEC elects.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-const-0200",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "constitution",
+    "difficulty": 2,
+    "stem": "Which article of the 1987 Constitution covers the accountability of public officers?",
+    "choices": [
+      { "key": "A", "text": "Article X" },
+      { "key": "B", "text": "Article XI" },
+      { "key": "C", "text": "Article XII" },
+      { "key": "D", "text": "Article XIII" }
+    ],
+    "answer": "B",
+    "explanation": "Article XI is Accountability of Public Officers. It covers the Ombudsman, Sandiganbayan, and the rules on impeachment and public office.",
+    "tip": "X local government, XI accountability, XII economy, XIII social justice.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-const-0201",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "constitution",
+    "difficulty": 2,
+    "stem": "At what age must a Supreme Court justice retire?",
+    "choices": [
+      { "key": "A", "text": "65" },
+      { "key": "B", "text": "68" },
+      { "key": "C", "text": "70" },
+      { "key": "D", "text": "75" }
+    ],
+    "answer": "C",
+    "explanation": "Members of the judiciary, including Supreme Court justices, have a mandatory retirement age of 70 under the 1987 Constitution.",
+    "tip": "Judges retire at 70.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-const-0202",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "constitution",
+    "difficulty": 2,
+    "stem": "Which article of the 1987 Constitution covers local government?",
+    "choices": [
+      { "key": "A", "text": "Article X" },
+      { "key": "B", "text": "Article XI" },
+      { "key": "C", "text": "Article XII" },
+      { "key": "D", "text": "Article XIV" }
+    ],
+    "answer": "A",
+    "explanation": "Article X is Local Government. It provides for the autonomy of local government units and the creation of autonomous regions.",
+    "tip": "X for local government units and autonomy.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-ra67-0203",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "ra-6713",
+    "difficulty": 1,
+    "stem": "How many norms of conduct are listed under RA 6713?",
+    "choices": [
+      { "key": "A", "text": "6" },
+      { "key": "B", "text": "8" },
+      { "key": "C", "text": "10" },
+      { "key": "D", "text": "12" }
+    ],
+    "answer": "B",
+    "explanation": "RA 6713 lists eight norms: commitment to public interest, professionalism, justness and sincerity, political neutrality, responsiveness, nationalism, commitment to democracy, and simple living.",
+    "tip": "Eight norms of conduct.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-ra67-0204",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "ra-6713",
+    "difficulty": 1,
+    "stem": "When is the annual Statement of Assets, Liabilities, and Net Worth (SALN) due?",
+    "choices": [
+      { "key": "A", "text": "March 31" },
+      { "key": "B", "text": "April 15" },
+      { "key": "C", "text": "December 31" },
+      { "key": "D", "text": "April 30" }
+    ],
+    "answer": "D",
+    "explanation": "Public officials and employees file their SALN every year on or before April 30. They also file within 30 days of assuming office and within 30 days after leaving.",
+    "tip": "April 30 annually, 30 days on entry and exit.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-ra67-0205",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "ra-6713",
+    "difficulty": 2,
+    "stem": "Within how many days must a public official file a SALN after leaving office?",
+    "choices": [
+      { "key": "A", "text": "30 days" },
+      { "key": "B", "text": "60 days" },
+      { "key": "C", "text": "90 days" },
+      { "key": "D", "text": "1 year" }
+    ],
+    "answer": "A",
+    "explanation": "A SALN must be filed within 30 days after separation from service, just as it is filed within 30 days after assuming office.",
+    "tip": "Thirty days on both entry and exit.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-ra67-0206",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "ra-6713",
+    "difficulty": 2,
+    "stem": "Which of the following is NOT a norm of conduct under RA 6713?",
+    "choices": [
+      { "key": "A", "text": "political neutrality" },
+      { "key": "B", "text": "simple living" },
+      { "key": "C", "text": "profit maximization" },
+      { "key": "D", "text": "justness and sincerity" }
+    ],
+    "answer": "C",
+    "explanation": "Profit maximization is not a norm. It conflicts with commitment to public interest and simple living, both of which RA 6713 requires.",
+    "tip": "Public service norms favor the public, not private profit.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-ra67-0207",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "ra-6713",
+    "difficulty": 3,
+    "stem": "Which of the following is a prohibited act under RA 6713?",
+    "choices": [
+      { "key": "A", "text": "declaring all assets in the SALN" },
+      { "key": "B", "text": "filing the SALN on time" },
+      { "key": "C", "text": "responding to requests within 15 working days" },
+      { "key": "D", "text": "recommending a person to a private firm transacting with the office" }
+    ],
+    "answer": "D",
+    "explanation": "RA 6713 prohibits recommending any person to a position in a private enterprise that has a pending or regular transaction with the official's office. The other choices are required conduct.",
+    "tip": "Recommending people to transacting firms is conflict of interest.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-ra67-0208",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "ra-6713",
+    "difficulty": 2,
+    "stem": "Outside employment is allowed under RA 6713 only when ______.",
+    "choices": [
+      { "key": "A", "text": "it pays more than the government salary" },
+      { "key": "B", "text": "it does not conflict with official duties and is authorized" },
+      { "key": "C", "text": "it is done during office hours" },
+      { "key": "D", "text": "the superior is a relative" }
+    ],
+    "answer": "B",
+    "explanation": "Public officials may engage in outside work only if it does not conflict with their duties and is authorized by law or by their head of office.",
+    "tip": "No conflict, with permission.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-ra67-0209",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "ra-6713",
+    "difficulty": 2,
+    "stem": "Which is a possible penalty for violating RA 6713?",
+    "choices": [
+      { "key": "A", "text": "dismissal and forfeiture of benefits" },
+      { "key": "B", "text": "a verbal warning only" },
+      { "key": "C", "text": "a fixed fine only" },
+      { "key": "D", "text": "a one-day suspension" }
+    ],
+    "answer": "A",
+    "explanation": "Penalties range from reprimand to dismissal, and can include forfeiture of benefits, disqualification from public office, and criminal liability where applicable.",
+    "tip": "RA 6713 penalties go as high as dismissal and forfeiture.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-ra67-0210",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "ra-6713",
+    "difficulty": 1,
+    "stem": "What does SALN stand for?",
+    "choices": [
+      { "key": "A", "text": "Statement of Annual Liabilities and Net worth" },
+      { "key": "B", "text": "Summary of Assets and Legal Notes" },
+      { "key": "C", "text": "Statement of Assets, Liabilities, and Net Worth" },
+      { "key": "D", "text": "Statement of Allocated Loans and Net worth" }
+    ],
+    "answer": "C",
+    "explanation": "SALN means Statement of Assets, Liabilities, and Net Worth. It is the annual disclosure required of public officials and employees.",
+    "tip": "Assets, Liabilities, Net Worth.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-peace-0211",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "peace-human-rights",
+    "difficulty": 1,
+    "stem": "In what year was the Universal Declaration of Human Rights adopted?",
+    "choices": [
+      { "key": "A", "text": "1945" },
+      { "key": "B", "text": "1946" },
+      { "key": "C", "text": "1948" },
+      { "key": "D", "text": "1950" }
+    ],
+    "answer": "C",
+    "explanation": "The United Nations General Assembly adopted the Universal Declaration of Human Rights on December 10, 1948.",
+    "tip": "UDHR: December 10, 1948.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-peace-0212",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "peace-human-rights",
+    "difficulty": 1,
+    "stem": "When is Human Rights Day observed?",
+    "choices": [
+      { "key": "A", "text": "December 10" },
+      { "key": "B", "text": "June 12" },
+      { "key": "C", "text": "September 21" },
+      { "key": "D", "text": "November 30" }
+    ],
+    "answer": "A",
+    "explanation": "Human Rights Day falls on December 10, the anniversary of the adoption of the Universal Declaration of Human Rights in 1948.",
+    "tip": "Same date as the UDHR adoption.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-peace-0213",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "peace-human-rights",
+    "difficulty": 2,
+    "stem": "What is the primary mandate of the Commission on Human Rights?",
+    "choices": [
+      { "key": "A", "text": "prosecute all criminal cases" },
+      { "key": "B", "text": "manage the national prison system" },
+      { "key": "C", "text": "issue business permits" },
+      { "key": "D", "text": "investigate violations of civil and political rights" }
+    ],
+    "answer": "D",
+    "explanation": "The 1987 Constitution tasks the CHR with investigating all forms of human rights violations involving civil and political rights, among other functions.",
+    "tip": "CHR investigates; it does not prosecute.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-peace-0214",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "peace-human-rights",
+    "difficulty": 3,
+    "stem": "Which law penalizes genocide, crimes against humanity, and other crimes against international humanitarian law?",
+    "choices": [
+      { "key": "A", "text": "RA 8749" },
+      { "key": "B", "text": "RA 9851" },
+      { "key": "C", "text": "RA 10368" },
+      { "key": "D", "text": "RA 9147" }
+    ],
+    "answer": "B",
+    "explanation": "RA 9851 is the Philippine Act on Crimes Against International Humanitarian Law, Genocide, and Other Crimes Against Humanity.",
+    "tip": "9851 for IHL crimes; 10368 for Martial Law victims.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-peace-0215",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "peace-human-rights",
+    "difficulty": 2,
+    "stem": "The Geneva Conventions primarily govern ______.",
+    "choices": [
+      { "key": "A", "text": "the treatment of victims of armed conflict" },
+      { "key": "B", "text": "international trade in goods" },
+      { "key": "C", "text": "the conduct of national elections" },
+      { "key": "D", "text": "minimum wage standards" }
+    ],
+    "answer": "A",
+    "explanation": "The Geneva Conventions of 1949 set rules for the humane treatment of wounded soldiers, prisoners of war, and civilians during armed conflict.",
+    "tip": "Geneva equals humanitarian law in wartime.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-peace-0216",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "peace-human-rights",
+    "difficulty": 3,
+    "stem": "RA 10368 provides for the recognition and reparation of ______.",
+    "choices": [
+      { "key": "A", "text": "victims of natural disasters" },
+      { "key": "B", "text": "overseas Filipino workers" },
+      { "key": "C", "text": "victims of human rights violations during Martial Law" },
+      { "key": "D", "text": "retired government employees" }
+    ],
+    "answer": "C",
+    "explanation": "RA 10368 is the Human Rights Victims Reparation and Recognition Act of 2013. It recognizes and provides compensation to victims of human rights violations under the Marcos regime.",
+    "tip": "10368 equals Martial Law human rights victims.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-envi-0217",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "environment",
+    "difficulty": 1,
+    "stem": "RA 8749 is also known as the ______.",
+    "choices": [
+      { "key": "A", "text": "Philippine Clean Air Act" },
+      { "key": "B", "text": "Philippine Clean Water Act" },
+      { "key": "C", "text": "Wildlife Resources Conservation Act" },
+      { "key": "D", "text": "Revised Forestry Code" }
+    ],
+    "answer": "A",
+    "explanation": "RA 8749 is the Philippine Clean Air Act of 1999. It regulates air pollution and provides for a national air quality management program.",
+    "tip": "8749 air, 9275 water.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-envi-0218",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "environment",
+    "difficulty": 1,
+    "stem": "RA 9275 is also known as the ______.",
+    "choices": [
+      { "key": "A", "text": "Ecological Solid Waste Management Act" },
+      { "key": "B", "text": "Climate Change Act" },
+      { "key": "C", "text": "Wildlife Resources Conservation Act" },
+      { "key": "D", "text": "Philippine Clean Water Act" }
+    ],
+    "answer": "D",
+    "explanation": "RA 9275 is the Philippine Clean Water Act of 2004. It aims to protect the country's water bodies from pollution.",
+    "tip": "9275 water, 9003 waste.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-envi-0219",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "environment",
+    "difficulty": 2,
+    "stem": "Which law governs the conservation and protection of wildlife resources?",
+    "choices": [
+      { "key": "A", "text": "RA 8749" },
+      { "key": "B", "text": "RA 9147" },
+      { "key": "C", "text": "RA 9275" },
+      { "key": "D", "text": "PD 705" }
+    ],
+    "answer": "B",
+    "explanation": "RA 9147 is the Wildlife Resources Conservation and Protection Act of 2001. PD 705 governs forestry, while RA 8749 and RA 9275 cover air and water.",
+    "tip": "9147 wildlife, 705 forestry.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-envi-0220",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "environment",
+    "difficulty": 2,
+    "stem": "RA 9729 is also known as the ______.",
+    "choices": [
+      { "key": "A", "text": "Clean Air Act" },
+      { "key": "B", "text": "Ecological Solid Waste Management Act" },
+      { "key": "C", "text": "Climate Change Act" },
+      { "key": "D", "text": "Clean Water Act" }
+    ],
+    "answer": "C",
+    "explanation": "RA 9729 is the Climate Change Act of 2009. It created the Climate Change Commission and established a framework for adaptation and mitigation.",
+    "tip": "9729 climate change.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-envi-0221",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "environment",
+    "difficulty": 2,
+    "stem": "The Montreal Protocol is an international agreement that addresses ______.",
+    "choices": [
+      { "key": "A", "text": "ozone-depleting substances" },
+      { "key": "B", "text": "vehicle emission standards" },
+      { "key": "C", "text": "marine plastic pollution" },
+      { "key": "D", "text": "nuclear waste disposal" }
+    ],
+    "answer": "A",
+    "explanation": "The Montreal Protocol, adopted in 1987, phases out substances that deplete the ozone layer, such as chlorofluorocarbons.",
+    "tip": "Montreal protects the ozone layer.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-envi-0222",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "environment",
+    "difficulty": 2,
+    "stem": "Which shows the correct waste management hierarchy from most to least preferred?",
+    "choices": [
+      { "key": "A", "text": "recycle, reduce, reuse, dispose" },
+      { "key": "B", "text": "reduce, dispose, reuse, recycle" },
+      { "key": "C", "text": "reuse, recycle, reduce, dispose" },
+      { "key": "D", "text": "reduce, reuse, recycle, dispose" }
+    ],
+    "answer": "D",
+    "explanation": "Prevention comes first: reduce, then reuse, then recycle. Disposal is the least preferred option because it recovers no value.",
+    "tip": "Reduce before reuse before recycle; dispose last.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  }
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "id": "seed-verb-read-0283",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 1,
+    "stem": "The Barangay San Isidro health center will extend its immunization hours from 8:00 a.m. to 6:00 p.m. beginning Monday. Previously, vaccines were available only until 2:00 p.m. The extension aims to serve parents who work during the day. Walk-ins are accepted, but families are encouraged to reserve a slot online to avoid long lines.\n\nWhy is the health center extending its hours?",
+    "choices": [
+      { "key": "A", "text": "to serve parents who work during the day" },
+      { "key": "B", "text": "to reduce the supply of vaccines" },
+      { "key": "C", "text": "to close the center earlier" },
+      { "key": "D", "text": "to require online booking" }
+    ],
+    "answer": "A",
+    "explanation": "The third sentence states the reason directly: the extension aims to serve parents who work during the day. Online reservation is encouraged but not required.",
+    "tip": "Answer from the passage, not from assumption.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0284",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "Several agencies have adopted a four-day workweek for selected teams. Managers report that output has remained steady, while sick leave has declined. Employees say the arrangement reduces commuting costs and gives them more time for family. Critics, however, warn that client-facing offices must remain open five days a week.\n\nWhat is the main idea of the passage?",
+    "choices": [
+      { "key": "A", "text": "All agencies should close on Fridays." },
+      { "key": "B", "text": "Four-day workweeks have benefits but also limits." },
+      { "key": "C", "text": "Employees dislike the arrangement." },
+      { "key": "D", "text": "Sick leave is rising in agencies." }
+    ],
+    "answer": "B",
+    "explanation": "The passage presents benefits (steady output, less sick leave, lower costs) and a limitation (client-facing offices must stay open). The main idea must cover both sides.",
+    "tip": "A main idea must account for the whole passage, including the however clause.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0285",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "Rina applied for a promotion three times before she was finally promoted. Each time, she asked her supervisor what skills she needed to improve and enrolled in training. When the vacancy opened again, her evaluation showed the highest score in the unit.\n\nWhat can be inferred about Rina?",
+    "choices": [
+      { "key": "A", "text": "She was promoted because of luck." },
+      { "key": "B", "text": "She avoided additional training." },
+      { "key": "C", "text": "She improved through persistent effort." },
+      { "key": "D", "text": "She was related to the supervisor." }
+    ],
+    "answer": "C",
+    "explanation": "She asked for feedback and enrolled in training after each rejection, then earned the highest evaluation. That supports improvement through persistent effort.",
+    "tip": "An inference must be supported by several details, not invented.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0286",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "Reports of power interruptions in the province were sporadic: some towns experienced outages twice a week, while others had none for a month.\n\nIn this sentence, sporadic means ______.",
+    "choices": [
+      { "key": "A", "text": "widespread" },
+      { "key": "B", "text": "planned" },
+      { "key": "C", "text": "permanent" },
+      { "key": "D", "text": "occurring irregularly" }
+    ],
+    "answer": "D",
+    "explanation": "The colon explains the word: some towns had frequent outages while others had none. That uneven pattern is what sporadic means.",
+    "tip": "Use the example after the colon to define the word.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0287",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 1,
+    "stem": "To all division chiefs: Submit your unit's inventory by Friday, 5:00 p.m. Use the revised template attached to this memo. Late submissions will delay the consolidated report to the regional office.\n\nWhat is the purpose of the memo?",
+    "choices": [
+      { "key": "A", "text": "to request inventory submissions" },
+      { "key": "B", "text": "to announce a public holiday" },
+      { "key": "C", "text": "to evaluate the division chiefs" },
+      { "key": "D", "text": "to order new equipment" }
+    ],
+    "answer": "A",
+    "explanation": "The memo asks division chiefs to submit inventories using a revised template by a deadline. That is a request for submissions.",
+    "tip": "Identify who is asked to do what.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0288",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "The city's new recycling program began in June. Residents received three color-coded bins for paper, plastic, and residual waste. Collection happens every Tuesday and Friday. The city also opened two drop-off centers for electronic waste.\n\nWhich is NOT mentioned in the passage?",
+    "choices": [
+      { "key": "A", "text": "color-coded bins" },
+      { "key": "B", "text": "a fine for improper sorting" },
+      { "key": "C", "text": "drop-off centers for electronic waste" },
+      { "key": "D", "text": "twice-weekly collection" }
+    ],
+    "answer": "B",
+    "explanation": "The passage mentions bins, Tuesday and Friday collection, and e-waste drop-off centers. It never mentions any fine.",
+    "tip": "For EXCEPT and NOT items, verify each choice against the text.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0289",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "I have followed up on my clearance three times in two weeks and have received no reply. I understand that offices are busy, but a simple acknowledgment would have saved me two trips.\n\nThe tone of this passage is best described as ______.",
+    "choices": [
+      { "key": "A", "text": "amused" },
+      { "key": "B", "text": "indifferent" },
+      { "key": "C", "text": "frustrated but measured" },
+      { "key": "D", "text": "celebratory" }
+    ],
+    "answer": "C",
+    "explanation": "The writer is clearly frustrated after three follow-ups and two wasted trips, but acknowledges that offices are busy. That keeps the tone measured rather than angry.",
+    "tip": "Tone comes from word choice and concessions, not just the complaint.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0290",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "Enrollment in the evening computer course dropped from 120 to 45 after the barangay moved the class to a site two kilometers away. When the class returned to the original venue, enrollment rose to 110.\n\nWhat most likely caused the drop in enrollment?",
+    "choices": [
+      { "key": "A", "text": "the course content" },
+      { "key": "B", "text": "the instructor's absence" },
+      { "key": "C", "text": "a tuition increase" },
+      { "key": "D", "text": "the change of venue" }
+    ],
+    "answer": "D",
+    "explanation": "Enrollment fell when the class moved and recovered when it returned. That pattern points to the venue as the cause. No other factor is mentioned.",
+    "tip": "When a change reverses the effect, the change is the likely cause.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0291",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "The municipality banned single-use plastic bags in public markets. Vendors initially resisted, citing costs. After six months, however, most had switched to reusable bags, and the volume of plastic waste collected fell by 40%.\n\nWhat is the main idea?",
+    "choices": [
+      { "key": "A", "text": "The plastic ban reduced waste despite initial resistance." },
+      { "key": "B", "text": "Vendors always support plastic bans." },
+      { "key": "C", "text": "Plastic bags are cheaper than reusable bags." },
+      { "key": "D", "text": "The public market closed after six months." }
+    ],
+    "answer": "A",
+    "explanation": "The passage describes initial vendor resistance followed by compliance and a 40% drop in plastic waste. The main idea captures both the resistance and the result.",
+    "tip": "Look for the outcome, not just the first reaction.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0292",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "The agency installed a digital queue system in its main office. Average waiting time fell from 90 minutes to 35. Satellite offices, which still use paper tickets, report no change.\n\nWhat can be concluded?",
+    "choices": [
+      { "key": "A", "text": "Paper tickets are faster than digital queues." },
+      { "key": "B", "text": "Digital queues reduced waiting time." },
+      { "key": "C", "text": "Satellite offices have no clients." },
+      { "key": "D", "text": "The main office closed." }
+    ],
+    "answer": "B",
+    "explanation": "Waiting time fell only where the digital system was installed, while offices using paper tickets saw no change. That supports the conclusion that digital queues reduced waiting time.",
+    "tip": "Compare the groups that changed with those that did not.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0293",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 1,
+    "stem": "Applicants must file their complete documents on or before March 15. Incomplete folders will not be accepted. The receiving area is open from 8:00 a.m. to 4:00 p.m., Monday to Thursday only.\n\nWhat is the deadline for filing?",
+    "choices": [
+      { "key": "A", "text": "March 5" },
+      { "key": "B", "text": "March 25" },
+      { "key": "C", "text": "March 15" },
+      { "key": "D", "text": "April 15" }
+    ],
+    "answer": "C",
+    "explanation": "The first sentence states the deadline: on or before March 15. The office hours are a separate detail.",
+    "tip": "For detail questions, locate the exact sentence.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0294",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "To mitigate the effects of flooding, the city planted mangroves along the riverbank and cleared the drainage canals.\n\nIn this sentence, mitigate means ______.",
+    "choices": [
+      { "key": "A", "text": "worsen" },
+      { "key": "B", "text": "measure" },
+      { "key": "C", "text": "ignore" },
+      { "key": "D", "text": "reduce" }
+    ],
+    "answer": "D",
+    "explanation": "Planting mangroves and clearing canals are actions meant to lessen flooding damage. Mitigate means to make less severe, so reduce fits.",
+    "tip": "Use the purpose of the listed actions to define the word.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0295",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 3,
+    "stem": "Barangay officials reported that the feeding program improved attendance in two elementary schools. Teachers noted that children arrived more alert. The program also provided deworming tablets. Funding, however, came from a one-time grant.\n\nAll of the following are mentioned EXCEPT ______.",
+    "choices": [
+      { "key": "A", "text": "a permanent budget" },
+      { "key": "B", "text": "improved attendance" },
+      { "key": "C", "text": "deworming tablets" },
+      { "key": "D", "text": "children arriving more alert" }
+    ],
+    "answer": "A",
+    "explanation": "The passage says funding came from a one-time grant, which is the opposite of a permanent budget. The other three details are explicitly stated.",
+    "tip": "EXCEPT questions turn a stated detail into its opposite.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0296",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "Program A trains 40 workers a year at a cost of P8,000 each. Program B trains 25 workers a year at P5,000 each. Both report similar completion rates.\n\nWhich statement is supported by the passage?",
+    "choices": [
+      { "key": "A", "text": "Program B trains more people than Program A." },
+      { "key": "B", "text": "Program A costs more per trainee than Program B." },
+      { "key": "C", "text": "Program B has a lower completion rate." },
+      { "key": "D", "text": "Program A is free for trainees." }
+    ],
+    "answer": "B",
+    "explanation": "Program A costs P8,000 per trainee and Program B costs P5,000. Completion rates are described as similar, and Program A trains more workers, not fewer.",
+    "tip": "Compare the specific figures the question asks about.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0297",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 1,
+    "stem": "On Monday the office announced the audit. On Tuesday, staff submitted their records. On Wednesday, the auditors reviewed the files. On Thursday, the findings were presented to the director.\n\nWhat happened immediately after the records were submitted?",
+    "choices": [
+      { "key": "A", "text": "The audit was announced." },
+      { "key": "B", "text": "The findings were presented." },
+      { "key": "C", "text": "The auditors reviewed the files." },
+      { "key": "D", "text": "The director resigned." }
+    ],
+    "answer": "C",
+    "explanation": "Records were submitted on Tuesday, and the review happened on Wednesday. Announcement came before, and the findings came after.",
+    "tip": "For sequence items, place each event on a timeline.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0298",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 3,
+    "stem": "While the new form is shorter, it omits two fields that the records office relies on. Unless those fields are restored, staff will need to collect the missing information separately.\n\nThe author's attitude toward the new form is best described as ______.",
+    "choices": [
+      { "key": "A", "text": "fully supportive" },
+      { "key": "B", "text": "indifferent" },
+      { "key": "C", "text": "enthusiastic" },
+      { "key": "D", "text": "cautiously critical" }
+    ],
+    "answer": "D",
+    "explanation": "The author acknowledges the shorter form but warns about missing fields and extra work. That is measured criticism, not rejection or enthusiasm.",
+    "tip": "Watch for while and unless, which signal conditional criticism.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0299",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "The cooperative's membership grew steadily for five years. Last year, however, it declined after a rival offered lower interest rates. This year, the cooperative lowered its rates and launched a member referral program.\n\nWhat will most likely happen next?",
+    "choices": [
+      { "key": "A", "text": "Membership may recover." },
+      { "key": "B", "text": "The rival will close." },
+      { "key": "C", "text": "Interest rates will rise." },
+      { "key": "D", "text": "The cooperative will disband." }
+    ],
+    "answer": "A",
+    "explanation": "The cooperative addressed the cause of the decline by matching lower rates and adding referrals. Those steps make a recovery likely, though not certain.",
+    "tip": "A prediction must follow from the actions described.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0300",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "Digitizing old land records reduced retrieval time from days to minutes. It also reduced errors caused by misfiling. The main challenge is the cost of scanning and the need to verify each entry.\n\nWhat is the main idea?",
+    "choices": [
+      { "key": "A", "text": "Paper records are better than digital records." },
+      { "key": "B", "text": "Digitizing records has clear benefits and one main challenge." },
+      { "key": "C", "text": "Scanning old records is unnecessary." },
+      { "key": "D", "text": "Retrieval time increased after digitization." }
+    ],
+    "answer": "B",
+    "explanation": "The passage lists benefits (faster retrieval, fewer errors) and a challenge (cost and verification). The main idea must include both.",
+    "tip": "A main idea covers the benefits and the caveat.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0301",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 1,
+    "stem": "The feeding program served 1,250 children in 2023 and 1,800 in 2024. The budget rose from P2.5 million to P3.2 million over the same period.\n\nHow many children were served in 2024?",
+    "choices": [
+      { "key": "A", "text": "1,250" },
+      { "key": "B", "text": "1,500" },
+      { "key": "C", "text": "1,800" },
+      { "key": "D", "text": "3,200" }
+    ],
+    "answer": "C",
+    "explanation": "The first sentence gives 1,800 children for 2024. The 3,200 figure belongs to the budget, not the number of children.",
+    "tip": "Match the number to its label, not just its position.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0302",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 3,
+    "stem": "Only 30% of the surveyed households segregate their waste. Among those that do, 80% say the collection schedule is reliable. Among those that do not, 65% cite the lack of a reliable schedule.\n\nWhat can be concluded?",
+    "choices": [
+      { "key": "A", "text": "Most households segregate their waste." },
+      { "key": "B", "text": "The collection schedule is unrelated to segregation." },
+      { "key": "C", "text": "All households have color-coded bins." },
+      { "key": "D", "text": "A reliable collection schedule encourages segregation." }
+    ],
+    "answer": "D",
+    "explanation": "Those who segregate mostly report a reliable schedule, while most non-segregators cite the lack of one. That link supports the conclusion.",
+    "tip": "Compare the reasons given by the two groups.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  }
+]

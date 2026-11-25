@@ -1,0 +1,477 @@
+[
+  {
+    "id": "seed-verb-anal-0258",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "book : chapter :: building : ______",
+    "choices": [
+      { "key": "A", "text": "floor" },
+      { "key": "B", "text": "page" },
+      { "key": "C", "text": "library" },
+      { "key": "D", "text": "brick" }
+    ],
+    "answer": "A",
+    "explanation": "A chapter is a major division of a book; a floor is a major division of a building. The relationship is whole to a major part.",
+    "tip": "Say the relationship in a sentence before checking choices.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0259",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "doctor : hospital :: teacher : ______",
+    "choices": [
+      { "key": "A", "text": "book" },
+      { "key": "B", "text": "school" },
+      { "key": "C", "text": "student" },
+      { "key": "D", "text": "lesson" }
+    ],
+    "answer": "B",
+    "explanation": "A doctor typically works in a hospital; a teacher typically works in a school. The relationship is worker to workplace.",
+    "tip": "Ask where the person normally works.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0260",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "pen : writing :: knife : ______",
+    "choices": [
+      { "key": "A", "text": "sharp" },
+      { "key": "B", "text": "metal" },
+      { "key": "C", "text": "cutting" },
+      { "key": "D", "text": "kitchen" }
+    ],
+    "answer": "C",
+    "explanation": "A pen is used for writing; a knife is used for cutting. The relationship is tool to its function.",
+    "tip": "Tool-to-function pairs are common in analogies.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0261",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 2,
+    "stem": "hot : warm :: cold : ______",
+    "choices": [
+      { "key": "A", "text": "freezing" },
+      { "key": "B", "text": "ice" },
+      { "key": "C", "text": "winter" },
+      { "key": "D", "text": "cool" }
+    ],
+    "answer": "D",
+    "explanation": "Warm is a milder degree of hot; cool is a milder degree of cold. The relationship is intensity, and the direction must match.",
+    "tip": "Check both the relationship and its direction.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0262",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "puppy : dog :: kitten : ______",
+    "choices": [
+      { "key": "A", "text": "cat" },
+      { "key": "B", "text": "mouse" },
+      { "key": "C", "text": "pet" },
+      { "key": "D", "text": "fur" }
+    ],
+    "answer": "A",
+    "explanation": "A puppy is a young dog; a kitten is a young cat. The relationship is young animal to adult animal.",
+    "tip": "Name the age relationship explicitly.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0263",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "author : book :: composer : ______",
+    "choices": [
+      { "key": "A", "text": "piano" },
+      { "key": "B", "text": "symphony" },
+      { "key": "C", "text": "concert" },
+      { "key": "D", "text": "musician" }
+    ],
+    "answer": "B",
+    "explanation": "An author creates a book; a composer creates a symphony. The relationship is creator to created work.",
+    "tip": "Look for who makes what.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0264",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 2,
+    "stem": "drought : famine :: flood : ______",
+    "choices": [
+      { "key": "A", "text": "rain" },
+      { "key": "B", "text": "river" },
+      { "key": "C", "text": "destruction" },
+      { "key": "D", "text": "water" }
+    ],
+    "answer": "C",
+    "explanation": "A drought can cause famine; a flood can cause destruction. The relationship is cause to consequence, not cause to related object.",
+    "tip": "Avoid choosing a related noun instead of the actual effect.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0265",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "needle : sew :: saw : ______",
+    "choices": [
+      { "key": "A", "text": "wood" },
+      { "key": "B", "text": "tool" },
+      { "key": "C", "text": "metal" },
+      { "key": "D", "text": "cut" }
+    ],
+    "answer": "D",
+    "explanation": "A needle is used to sew; a saw is used to cut. The relationship is tool to action.",
+    "tip": "Match the grammatical form too: both answers are verbs.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0266",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 2,
+    "stem": "microscope : small :: telescope : ______",
+    "choices": [
+      { "key": "A", "text": "distant" },
+      { "key": "B", "text": "lens" },
+      { "key": "C", "text": "star" },
+      { "key": "D", "text": "astronomy" }
+    ],
+    "answer": "A",
+    "explanation": "A microscope is used to view very small things; a telescope is used to view distant things. The relationship is instrument to the kind of object it views.",
+    "tip": "Match the type of object, not just the field of study.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0267",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "hungry : eat :: thirsty : ______",
+    "choices": [
+      { "key": "A", "text": "water" },
+      { "key": "B", "text": "drink" },
+      { "key": "C", "text": "food" },
+      { "key": "D", "text": "tired" }
+    ],
+    "answer": "B",
+    "explanation": "Hunger leads you to eat; thirst leads you to drink. The relationship is condition to the action that relieves it.",
+    "tip": "Keep the word type consistent: eat and drink are both verbs.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0268",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 2,
+    "stem": "careless : accident :: diligent : ______",
+    "choices": [
+      { "key": "A", "text": "failure" },
+      { "key": "B", "text": "laziness" },
+      { "key": "C", "text": "success" },
+      { "key": "D", "text": "delay" }
+    ],
+    "answer": "C",
+    "explanation": "Carelessness tends to produce accidents; diligence tends to produce success. Both pairs link a quality to its likely result.",
+    "tip": "Match the positive or negative direction of the pair.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0269",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "kilogram : mass :: meter : ______",
+    "choices": [
+      { "key": "A", "text": "weight" },
+      { "key": "B", "text": "volume" },
+      { "key": "C", "text": "time" },
+      { "key": "D", "text": "length" }
+    ],
+    "answer": "D",
+    "explanation": "A kilogram measures mass; a meter measures length. The relationship is unit to the quantity it measures.",
+    "tip": "Match unit to quantity, not unit to instrument.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0270",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "carpenter : hammer :: plumber : ______",
+    "choices": [
+      { "key": "A", "text": "wrench" },
+      { "key": "B", "text": "wood" },
+      { "key": "C", "text": "pipe" },
+      { "key": "D", "text": "wire" }
+    ],
+    "answer": "A",
+    "explanation": "A hammer is a characteristic tool of a carpenter; a wrench is a characteristic tool of a plumber. The relationship is worker to tool.",
+    "tip": "Choose the tool, not the material being worked on.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0271",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "ocean : water :: desert : ______",
+    "choices": [
+      { "key": "A", "text": "camel" },
+      { "key": "B", "text": "sand" },
+      { "key": "C", "text": "heat" },
+      { "key": "D", "text": "dune" }
+    ],
+    "answer": "B",
+    "explanation": "An ocean is a large body of water; a desert is a large expanse of sand. The relationship is region to its dominant substance.",
+    "tip": "Ask what the place is mostly made of.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0272",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "triangle : three :: square : ______",
+    "choices": [
+      { "key": "A", "text": "angle" },
+      { "key": "B", "text": "corner" },
+      { "key": "C", "text": "four" },
+      { "key": "D", "text": "shape" }
+    ],
+    "answer": "C",
+    "explanation": "A triangle has three sides; a square has four. The relationship is shape to its number of sides.",
+    "tip": "Look for numerical relationships.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0273",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "optimistic : hopeful :: pessimistic : ______",
+    "choices": [
+      { "key": "A", "text": "calm" },
+      { "key": "B", "text": "angry" },
+      { "key": "C", "text": "hopeful" },
+      { "key": "D", "text": "gloomy" }
+    ],
+    "answer": "D",
+    "explanation": "Optimistic means hopeful about the future; pessimistic means expecting the worst, which matches gloomy. The relationship is synonym.",
+    "tip": "Both pairs must carry the same tone.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0274",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "brief : lengthy :: scarce : ______",
+    "choices": [
+      { "key": "A", "text": "abundant" },
+      { "key": "B", "text": "rare" },
+      { "key": "C", "text": "empty" },
+      { "key": "D", "text": "few" }
+    ],
+    "answer": "A",
+    "explanation": "Brief and lengthy are opposites; scarce and abundant are opposites. The relationship is antonym.",
+    "tip": "Name the relationship first, then apply it.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0275",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 2,
+    "stem": "migrate : move :: hibernate : ______",
+    "choices": [
+      { "key": "A", "text": "wake" },
+      { "key": "B", "text": "sleep" },
+      { "key": "C", "text": "eat" },
+      { "key": "D", "text": "travel" }
+    ],
+    "answer": "B",
+    "explanation": "To migrate is to move seasonally; to hibernate is to sleep through a season. The relationship is a specific animal behavior to its basic action.",
+    "tip": "Define the harder word, then find its plain equivalent.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0276",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "student : learn :: employee : ______",
+    "choices": [
+      { "key": "A", "text": "rest" },
+      { "key": "B", "text": "resign" },
+      { "key": "C", "text": "work" },
+      { "key": "D", "text": "retire" }
+    ],
+    "answer": "C",
+    "explanation": "The main activity of a student is to learn; the main activity of an employee is to work. The relationship is role to primary activity.",
+    "tip": "Pick the defining activity of the role.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0277",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 2,
+    "stem": "verdict : jury :: diagnosis : ______",
+    "choices": [
+      { "key": "A", "text": "patient" },
+      { "key": "B", "text": "hospital" },
+      { "key": "C", "text": "illness" },
+      { "key": "D", "text": "doctor" }
+    ],
+    "answer": "D",
+    "explanation": "A jury gives a verdict; a doctor gives a diagnosis. The relationship is source to the formal conclusion it produces.",
+    "tip": "Ask who produces the thing on the left.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0278",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "wheel : car :: wing : ______",
+    "choices": [
+      { "key": "A", "text": "airplane" },
+      { "key": "B", "text": "sky" },
+      { "key": "C", "text": "pilot" },
+      { "key": "D", "text": "engine" }
+    ],
+    "answer": "A",
+    "explanation": "A wheel is a part of a car; a wing is a part of an airplane. The relationship is part to whole.",
+    "tip": "Part-to-whole answers must be the whole object.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0279",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "assemble : disperse :: unite : ______",
+    "choices": [
+      { "key": "A", "text": "join" },
+      { "key": "B", "text": "divide" },
+      { "key": "C", "text": "gather" },
+      { "key": "D", "text": "meet" }
+    ],
+    "answer": "B",
+    "explanation": "Assemble and disperse are opposites; unite and divide are opposites. The relationship is antonym.",
+    "tip": "Both pairs must move in opposite directions.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0280",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 2,
+    "stem": "fragile : break :: flammable : ______",
+    "choices": [
+      { "key": "A", "text": "wet" },
+      { "key": "B", "text": "cold" },
+      { "key": "C", "text": "burn" },
+      { "key": "D", "text": "safe" }
+    ],
+    "answer": "C",
+    "explanation": "Something fragile is easily broken; something flammable is easily burned. The relationship is property to the damage it invites.",
+    "tip": "Both pairs describe a vulnerability.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0281",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "century : 100 years :: decade : ______",
+    "choices": [
+      { "key": "A", "text": "5 years" },
+      { "key": "B", "text": "50 years" },
+      { "key": "C", "text": "1,000 years" },
+      { "key": "D", "text": "10 years" }
+    ],
+    "answer": "D",
+    "explanation": "A century is 100 years; a decade is 10 years. The relationship is a time word to its exact length.",
+    "tip": "Know the number prefixes: deca, cent, mill.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0282",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "library : books :: gallery : ______",
+    "choices": [
+      { "key": "A", "text": "paintings" },
+      { "key": "B", "text": "artists" },
+      { "key": "C", "text": "frames" },
+      { "key": "D", "text": "visitors" }
+    ],
+    "answer": "A",
+    "explanation": "A library is a place that displays and stores books; a gallery displays and stores paintings. The relationship is place to its contents.",
+    "tip": "Choose what the place contains, not who visits it.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  }
+]

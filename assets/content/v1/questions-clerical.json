@@ -1,0 +1,382 @@
+[
+  {
+    "id": "seed-cler-file-0173",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 2,
+    "stem": "Arrange these names in the order they would be filed:\n1. Santos, Ana\n2. San Juan, Ben\n3. Santiago, Cora\n4. Sandoval, Dan",
+    "choices": [
+      { "key": "A", "text": "4 - 2 - 3 - 1" },
+      { "key": "B", "text": "2 - 4 - 3 - 1" },
+      { "key": "C", "text": "4 - 2 - 1 - 3" },
+      { "key": "D", "text": "2 - 3 - 4 - 1" }
+    ],
+    "answer": "A",
+    "explanation": "Ignore the space in San Juan: SANDOVAL, SANJUAN, SANTIAGO, SANTOS. The fourth letters are D, J, T, and T; then I comes before O in SANTIAGO versus SANTOS.",
+    "tip": "File letter by letter and ignore spaces.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0174",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 3,
+    "stem": "Arrange these names in the order they would be filed:\n1. Dela Cruz, Juan\n2. De Leon, Ana\n3. Del Rosario, Maria\n4. Dela Pena, Rico",
+    "choices": [
+      { "key": "A", "text": "1 - 2 - 3 - 4" },
+      { "key": "B", "text": "1 - 4 - 2 - 3" },
+      { "key": "C", "text": "1 - 2 - 4 - 3" },
+      { "key": "D", "text": "4 - 1 - 2 - 3" }
+    ],
+    "answer": "B",
+    "explanation": "Without spaces: DELACRUZ, DELEON, DELROSARIO, DELAPENA. The fourth letters are A, E, R, and A, so the Dela names come first; their fifth letters C and P put Dela Cruz before Dela Pena.",
+    "tip": "Compare one character at a time and stop at the first difference.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0175",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 2,
+    "stem": "Which name would be filed first?",
+    "choices": [
+      { "key": "A", "text": "Villanueva, Jose" },
+      { "key": "B", "text": "Villamor, Ana" },
+      { "key": "C", "text": "Villa, Rico" },
+      { "key": "D", "text": "Villar, Mia" }
+    ],
+    "answer": "C",
+    "explanation": "All four begin with VILLA. The name that ends there comes before names that continue, following the nothing-before-something rule. So Villa is filed first.",
+    "tip": "A shorter name comes before a longer name that starts the same way.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0176",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 2,
+    "stem": "Arrange these folder codes in numerical order:\n1. 2024-15\n2. 2024-3\n3. 2024-100\n4. 2024-21",
+    "choices": [
+      { "key": "A", "text": "1 - 2 - 3 - 4" },
+      { "key": "B", "text": "2 - 1 - 3 - 4" },
+      { "key": "C", "text": "3 - 4 - 2 - 1" },
+      { "key": "D", "text": "2 - 1 - 4 - 3" }
+    ],
+    "answer": "D",
+    "explanation": "Read the numbers by value, not by digit length: 3, 15, 21, and 100. That gives 2-1-4-3.",
+    "tip": "In numeric filing, 3 comes before 15 and 100 comes last.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0177",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 3,
+    "stem": "Arrange these names in the order they would be filed:\n1. Ocampo, Lito\n2. Ochoa, Grace\n3. Ocampo, Lito Jr.\n4. Ocana, Beth",
+    "choices": [
+      { "key": "A", "text": "1 - 3 - 4 - 2" },
+      { "key": "B", "text": "1 - 4 - 3 - 2" },
+      { "key": "C", "text": "4 - 1 - 3 - 2" },
+      { "key": "D", "text": "1 - 3 - 2 - 4" }
+    ],
+    "answer": "A",
+    "explanation": "OCAMPO comes before OCANA because M comes before N. The plain Ocampo comes before Ocampo Jr., and all Oca names come before Ochoa.",
+    "tip": "Nothing before something, and compare letter by letter.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0178",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 2,
+    "stem": "Which pair is in the correct filing order?",
+    "choices": [
+      { "key": "A", "text": "Santos, Maria before Santos, Ana" },
+      { "key": "B", "text": "Reyes, Jose before Reyes, Ana" },
+      { "key": "C", "text": "Cruz, Ana before Cruz, Ben" },
+      { "key": "D", "text": "Lim, Zoe before Lim, Amy" }
+    ],
+    "answer": "C",
+    "explanation": "When surnames match, file by first name. Ana comes before Ben, so Cruz, Ana before Cruz, Ben is correct. The other pairs reverse the alphabetical order of the first names.",
+    "tip": "Same surname means compare the first name next.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0179",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 2,
+    "stem": "Arrange these subject codes in order:\n1. ADM-12\n2. ADM-2\n3. ADM-100\n4. ADM-21",
+    "choices": [
+      { "key": "A", "text": "2 - 1 - 3 - 4" },
+      { "key": "B", "text": "2 - 1 - 4 - 3" },
+      { "key": "C", "text": "3 - 4 - 1 - 2" },
+      { "key": "D", "text": "1 - 2 - 4 - 3" }
+    ],
+    "answer": "B",
+    "explanation": "The numeric parts are 12, 2, 100, and 21. In ascending value they are 2, 12, 21, 100, which corresponds to 2-1-4-3.",
+    "tip": "Treat the code after the prefix as a whole number.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0180",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 1,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "definately" },
+      { "key": "B", "text": "definitly" },
+      { "key": "C", "text": "definitely" },
+      { "key": "D", "text": "defenitely" }
+    ],
+    "answer": "C",
+    "explanation": "Definitely comes from definite plus -ly. It has no a in the middle: d-e-f-i-n-i-t-e-l-y.",
+    "tip": "Spell the root first: definite, then add -ly.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0181",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 1,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "separate" },
+      { "key": "B", "text": "seperate" },
+      { "key": "C", "text": "seperete" },
+      { "key": "D", "text": "seperat" }
+    ],
+    "answer": "A",
+    "explanation": "Separate has an a in the middle: s-e-p-a-r-a-t-e. The common error is writing seperate with an e.",
+    "tip": "There is a rat in separate: sep-a-rat-e.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0182",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 2,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "occurence" },
+      { "key": "B", "text": "occurrance" },
+      { "key": "C", "text": "ocurrence" },
+      { "key": "D", "text": "occurrence" }
+    ],
+    "answer": "D",
+    "explanation": "Occurrence has two c's, two r's, and ends in -ence: o-c-c-u-r-r-e-n-c-e.",
+    "tip": "Double the c and the r, then add -ence.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0183",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 2,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "priviledge" },
+      { "key": "B", "text": "privilege" },
+      { "key": "C", "text": "privelege" },
+      { "key": "D", "text": "privilage" }
+    ],
+    "answer": "B",
+    "explanation": "Privilege has no d: p-r-i-v-i-l-e-g-e. The misspelling priviledge adds a letter that is not there.",
+    "tip": "Privilege ends in -lege, not -ledge.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0184",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 2,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "maintainance" },
+      { "key": "B", "text": "maintenence" },
+      { "key": "C", "text": "maintanance" },
+      { "key": "D", "text": "maintenance" }
+    ],
+    "answer": "D",
+    "explanation": "Maintenance is spelled m-a-i-n-t-e-n-a-n-c-e. The second syllable is ten, not tain.",
+    "tip": "Main-TEN-ance, not main-TAIN-ance.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0185",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 2,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "questionaire" },
+      { "key": "B", "text": "questionnair" },
+      { "key": "C", "text": "questionnaire" },
+      { "key": "D", "text": "questionere" }
+    ],
+    "answer": "C",
+    "explanation": "Questionnaire doubles the n and ends in -aire: q-u-e-s-t-i-o-n-n-a-i-r-e.",
+    "tip": "Question plus -naire with a double n.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0186",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 3,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "beaurocracy" },
+      { "key": "B", "text": "bureaucracy" },
+      { "key": "C", "text": "bureaucrasy" },
+      { "key": "D", "text": "burocracy" }
+    ],
+    "answer": "B",
+    "explanation": "Bureaucracy is b-u-r-e-a-u-c-r-a-c-y. It uses bureau plus -cracy, with c rather than s in the suffix.",
+    "tip": "Bureau plus -cracy.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-code-0187",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "comparing-coding",
+    "difficulty": 1,
+    "stem": "Which pair is identical?",
+    "choices": [
+      { "key": "A", "text": "RA 6713  /  RA 6713" },
+      { "key": "B", "text": "RA 6713  /  RA 6173" },
+      { "key": "C", "text": "Sec. 5(a)  /  Sec. 5(b)" },
+      { "key": "D", "text": "COA-2024  /  COA-2042" }
+    ],
+    "answer": "A",
+    "explanation": "Only the first pair matches character for character. The others differ in a digit, a letter, or the order of digits.",
+    "tip": "Compare left to right and stop at the first mismatch.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-code-0188",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "comparing-coding",
+    "difficulty": 1,
+    "stem": "Which pair is NOT identical?",
+    "choices": [
+      { "key": "A", "text": "2024-1187  /  2024-1187" },
+      { "key": "B", "text": "0917-555-0142  /  0917-555-0142" },
+      { "key": "C", "text": "6713  /  6713" },
+      { "key": "D", "text": "2024-1187  /  2024-1178" }
+    ],
+    "answer": "D",
+    "explanation": "The last pair transposes the final digits: 1187 versus 1178. The other three pairs match exactly.",
+    "tip": "Watch for transposed digits, not just different ones.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-code-0189",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "comparing-coding",
+    "difficulty": 2,
+    "stem": "If MANILA is coded as NBOKMB, how is CEBU coded?",
+    "choices": [
+      { "key": "A", "text": "DBFT" },
+      { "key": "B", "text": "DFCV" },
+      { "key": "C", "text": "DFBV" },
+      { "key": "D", "text": "EFCV" }
+    ],
+    "answer": "B",
+    "explanation": "Each letter moves forward one place: M to N, A to B, and so on. Applying the same shift gives C to D, E to F, B to C, and U to V.",
+    "tip": "Write the alphabet positions above the letters.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-code-0190",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "comparing-coding",
+    "difficulty": 2,
+    "stem": "If A = 1, B = 2, C = 3, and so on, what is the sum of the letters in CAB?",
+    "choices": [
+      { "key": "A", "text": "4" },
+      { "key": "B", "text": "5" },
+      { "key": "C", "text": "6" },
+      { "key": "D", "text": "7" }
+    ],
+    "answer": "C",
+    "explanation": "C is 3, A is 1, and B is 2. Their sum is 3 + 1 + 2 = 6.",
+    "tip": "Convert each letter to its position before adding.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-code-0191",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "comparing-coding",
+    "difficulty": 1,
+    "stem": "Which number does not match its word?",
+    "choices": [
+      { "key": "A", "text": "eighteen = 80" },
+      { "key": "B", "text": "forty-two = 42" },
+      { "key": "C", "text": "ninety = 90" },
+      { "key": "D", "text": "seventy-five = 75" }
+    ],
+    "answer": "A",
+    "explanation": "Eighteen is 18, not 80. Eighty is the word for 80.",
+    "tip": "Read the word aloud and check the tens and ones.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-code-0192",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "comparing-coding",
+    "difficulty": 1,
+    "stem": "Which pair differs?",
+    "choices": [
+      { "key": "A", "text": "ADM-07  /  ADM-07" },
+      { "key": "B", "text": "ORD-2024-15  /  ORD-2024-15" },
+      { "key": "C", "text": "PR-0091  /  PR-0091" },
+      { "key": "D", "text": "FIN-118  /  FIN-181" }
+    ],
+    "answer": "D",
+    "explanation": "The last pair reverses the final three digits: 118 versus 181. The first three pairs are identical.",
+    "tip": "Check the last digits carefully; they are easiest to transpose.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  }
+]

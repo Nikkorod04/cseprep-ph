@@ -1,0 +1,762 @@
+[
+  {
+    "id": "seed-verb-gram-0023",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "The list of approved applicants ______ posted on the bulletin board.",
+    "choices": [
+      { "key": "A", "text": "were" },
+      { "key": "B", "text": "was" },
+      { "key": "C", "text": "have been" },
+      { "key": "D", "text": "are" }
+    ],
+    "answer": "B",
+    "explanation": "The subject is list, which is singular. The phrase of approved applicants is only a modifier. Was agrees with list, while were and are would agree with the plural noun inside the phrase.",
+    "tip": "Cross out the prepositional phrase, then match the verb to what is left.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0024",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "Neither the records nor the logbook ______ recovered from the storage room.",
+    "choices": [
+      { "key": "A", "text": "was" },
+      { "key": "B", "text": "were" },
+      { "key": "C", "text": "have been" },
+      { "key": "D", "text": "are" }
+    ],
+    "answer": "A",
+    "explanation": "With neither ... nor, the verb agrees with the nearer subject. Logbook is singular, so was is correct even though records is plural.",
+    "tip": "Either/or and neither/nor follow the nearest-subject rule.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0025",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "A number of employees ______ complained about the new filing system.",
+    "choices": [
+      { "key": "A", "text": "has" },
+      { "key": "B", "text": "is" },
+      { "key": "C", "text": "was" },
+      { "key": "D", "text": "have" }
+    ],
+    "answer": "D",
+    "explanation": "A number of means several, so it takes a plural verb: have complained. The phrase the number of would be singular and would take has.",
+    "tip": "A number of is plural; the number of is singular.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0026",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "The number of absentee ballots ______ unusually high this year.",
+    "choices": [
+      { "key": "A", "text": "were" },
+      { "key": "B", "text": "are" },
+      { "key": "C", "text": "was" },
+      { "key": "D", "text": "have been" }
+    ],
+    "answer": "C",
+    "explanation": "The subject is the number, which is singular. Ballots is the object of the preposition of and does not control the verb.",
+    "tip": "The number of is singular; a number of is plural.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0027",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "The committee released ______ final report yesterday.",
+    "choices": [
+      { "key": "A", "text": "their" },
+      { "key": "B", "text": "its" },
+      { "key": "C", "text": "it's" },
+      { "key": "D", "text": "they're" }
+    ],
+    "answer": "B",
+    "explanation": "A committee acting as one body is singular, so the possessive pronoun is its. It's means it is, and they're means they are.",
+    "tip": "Collective nouns take singular pronouns when acting as one unit.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0028",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "The supervisor asked Maria and ______ to prepare the minutes.",
+    "choices": [
+      { "key": "A", "text": "I" },
+      { "key": "B", "text": "myself" },
+      { "key": "C", "text": "mine" },
+      { "key": "D", "text": "me" }
+    ],
+    "answer": "D",
+    "explanation": "The pronoun is the object of asked, so the objective case me is required. Remove Maria and the sentence reads asked me, not asked I.",
+    "tip": "Drop the other person and say the sentence alone to test the case.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0029",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "Between you and ______, the schedule will change next week.",
+    "choices": [
+      { "key": "A", "text": "me" },
+      { "key": "B", "text": "I" },
+      { "key": "C", "text": "myself" },
+      { "key": "D", "text": "we" }
+    ],
+    "answer": "A",
+    "explanation": "Between is a preposition and takes the objective case, so between you and me is correct. Myself is reflexive and cannot replace me here.",
+    "tip": "Prepositions are followed by object pronouns: me, him, her, us, them.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0030",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "The officer ______ handled the complaint was very patient.",
+    "choices": [
+      { "key": "A", "text": "whom" },
+      { "key": "B", "text": "which" },
+      { "key": "C", "text": "who" },
+      { "key": "D", "text": "whose" }
+    ],
+    "answer": "C",
+    "explanation": "Who is the subject of handled, so the subjective form is correct. Whom would be used for an object, as in the officer whom we called.",
+    "tip": "Test with he or him: if he fits, use who.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0031",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "To ______ should I address the request?",
+    "choices": [
+      { "key": "A", "text": "who" },
+      { "key": "B", "text": "whose" },
+      { "key": "C", "text": "whoever" },
+      { "key": "D", "text": "whom" }
+    ],
+    "answer": "D",
+    "explanation": "The pronoun is the object of the preposition to, so the objective form whom is required. Rearranging the sentence gives I should address the request to him.",
+    "tip": "After a preposition, use whom, not who.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0032",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 3,
+    "stem": "By the time the auditor arrived, the staff ______ the records.",
+    "choices": [
+      { "key": "A", "text": "already filed" },
+      { "key": "B", "text": "had already filed" },
+      { "key": "C", "text": "has already filed" },
+      { "key": "D", "text": "were already filing" }
+    ],
+    "answer": "B",
+    "explanation": "The past perfect had filed shows that one past action was completed before another past action. Has filed is present perfect and does not fit a past deadline.",
+    "tip": "Use past perfect for the earlier of two past actions.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0033",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "The office ______ open since 8 a.m.",
+    "choices": [
+      { "key": "A", "text": "has been" },
+      { "key": "B", "text": "have been" },
+      { "key": "C", "text": "is" },
+      { "key": "D", "text": "was" }
+    ],
+    "answer": "A",
+    "explanation": "The office is singular, so has been is correct. Since 8 a.m. marks a period continuing to the present, which calls for the present perfect.",
+    "tip": "Since and for usually signal the present perfect.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0034",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "The training covered filing, recording, and ______.",
+    "choices": [
+      { "key": "A", "text": "to encode" },
+      { "key": "B", "text": "encode" },
+      { "key": "C", "text": "encoding" },
+      { "key": "D", "text": "how to encode" }
+    ],
+    "answer": "C",
+    "explanation": "The list uses parallel gerunds: filing, recording, and encoding. Switching to an infinitive or bare verb breaks the parallel structure.",
+    "tip": "Items in a list must share the same grammatical form.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0035",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "The new clerk is responsible for answering calls, sorting mail, and ______ walk-in clients.",
+    "choices": [
+      { "key": "A", "text": "to assist" },
+      { "key": "B", "text": "assist" },
+      { "key": "C", "text": "assists" },
+      { "key": "D", "text": "assisting" }
+    ],
+    "answer": "D",
+    "explanation": "Responsible for is followed by gerunds, and the list must stay parallel: answering, sorting, and assisting.",
+    "tip": "After a preposition such as for, use the -ing form.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0036",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "Having reviewed the proposal, ______.",
+    "choices": [
+      { "key": "A", "text": "the director approved it" },
+      { "key": "B", "text": "it was approved by the director" },
+      { "key": "C", "text": "approval was given" },
+      { "key": "D", "text": "the proposal was approved" }
+    ],
+    "answer": "A",
+    "explanation": "The opening phrase describes the person who reviewed. The subject right after the comma must be that person, so the director is correct. The other choices say the proposal or approval did the reviewing.",
+    "tip": "The subject after an introductory phrase must perform the action in that phrase.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0037",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "Covered in dust, ______.",
+    "choices": [
+      { "key": "A", "text": "the clerk wiped the shelves" },
+      { "key": "B", "text": "the shelves were wiped by the clerk" },
+      { "key": "C", "text": "wiping the shelves took time" },
+      { "key": "D", "text": "there were shelves to wipe" }
+    ],
+    "answer": "B",
+    "explanation": "The shelves were covered in dust, so the shelves must be the subject after the comma. Choice A says the clerk was covered in dust, which is the dangling modifier error.",
+    "tip": "Ask who or what is described by the opening phrase.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0038",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "The memorandum was addressed ______ all division chiefs.",
+    "choices": [
+      { "key": "A", "text": "for" },
+      { "key": "B", "text": "with" },
+      { "key": "C", "text": "at" },
+      { "key": "D", "text": "to" }
+    ],
+    "answer": "D",
+    "explanation": "The correct idiom is addressed to a person or group. Addressed for and addressed at are not standard in this sense.",
+    "tip": "Memorandums and letters are addressed to the recipient.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0039",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "She is capable ______ handling the workload.",
+    "choices": [
+      { "key": "A", "text": "to" },
+      { "key": "B", "text": "for" },
+      { "key": "C", "text": "of" },
+      { "key": "D", "text": "in" }
+    ],
+    "answer": "C",
+    "explanation": "The adjective capable is followed by the preposition of and a gerund: capable of handling. Capable to and capable for are common but incorrect.",
+    "tip": "Capable of, not capable to.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0040",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "The report must comply ______ the new guidelines.",
+    "choices": [
+      { "key": "A", "text": "to" },
+      { "key": "B", "text": "with" },
+      { "key": "C", "text": "of" },
+      { "key": "D", "text": "for" }
+    ],
+    "answer": "B",
+    "explanation": "The verb comply takes the preposition with: comply with the guidelines. The noun form, compliance, also takes with.",
+    "tip": "Comply with, compliant with, compliance with.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0041",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "He was absent ______ the meeting.",
+    "choices": [
+      { "key": "A", "text": "in" },
+      { "key": "B", "text": "on" },
+      { "key": "C", "text": "from" },
+      { "key": "D", "text": "at" }
+    ],
+    "answer": "C",
+    "explanation": "The adjective absent takes from when naming what was missed: absent from the meeting. Absent in is used for a place where someone is not present.",
+    "tip": "Absent from an event, present at an event.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0042",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "This year's backlog is ______ than last year's.",
+    "choices": [
+      { "key": "A", "text": "more large" },
+      { "key": "B", "text": "largest" },
+      { "key": "C", "text": "larger" },
+      { "key": "D", "text": "more larger" }
+    ],
+    "answer": "C",
+    "explanation": "Large is a one-syllable adjective, so the comparative is larger. More large and more larger double the comparison, and largest is superlative.",
+    "tip": "Use -er for short adjectives, more for long ones, never both.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0043",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "Of the two proposals, the second is the ______ practical.",
+    "choices": [
+      { "key": "A", "text": "most" },
+      { "key": "B", "text": "much" },
+      { "key": "C", "text": "very" },
+      { "key": "D", "text": "more" }
+    ],
+    "answer": "D",
+    "explanation": "Only two items are compared, so the comparative more is correct. Most is used for three or more.",
+    "tip": "Two items take the comparative; three or more take the superlative.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0044",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "The new system is ______ efficient than the old one.",
+    "choices": [
+      { "key": "A", "text": "more" },
+      { "key": "B", "text": "most" },
+      { "key": "C", "text": "much" },
+      { "key": "D", "text": "very" }
+    ],
+    "answer": "A",
+    "explanation": "The word than signals a comparison between two things, so the comparative more efficient is needed. Most efficient would compare three or more.",
+    "tip": "Than usually pairs with a comparative.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0045",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "There are ______ applicants this year than last year.",
+    "choices": [
+      { "key": "A", "text": "less" },
+      { "key": "B", "text": "fewer" },
+      { "key": "C", "text": "lesser" },
+      { "key": "D", "text": "little" }
+    ],
+    "answer": "B",
+    "explanation": "Applicants are countable, so fewer is correct. Less is used for uncountable quantities such as time or water.",
+    "tip": "Fewer for things you can count; less for mass nouns.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0046",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "The staff has ______ time to finish the audit.",
+    "choices": [
+      { "key": "A", "text": "fewer" },
+      { "key": "B", "text": "few" },
+      { "key": "C", "text": "lesser" },
+      { "key": "D", "text": "less" }
+    ],
+    "answer": "D",
+    "explanation": "Time is uncountable, so less is correct. Fewer applies to countable items, and lesser means lower in importance.",
+    "tip": "Less time, fewer hours.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0047",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 3,
+    "stem": "The documents ______ on the table since Monday.",
+    "choices": [
+      { "key": "A", "text": "have laid" },
+      { "key": "B", "text": "have lied" },
+      { "key": "C", "text": "have lain" },
+      { "key": "D", "text": "lay" }
+    ],
+    "answer": "C",
+    "explanation": "Lie means to recline and has the forms lie, lay, lain. Since documents rest on a surface without an object, have lain is correct. Lay needs a direct object.",
+    "tip": "Lie, lay, lain has no object; lay, laid, laid takes one.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0048",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "Please ______ the folder on the desk.",
+    "choices": [
+      { "key": "A", "text": "lay" },
+      { "key": "B", "text": "lie" },
+      { "key": "C", "text": "lain" },
+      { "key": "D", "text": "laid" }
+    ],
+    "answer": "A",
+    "explanation": "The sentence has a direct object, the folder, so lay is required. Lie never takes an object. Laid is the past tense, not the command form.",
+    "tip": "If you can put something somewhere, use lay.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0049",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "Which sentence is correct?",
+    "choices": [
+      { "key": "A", "text": "The reason is because the form was incomplete." },
+      { "key": "B", "text": "The reason is that the form was incomplete." },
+      { "key": "C", "text": "The reason is due to because the form was incomplete." },
+      { "key": "D", "text": "Because of the reason the form was incomplete." }
+    ],
+    "answer": "B",
+    "explanation": "The reason is that is the standard construction. The reason is because is redundant, and due to because doubles the cause-and-effect words.",
+    "tip": "The reason is that, never the reason is because.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0050",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "The audit revealed a ______ discrepancy in the records.",
+    "choices": [
+      { "key": "A", "text": "minor" },
+      { "key": "B", "text": "miner" },
+      { "key": "C", "text": "manner" },
+      { "key": "D", "text": "manor" }
+    ],
+    "answer": "A",
+    "explanation": "Minor means small or unimportant and fits a discrepancy. Miner is a person who mines, manner means a way of doing something, and manor is a large house.",
+    "tip": "Check whether the word you need is an adjective or a noun.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0051",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "The manager, together with the supervisors, ______ attending the seminar.",
+    "choices": [
+      { "key": "A", "text": "are" },
+      { "key": "B", "text": "were" },
+      { "key": "C", "text": "have been" },
+      { "key": "D", "text": "is" }
+    ],
+    "answer": "D",
+    "explanation": "Together with introduces an accompaniment phrase, not a compound subject. The subject remains the manager, which is singular, so is is correct.",
+    "tip": "Phrases like together with, as well as, and along with do not change the subject.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0052",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "Neither of the two answers ______ correct.",
+    "choices": [
+      { "key": "A", "text": "are" },
+      { "key": "B", "text": "were" },
+      { "key": "C", "text": "is" },
+      { "key": "D", "text": "have been" }
+    ],
+    "answer": "C",
+    "explanation": "Neither is singular when used alone, so it takes is. The phrase of the two answers is a modifier and does not make the subject plural.",
+    "tip": "Neither of and either of take singular verbs.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0053",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "The scissors ______ on the desk.",
+    "choices": [
+      { "key": "A", "text": "is" },
+      { "key": "B", "text": "are" },
+      { "key": "C", "text": "was" },
+      { "key": "D", "text": "has been" }
+    ],
+    "answer": "B",
+    "explanation": "Scissors is a plural-only noun, like pants and glasses, so it takes a plural verb: are. A pair of scissors would be singular.",
+    "tip": "Words that come in pairs take plural verbs.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0054",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "He is ______ honest official.",
+    "choices": [
+      { "key": "A", "text": "a" },
+      { "key": "B", "text": "the" },
+      { "key": "C", "text": "no article" },
+      { "key": "D", "text": "an" }
+    ],
+    "answer": "D",
+    "explanation": "Use an before a vowel sound. Honest begins with a silent h, so the first sound is the vowel sound ah, making an correct.",
+    "tip": "Articles follow sound, not spelling: an hour, a university.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0055",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "The equipment ______ delivered yesterday.",
+    "choices": [
+      { "key": "A", "text": "were" },
+      { "key": "B", "text": "have" },
+      { "key": "C", "text": "was" },
+      { "key": "D", "text": "are" }
+    ],
+    "answer": "C",
+    "explanation": "Equipment is an uncountable noun and takes a singular verb. Despite referring to many items, it is treated as one mass.",
+    "tip": "Uncountable nouns such as equipment, furniture, and information are singular.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0056",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "Ten kilometers ______ a long distance to walk.",
+    "choices": [
+      { "key": "A", "text": "is" },
+      { "key": "B", "text": "are" },
+      { "key": "C", "text": "were" },
+      { "key": "D", "text": "have been" }
+    ],
+    "answer": "A",
+    "explanation": "A measurement treated as one unit takes a singular verb. Ten kilometers is one distance, not ten separate items.",
+    "tip": "Sums, distances, and periods treated as one unit are singular.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0057",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "Each of the reports ______ a separate cover page.",
+    "choices": [
+      { "key": "A", "text": "need" },
+      { "key": "B", "text": "are needing" },
+      { "key": "C", "text": "have needed" },
+      { "key": "D", "text": "needs" }
+    ],
+    "answer": "D",
+    "explanation": "Each is singular, so the verb is needs. The phrase of the reports is a modifier and does not make the subject plural.",
+    "tip": "Each, every, either, and neither are singular.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0058",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "The news ______ encouraging.",
+    "choices": [
+      { "key": "A", "text": "are" },
+      { "key": "B", "text": "were" },
+      { "key": "C", "text": "is" },
+      { "key": "D", "text": "have been" }
+    ],
+    "answer": "C",
+    "explanation": "News ends in s but is singular, so it takes is. It is one piece of information, not a plural count noun.",
+    "tip": "News, mathematics, and economics are singular despite the s.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0059",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 3,
+    "stem": "If I ______ you, I would file the request today.",
+    "choices": [
+      { "key": "A", "text": "were" },
+      { "key": "B", "text": "was" },
+      { "key": "C", "text": "am" },
+      { "key": "D", "text": "will be" }
+    ],
+    "answer": "A",
+    "explanation": "This is a contrary-to-fact condition, which uses the subjunctive were for all subjects. I was would describe a real past situation, not a hypothetical one.",
+    "tip": "If I were you, not if I was you.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0060",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 3,
+    "stem": "The director requires that every employee ______ the form.",
+    "choices": [
+      { "key": "A", "text": "submits" },
+      { "key": "B", "text": "submitted" },
+      { "key": "C", "text": "submit" },
+      { "key": "D", "text": "will submit" }
+    ],
+    "answer": "C",
+    "explanation": "Requires that introduces a mandative subjunctive, which uses the base form submit for every subject. Submits would be the ordinary indicative form.",
+    "tip": "After require, request, insist, and recommend that, use the base verb.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0061",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 3,
+    "stem": "Hardly ______ the meeting begun when the power went out.",
+    "choices": [
+      { "key": "A", "text": "had" },
+      { "key": "B", "text": "has" },
+      { "key": "C", "text": "have" },
+      { "key": "D", "text": "was" }
+    ],
+    "answer": "A",
+    "explanation": "Hardly at the start of a clause triggers inversion with the past perfect: hardly had the meeting begun. Has and have do not fit the past sequence.",
+    "tip": "Negative openers such as hardly, scarcely, and never invert the subject and auxiliary.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0062",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "Not only ______ late, but he also forgot the documents.",
+    "choices": [
+      { "key": "A", "text": "he was" },
+      { "key": "B", "text": "was he" },
+      { "key": "C", "text": "he is" },
+      { "key": "D", "text": "is he" }
+    ],
+    "answer": "B",
+    "explanation": "Not only at the beginning of a clause requires inversion, so the verb comes before the subject: was he. The second half uses also to complete the pair.",
+    "tip": "Not only ... but also with an inverted first clause.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  }
+]

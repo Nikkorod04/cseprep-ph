@@ -1,0 +1,762 @@
+[
+  {
+    "id": "seed-anal-assoc-0133",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "word-association",
+    "difficulty": 1,
+    "stem": "Which does not belong?",
+    "choices": [
+      { "key": "A", "text": "bamboo" },
+      { "key": "B", "text": "rose" },
+      { "key": "C", "text": "orchid" },
+      { "key": "D", "text": "sunflower" }
+    ],
+    "answer": "A",
+    "explanation": "Rose, orchid, and sunflower are flowering plants. Bamboo is a grass, so it is the exception even though it is also a plant.",
+    "tip": "Name the narrow category, not just the broad one.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assoc-0134",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "word-association",
+    "difficulty": 1,
+    "stem": "Which does not belong?",
+    "choices": [
+      { "key": "A", "text": "Mercury" },
+      { "key": "B", "text": "Venus" },
+      { "key": "C", "text": "Mars" },
+      { "key": "D", "text": "Moon" }
+    ],
+    "answer": "D",
+    "explanation": "Mercury, Venus, and Mars are planets. The Moon is a natural satellite, so it is the exception.",
+    "tip": "Check whether each item belongs to the same class of object.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assoc-0135",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "word-association",
+    "difficulty": 1,
+    "stem": "Which does not belong?",
+    "choices": [
+      { "key": "A", "text": "tricycle" },
+      { "key": "B", "text": "jeepney" },
+      { "key": "C", "text": "ferry" },
+      { "key": "D", "text": "bus" }
+    ],
+    "answer": "C",
+    "explanation": "Tricycles, jeepneys, and buses travel on land. A ferry travels on water, so it is the exception.",
+    "tip": "Ask where each item normally operates.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assoc-0136",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "word-association",
+    "difficulty": 1,
+    "stem": "Which does not belong?",
+    "choices": [
+      { "key": "A", "text": "kilogram" },
+      { "key": "B", "text": "thermometer" },
+      { "key": "C", "text": "liter" },
+      { "key": "D", "text": "meter" }
+    ],
+    "answer": "B",
+    "explanation": "Kilogram, liter, and meter are units of measurement. A thermometer is an instrument used to take a measurement.",
+    "tip": "Separate units from the tools that measure them.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assoc-0137",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "word-association",
+    "difficulty": 2,
+    "stem": "Which does not belong?",
+    "choices": [
+      { "key": "A", "text": "president" },
+      { "key": "B", "text": "governor" },
+      { "key": "C", "text": "mayor" },
+      { "key": "D", "text": "senator" }
+    ],
+    "answer": "D",
+    "explanation": "Presidents, governors, and mayors are chief executives. A senator is a legislator, so the senator is the exception.",
+    "tip": "Look for a difference in branch or function, not just in rank.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assoc-0138",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "word-association",
+    "difficulty": 1,
+    "stem": "Which does not belong?",
+    "choices": [
+      { "key": "A", "text": "tennis" },
+      { "key": "B", "text": "basketball" },
+      { "key": "C", "text": "chess" },
+      { "key": "D", "text": "volleyball" }
+    ],
+    "answer": "C",
+    "explanation": "Tennis, basketball, and volleyball are physical sports played with a ball. Chess is a board game.",
+    "tip": "Distinguish physical sports from table or board games.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assoc-0139",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "word-association",
+    "difficulty": 1,
+    "stem": "Which does not belong?",
+    "choices": [
+      { "key": "A", "text": "furious" },
+      { "key": "B", "text": "happy" },
+      { "key": "C", "text": "elated" },
+      { "key": "D", "text": "joyful" }
+    ],
+    "answer": "A",
+    "explanation": "Happy, elated, and joyful describe positive emotions. Furious describes anger, so it is the exception.",
+    "tip": "Group by meaning, not by how long the word is.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assoc-0140",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "word-association",
+    "difficulty": 2,
+    "stem": "Which does not belong?",
+    "choices": [
+      { "key": "A", "text": "noun" },
+      { "key": "B", "text": "sentence" },
+      { "key": "C", "text": "verb" },
+      { "key": "D", "text": "adjective" }
+    ],
+    "answer": "B",
+    "explanation": "Noun, verb, and adjective are parts of speech. A sentence is a complete unit of meaning built from those parts.",
+    "tip": "Ask whether the items are components of the same system.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assoc-0141",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "word-association",
+    "difficulty": 2,
+    "stem": "Which does not belong?",
+    "choices": [
+      { "key": "A", "text": "Luzon" },
+      { "key": "B", "text": "Visayas" },
+      { "key": "C", "text": "Mindanao" },
+      { "key": "D", "text": "Palawan" }
+    ],
+    "answer": "D",
+    "explanation": "Luzon, Visayas, and Mindanao are the three major island groups of the Philippines. Palawan is a province within the Luzon group.",
+    "tip": "Distinguish island groups from individual provinces.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assoc-0142",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "word-association",
+    "difficulty": 1,
+    "stem": "Which does not belong?",
+    "choices": [
+      { "key": "A", "text": "rectangle" },
+      { "key": "B", "text": "square" },
+      { "key": "C", "text": "circle" },
+      { "key": "D", "text": "rhombus" }
+    ],
+    "answer": "C",
+    "explanation": "Rectangle, square, and rhombus are quadrilaterals with four sides. A circle has no sides or corners.",
+    "tip": "Count the sides or properties before choosing.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assum-0143",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "assumptions-conclusions",
+    "difficulty": 2,
+    "stem": "All permanent employees receive health insurance. Ramon receives health insurance. Therefore, Ramon is a permanent employee.\n\nWhich best explains why the reasoning is flawed?",
+    "choices": [
+      { "key": "A", "text": "Health insurance may also cover non-permanent employees." },
+      { "key": "B", "text": "Health insurance is optional for all employees." },
+      { "key": "C", "text": "All employees are permanent." },
+      { "key": "D", "text": "Ramon does not work for the agency." }
+    ],
+    "answer": "A",
+    "explanation": "The argument affirms the consequent. Being permanent implies having insurance, but having insurance does not imply being permanent if others are also covered.",
+    "tip": "All P are Q; X is Q; therefore X is P is invalid.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assum-0144",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "assumptions-conclusions",
+    "difficulty": 2,
+    "stem": "If the office is closed, the guard posts a notice on the door. A notice is posted on the door. Therefore, the office is closed.\n\nThe reasoning is flawed because ______.",
+    "choices": [
+      { "key": "A", "text": "the guard never posts notices" },
+      { "key": "B", "text": "a notice may be posted for another reason" },
+      { "key": "C", "text": "the office is always open" },
+      { "key": "D", "text": "notices are unreliable" }
+    ],
+    "answer": "B",
+    "explanation": "The notice is a sufficient result of closure, but it is not a unique one. A schedule change or maintenance notice would produce the same observation.",
+    "tip": "A result can have more than one cause.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assum-0145",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "assumptions-conclusions",
+    "difficulty": 3,
+    "stem": "The committee approved the budget because its members believed the project would finish on time.\n\nWhich is a necessary assumption of this statement?",
+    "choices": [
+      { "key": "A", "text": "The committee had enough time to review the proposal." },
+      { "key": "B", "text": "Every member voted in favor of the budget." },
+      { "key": "C", "text": "Finishing on time was a factor the committee considered important." },
+      { "key": "D", "text": "The project is the largest in the agency." }
+    ],
+    "answer": "C",
+    "explanation": "The stated reason only works if timely completion mattered to the committee. If it did not, that belief could not have caused the approval.",
+    "tip": "Negate the choice. If the reason collapses, it was necessary.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assum-0146",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "assumptions-conclusions",
+    "difficulty": 1,
+    "stem": "Employees who arrive before 8:00 a.m. are never late. Ana arrived at 7:45 a.m. Therefore, Ana was not late.\n\nWhich statement is the conclusion?",
+    "choices": [
+      { "key": "A", "text": "Ana arrived at 7:45 a.m." },
+      { "key": "B", "text": "Employees who arrive before 8:00 a.m. are never late." },
+      { "key": "C", "text": "Ana is an employee." },
+      { "key": "D", "text": "Ana was not late." }
+    ],
+    "answer": "D",
+    "explanation": "The conclusion is the claim supported by the other statements. The first two sentences are premises; the last sentence is what they are meant to prove.",
+    "tip": "The conclusion usually follows therefore or thus.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assum-0147",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "assumptions-conclusions",
+    "difficulty": 2,
+    "stem": "One office cut its processing time in half after adopting a new form. Therefore, all offices should adopt the form.\n\nThe argument is weakest because ______.",
+    "choices": [
+      { "key": "A", "text": "the result came from only one office" },
+      { "key": "B", "text": "processing time is not important" },
+      { "key": "C", "text": "the form is expensive to print" },
+      { "key": "D", "text": "other offices already use forms" }
+    ],
+    "answer": "A",
+    "explanation": "A single office is a small sample. Without evidence that conditions are similar elsewhere, the result may not transfer.",
+    "tip": "Watch for broad conclusions drawn from one case.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assum-0148",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "assumptions-conclusions",
+    "difficulty": 3,
+    "stem": "Only employees with security clearance may enter the server room. Marta entered the server room. Therefore, Marta has security clearance.\n\nThe argument assumes that ______.",
+    "choices": [
+      { "key": "A", "text": "Marta is a supervisor" },
+      { "key": "B", "text": "the clearance rule was enforced" },
+      { "key": "C", "text": "the server room was unlocked" },
+      { "key": "D", "text": "Marta had a key" }
+    ],
+    "answer": "B",
+    "explanation": "The conclusion follows only if no one entered without clearance. If the rule was ignored, Marta could have entered without it.",
+    "tip": "For rules, the hidden assumption is usually that the rule was followed.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assum-0149",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "assumptions-conclusions",
+    "difficulty": 2,
+    "stem": "Sales increased after the agency introduced its new logo. The logo caused the increase.\n\nThe reasoning is weak because ______.",
+    "choices": [
+      { "key": "A", "text": "logos are expensive to design" },
+      { "key": "B", "text": "sales always increase over time" },
+      { "key": "C", "text": "other factors may have caused the increase" },
+      { "key": "D", "text": "the agency has no competitors" }
+    ],
+    "answer": "C",
+    "explanation": "The argument treats sequence as causation. A price change, a new branch, or a seasonal peak could explain the sales increase instead.",
+    "tip": "After does not mean because.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assum-0150",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "assumptions-conclusions",
+    "difficulty": 2,
+    "stem": "All items in Box A are red. All red items are defective. Therefore, all items in Box A are defective.\n\nThis conclusion is ______.",
+    "choices": [
+      { "key": "A", "text": "invalid because Box A may be empty" },
+      { "key": "B", "text": "invalid because red items may not be defective" },
+      { "key": "C", "text": "true only if Box A has one item" },
+      { "key": "D", "text": "valid" }
+    ],
+    "answer": "D",
+    "explanation": "The chain is valid: Box A is inside red, and red is inside defective, so Box A is inside defective. This is a standard categorical syllogism.",
+    "tip": "Draw nested circles for all-are statements.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assum-0151",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "assumptions-conclusions",
+    "difficulty": 3,
+    "stem": "Some clerks are licensed teachers. Some licensed teachers are supervisors. Therefore, some clerks are supervisors.\n\nThe conclusion is ______.",
+    "choices": [
+      { "key": "A", "text": "invalid because the groups may not overlap" },
+      { "key": "B", "text": "valid because all three groups intersect" },
+      { "key": "C", "text": "invalid because no clerk is a supervisor" },
+      { "key": "D", "text": "valid because teachers can supervise" }
+    ],
+    "answer": "A",
+    "explanation": "The clerks who are teachers and the teachers who are supervisors may be different people. Two some-statements cannot be chained to guarantee an overlap.",
+    "tip": "Some A are B and some B are C never implies some A are C.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assum-0152",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "assumptions-conclusions",
+    "difficulty": 2,
+    "stem": "The agency will save money by outsourcing its cleaning service.\n\nWhich is a necessary assumption?",
+    "choices": [
+      { "key": "A", "text": "The agency currently has no cleaners." },
+      { "key": "B", "text": "Outsourcing costs less than the current arrangement." },
+      { "key": "C", "text": "Outsourced cleaners work faster." },
+      { "key": "D", "text": "Cleaning is not important to the agency." }
+    ],
+    "answer": "B",
+    "explanation": "Saving money requires the outsourced cost to be lower than what is spent now. If it costs more, the claim fails even if the work is faster.",
+    "tip": "Savings claims depend on a cost comparison.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-logic-0153",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "logic",
+    "difficulty": 2,
+    "stem": "If a document is confidential, it is kept in the vault. This document is not in the vault. Therefore, ______.",
+    "choices": [
+      { "key": "A", "text": "it is not confidential" },
+      { "key": "B", "text": "it is confidential" },
+      { "key": "C", "text": "it was removed from the vault" },
+      { "key": "D", "text": "all documents are confidential" }
+    ],
+    "answer": "A",
+    "explanation": "This is the valid contrapositive. From If P then Q and not Q, you can conclude not P.",
+    "tip": "If P then Q gives not Q implies not P.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-logic-0154",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "logic",
+    "difficulty": 2,
+    "stem": "If it rains, the parade is cancelled. The parade was cancelled. Therefore, it rained.\n\nThe conclusion ______.",
+    "choices": [
+      { "key": "A", "text": "follows validly" },
+      { "key": "B", "text": "does not follow because other things can cancel a parade" },
+      { "key": "C", "text": "follows because rain always cancels parades" },
+      { "key": "D", "text": "does not follow because it cannot rain" }
+    ],
+    "answer": "B",
+    "explanation": "The argument affirms the consequent. A storm, a permit issue, or another event could have cancelled the parade instead of rain.",
+    "tip": "Q does not imply P.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-logic-0155",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "logic",
+    "difficulty": 3,
+    "stem": "All A are B. No B are C. Therefore, no A are C.\n\nThe conclusion is ______.",
+    "choices": [
+      { "key": "A", "text": "invalid because A may be C" },
+      { "key": "B", "text": "invalid because some B are C" },
+      { "key": "C", "text": "valid" },
+      { "key": "D", "text": "valid only if C is empty" }
+    ],
+    "answer": "C",
+    "explanation": "A is entirely inside B, and B shares nothing with C. Therefore A can share nothing with C. The reasoning is valid.",
+    "tip": "Nest the circles: A inside B, B outside C.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-logic-0156",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "logic",
+    "difficulty": 1,
+    "stem": "The meeting is either today or tomorrow. It is not today. Therefore, ______.",
+    "choices": [
+      { "key": "A", "text": "the meeting is cancelled" },
+      { "key": "B", "text": "the meeting was yesterday" },
+      { "key": "C", "text": "the meeting may still be today" },
+      { "key": "D", "text": "the meeting is tomorrow" }
+    ],
+    "answer": "D",
+    "explanation": "This is a valid disjunctive syllogism. With only two options and one eliminated, the other must be true.",
+    "tip": "Either A or B, not A, therefore B.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-logic-0157",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "logic",
+    "difficulty": 1,
+    "stem": "Rina is taller than Liza. Liza is taller than Mona. Who is the shortest?",
+    "choices": [
+      { "key": "A", "text": "Mona" },
+      { "key": "B", "text": "Liza" },
+      { "key": "C", "text": "Rina" },
+      { "key": "D", "text": "Cannot be determined" }
+    ],
+    "answer": "A",
+    "explanation": "The chain is Rina > Liza > Mona, so Mona is the shortest.",
+    "tip": "Rewrite comparisons as a single chain from highest to lowest.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-logic-0158",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "logic",
+    "difficulty": 1,
+    "stem": "Ben finished before Carlo but after Dina. Who finished first?",
+    "choices": [
+      { "key": "A", "text": "Ben" },
+      { "key": "B", "text": "Dina" },
+      { "key": "C", "text": "Carlo" },
+      { "key": "D", "text": "Cannot be determined" }
+    ],
+    "answer": "B",
+    "explanation": "Dina finished before Ben, and Ben finished before Carlo. The order is Dina, Ben, Carlo.",
+    "tip": "Place each name on a timeline from first to last.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-logic-0159",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "logic",
+    "difficulty": 2,
+    "stem": "If P, then Q. If Q, then R. Therefore, ______.",
+    "choices": [
+      { "key": "A", "text": "if R, then P" },
+      { "key": "B", "text": "if not P, then not R" },
+      { "key": "C", "text": "if P, then R" },
+      { "key": "D", "text": "if R, then Q" }
+    ],
+    "answer": "C",
+    "explanation": "This is a valid hypothetical syllogism. P leads to Q and Q leads to R, so P leads to R.",
+    "tip": "Chain conditionals in the same direction.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-logic-0160",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "logic",
+    "difficulty": 2,
+    "stem": "Some students are athletes. All athletes are disciplined. Therefore, ______.",
+    "choices": [
+      { "key": "A", "text": "all students are disciplined" },
+      { "key": "B", "text": "no students are athletes" },
+      { "key": "C", "text": "all disciplined people are athletes" },
+      { "key": "D", "text": "some students are disciplined" }
+    ],
+    "answer": "D",
+    "explanation": "The students who are athletes must also be disciplined, because all athletes are. That guarantees at least some disciplined students.",
+    "tip": "Follow the overlapping group through the all-statement.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-logic-0161",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "logic",
+    "difficulty": 3,
+    "stem": "No civil servant is appointed by election. Some officials are elected. Therefore, ______.",
+    "choices": [
+      { "key": "A", "text": "some officials are not civil servants" },
+      { "key": "B", "text": "all officials are civil servants" },
+      { "key": "C", "text": "no official is elected" },
+      { "key": "D", "text": "some civil servants are elected" }
+    ],
+    "answer": "A",
+    "explanation": "Elected officials cannot be civil servants, because no civil servant is elected. Since some officials are elected, those officials are not civil servants.",
+    "tip": "If no A is B, anything that is B is not A.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-logic-0162",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "logic",
+    "difficulty": 2,
+    "stem": "If the budget is approved, the project starts in June. The project did not start in June. Therefore, ______.",
+    "choices": [
+      { "key": "A", "text": "the budget was approved" },
+      { "key": "B", "text": "the project was cancelled" },
+      { "key": "C", "text": "the budget was not approved" },
+      { "key": "D", "text": "the project starts in July" }
+    ],
+    "answer": "C",
+    "explanation": "This is the valid contrapositive. If approval guarantees a June start and June did not happen, then approval did not happen.",
+    "tip": "Not Q means not P when P guarantees Q.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-data-0163",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "data-interpretation",
+    "difficulty": 1,
+    "stem": "Sales by branch:\n\nBranch | Monday | Tuesday | Wednesday\nNorth  | 120    | 150     | 130\nSouth  | 90     | 110     | 100\nEast   | 140    | 100     | 150\n\nHow many units were sold on Wednesday in total?",
+    "choices": [
+      { "key": "A", "text": "360" },
+      { "key": "B", "text": "380" },
+      { "key": "C", "text": "390" },
+      { "key": "D", "text": "400" }
+    ],
+    "answer": "B",
+    "explanation": "Wednesday sales are 130 + 100 + 150 = 380. The 390 distractor comes from Monday's total.",
+    "tip": "Read the column named in the question before adding.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-data-0164",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "data-interpretation",
+    "difficulty": 2,
+    "stem": "Sales by branch:\n\nBranch | Monday | Tuesday | Wednesday\nNorth  | 120    | 150     | 130\nSouth  | 90     | 110     | 100\nEast   | 140    | 100     | 150\n\nWhich branch had the highest total sales for the three days?",
+    "choices": [
+      { "key": "A", "text": "North" },
+      { "key": "B", "text": "South" },
+      { "key": "C", "text": "East" },
+      { "key": "D", "text": "North and East tied" }
+    ],
+    "answer": "A",
+    "explanation": "North totals 120 + 150 + 130 = 400. South totals 300, and East totals 390. North is highest by 10 units.",
+    "tip": "Add across the row for a three-day total.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-data-0165",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "data-interpretation",
+    "difficulty": 2,
+    "stem": "Sales by branch:\n\nBranch | Monday | Tuesday | Wednesday\nNorth  | 120    | 150     | 130\nSouth  | 90     | 110     | 100\nEast   | 140    | 100     | 150\n\nApproximately what percent of Monday's total came from North?",
+    "choices": [
+      { "key": "A", "text": "30%" },
+      { "key": "B", "text": "32%" },
+      { "key": "C", "text": "34%" },
+      { "key": "D", "text": "38%" }
+    ],
+    "answer": "C",
+    "explanation": "Monday's total is 120 + 90 + 140 = 350. North contributed 120, so 120 / 350 is about 0.343, or 34%.",
+    "tip": "Percent of total = part divided by the column total.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-data-0166",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "data-interpretation",
+    "difficulty": 1,
+    "stem": "Sales by branch:\n\nBranch | Monday | Tuesday | Wednesday\nNorth  | 120    | 150     | 130\nSouth  | 90     | 110     | 100\nEast   | 140    | 100     | 150\n\nHow many more units did East sell on Wednesday than South did?",
+    "choices": [
+      { "key": "A", "text": "30" },
+      { "key": "B", "text": "40" },
+      { "key": "C", "text": "45" },
+      { "key": "D", "text": "50" }
+    ],
+    "answer": "D",
+    "explanation": "East sold 150 on Wednesday and South sold 100. The difference is 50.",
+    "tip": "For how many more, subtract the smaller value from the larger.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-data-0167",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "data-interpretation",
+    "difficulty": 2,
+    "stem": "Sales by branch:\n\nBranch | Monday | Tuesday | Wednesday\nNorth  | 120    | 150     | 130\nSouth  | 90     | 110     | 100\nEast   | 140    | 100     | 150\n\nWhat was South's average daily sales for the three days?",
+    "choices": [
+      { "key": "A", "text": "100" },
+      { "key": "B", "text": "110" },
+      { "key": "C", "text": "120" },
+      { "key": "D", "text": "130" }
+    ],
+    "answer": "A",
+    "explanation": "South sold 90 + 110 + 100 = 300 over three days. The average is 300 / 3 = 100.",
+    "tip": "Average = row total divided by the number of days.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-data-0168",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "data-interpretation",
+    "difficulty": 2,
+    "stem": "Sales by branch:\n\nBranch | Monday | Tuesday | Wednesday\nNorth  | 120    | 150     | 130\nSouth  | 90     | 110     | 100\nEast   | 140    | 100     | 150\n\nIf North's Tuesday sales increase by 10%, what will the new figure be?",
+    "choices": [
+      { "key": "A", "text": "160" },
+      { "key": "B", "text": "165" },
+      { "key": "C", "text": "170" },
+      { "key": "D", "text": "175" }
+    ],
+    "answer": "B",
+    "explanation": "North sold 150 on Tuesday. A 10% increase is 15, so the new figure is 165. Equivalently, 150 x 1.10 = 165.",
+    "tip": "A 10% increase means multiplying by 1.10.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-data-0169",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "data-interpretation",
+    "difficulty": 1,
+    "stem": "Employees by office:\n\nOffice | Permanent | Contractual\nA      | 40        | 10\nB      | 25        | 15\nC      | 35        | 5\n\nHow many employees does Office B have in total?",
+    "choices": [
+      { "key": "A", "text": "30" },
+      { "key": "B", "text": "35" },
+      { "key": "C", "text": "40" },
+      { "key": "D", "text": "45" }
+    ],
+    "answer": "C",
+    "explanation": "Office B has 25 permanent plus 15 contractual employees, for a total of 40.",
+    "tip": "Add the two columns for a row total.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-data-0170",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "data-interpretation",
+    "difficulty": 3,
+    "stem": "Employees by office:\n\nOffice | Permanent | Contractual\nA      | 40        | 10\nB      | 25        | 15\nC      | 35        | 5\n\nWhich office has the highest ratio of permanent to contractual employees?",
+    "choices": [
+      { "key": "A", "text": "Office A" },
+      { "key": "B", "text": "Office B" },
+      { "key": "C", "text": "Offices A and B are tied" },
+      { "key": "D", "text": "Office C" }
+    ],
+    "answer": "D",
+    "explanation": "The ratios are A = 40:10 (4:1), B = 25:15 (about 1.67:1), and C = 35:5 (7:1). Office C has the highest ratio.",
+    "tip": "Divide permanent by contractual to compare ratios.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-data-0171",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "data-interpretation",
+    "difficulty": 2,
+    "stem": "Employees by office:\n\nOffice | Permanent | Contractual\nA      | 40        | 10\nB      | 25        | 15\nC      | 35        | 5\n\nApproximately what percent of all employees are contractual?",
+    "choices": [
+      { "key": "A", "text": "20%" },
+      { "key": "B", "text": "23%" },
+      { "key": "C", "text": "25%" },
+      { "key": "D", "text": "30%" }
+    ],
+    "answer": "B",
+    "explanation": "Total employees = 50 + 40 + 40 = 130. Contractual employees = 10 + 15 + 5 = 30. Then 30 / 130 is about 0.231, or 23%.",
+    "tip": "Compute both totals before dividing.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-data-0172",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "data-interpretation",
+    "difficulty": 3,
+    "stem": "Employees by office:\n\nOffice | Permanent | Contractual\nA      | 40        | 10\nB      | 25        | 15\nC      | 35        | 5\n\nIf Office A hires five more permanent employees, what percent of Office A's new total will be permanent?",
+    "choices": [
+      { "key": "A", "text": "82%" },
+      { "key": "B", "text": "80%" },
+      { "key": "C", "text": "78%" },
+      { "key": "D", "text": "75%" }
+    ],
+    "answer": "A",
+    "explanation": "Office A would have 45 permanent and 55 total employees. Then 45 / 55 is about 0.818, or 82%. The old 40/50 ratio was 80%.",
+    "tip": "Update both the part and the total after a hire.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  }
+]

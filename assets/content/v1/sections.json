@@ -1,0 +1,62 @@
+[
+  {
+    "id": "verbal",
+    "name": "Verbal Ability",
+    "short": "Verbal",
+    "blurb": "Vocabulary, grammar, analogy, paragraph organization, and reading.",
+    "topics": [
+      { "id": "vocabulary", "name": "Vocabulary" },
+      { "id": "grammar-usage", "name": "Grammar & Correct Usage" },
+      { "id": "analogy", "name": "Analogy" },
+      { "id": "paragraph-organization", "name": "Paragraph Organization" },
+      { "id": "reading-comprehension", "name": "Reading Comprehension" }
+    ]
+  },
+  {
+    "id": "numerical",
+    "name": "Numerical Ability",
+    "short": "Numerical",
+    "blurb": "Basic operations, word problems, number series, fractions and percent.",
+    "topics": [
+      { "id": "basic-operations", "name": "Basic Operations" },
+      { "id": "word-problems", "name": "Word Problems" },
+      { "id": "number-series", "name": "Number Series" },
+      { "id": "fractions-percent", "name": "Fractions, Decimals & Percent" }
+    ]
+  },
+  {
+    "id": "analytical",
+    "name": "Analytical Ability",
+    "short": "Analytical",
+    "blurb": "Word association, assumptions, logic, and data interpretation. Professional only.",
+    "topics": [
+      { "id": "word-association", "name": "Word Association" },
+      { "id": "assumptions-conclusions", "name": "Assumptions & Conclusions" },
+      { "id": "logic", "name": "Logic" },
+      { "id": "data-interpretation", "name": "Data Interpretation" }
+    ]
+  },
+  {
+    "id": "clerical",
+    "name": "Clerical Ability",
+    "short": "Clerical",
+    "blurb": "Filing, spelling, and comparing or coding information. Subprofessional only.",
+    "topics": [
+      { "id": "filing-alphabetical", "name": "Filing & Alphabetizing" },
+      { "id": "spelling", "name": "Spelling" },
+      { "id": "comparing-coding", "name": "Comparing & Coding" }
+    ]
+  },
+  {
+    "id": "general-info",
+    "name": "General Information",
+    "short": "Gen. Info",
+    "blurb": "1987 Constitution, RA 6713, peace and human rights, and the environment.",
+    "topics": [
+      { "id": "constitution", "name": "1987 Constitution" },
+      { "id": "ra-6713", "name": "RA 6713" },
+      { "id": "peace-human-rights", "name": "Peace & Human Rights" },
+      { "id": "environment", "name": "Environment" }
+    ]
+  }
+]

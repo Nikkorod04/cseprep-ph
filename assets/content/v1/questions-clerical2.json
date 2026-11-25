@@ -1,0 +1,382 @@
+[
+  {
+    "id": "seed-cler-file-0303",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 2,
+    "stem": "Arrange these names in the order they would be filed:\n1. Bautista, Ana\n2. Bautista, Ben\n3. Bau, Carla\n4. Bautista, Carl",
+    "choices": [
+      { "key": "A", "text": "3 - 1 - 2 - 4" },
+      { "key": "B", "text": "1 - 2 - 3 - 4" },
+      { "key": "C", "text": "3 - 1 - 4 - 2" },
+      { "key": "D", "text": "1 - 3 - 2 - 4" }
+    ],
+    "answer": "A",
+    "explanation": "Bau comes before Bautista because the shorter name has nothing after BAU. The three Bautista names are then filed by first name: Ana, Ben, Carl.",
+    "tip": "Nothing before something; then compare the first names.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0304",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 1,
+    "stem": "Arrange these folder numbers in order:\n1. 2025-8\n2. 2025-18\n3. 2025-80\n4. 2025-108",
+    "choices": [
+      { "key": "A", "text": "2 - 1 - 3 - 4" },
+      { "key": "B", "text": "1 - 2 - 3 - 4" },
+      { "key": "C", "text": "1 - 3 - 2 - 4" },
+      { "key": "D", "text": "4 - 3 - 2 - 1" }
+    ],
+    "answer": "B",
+    "explanation": "The numbers after the prefix are 8, 18, 80, and 108, which are already in ascending order. Numeric filing reads the value, not the digit count.",
+    "tip": "Do not file 108 before 80 just because it has more digits.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0305",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 2,
+    "stem": "Which name would be filed first?",
+    "choices": [
+      { "key": "A", "text": "Dela Cruz, Jose" },
+      { "key": "B", "text": "De Vera, Ana" },
+      { "key": "C", "text": "Dela Cruz, Ana" },
+      { "key": "D", "text": "De Vera, Jose" }
+    ],
+    "answer": "C",
+    "explanation": "Compare DELACRUZ with DEVERA. The third letters are L and V, and L comes first. Between the two Dela Cruz names, Ana comes before Jose.",
+    "tip": "Compare letter by letter before looking at first names.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0306",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 2,
+    "stem": "Arrange these names in the order they would be filed:\n1. Reyes, Ana\n2. Reyes, Ben\n3. Rey, Carla\n4. Reyes, Carl",
+    "choices": [
+      { "key": "A", "text": "1 - 2 - 3 - 4" },
+      { "key": "B", "text": "3 - 1 - 4 - 2" },
+      { "key": "C", "text": "1 - 3 - 2 - 4" },
+      { "key": "D", "text": "3 - 1 - 2 - 4" }
+    ],
+    "answer": "D",
+    "explanation": "Rey comes before Reyes because the shorter word has nothing after REY. The Reyes entries then follow by first name: Ana, Ben, Carl.",
+    "tip": "A complete shorter word files before a longer word with the same start.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0307",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 2,
+    "stem": "Arrange these codes in numerical order:\n1. 003\n2. 030\n3. 300\n4. 013",
+    "choices": [
+      { "key": "A", "text": "1 - 4 - 2 - 3" },
+      { "key": "B", "text": "1 - 2 - 3 - 4" },
+      { "key": "C", "text": "2 - 1 - 4 - 3" },
+      { "key": "D", "text": "3 - 2 - 4 - 1" }
+    ],
+    "answer": "A",
+    "explanation": "The values are 3, 30, 300, and 13. In ascending order they are 3, 13, 30, and 300, which is 1-4-2-3.",
+    "tip": "Remove leading zeros before comparing values.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0308",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 1,
+    "stem": "Which of these pairs follows the correct filing order?",
+    "choices": [
+      { "key": "A", "text": "Garcia, Ben before Garcia, Ana" },
+      { "key": "B", "text": "Lim, Ana before Lim, Ben" },
+      { "key": "C", "text": "Reyes, Zoe before Reyes, Ana" },
+      { "key": "D", "text": "Tan, Ben before Tan, Ana" }
+    ],
+    "answer": "B",
+    "explanation": "When the surname is the same, the first name decides. Ana comes before Ben, so Lim, Ana before Lim, Ben is correct.",
+    "tip": "Same surname means alphabetize by the first name.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0309",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 3,
+    "stem": "Arrange these names in the order they would be filed:\n1. De Guzman, Lito\n2. Dela Cruz, Ana\n3. De Leon, Ben\n4. Del Pilar, Cora",
+    "choices": [
+      { "key": "A", "text": "1 - 3 - 2 - 4" },
+      { "key": "B", "text": "3 - 1 - 2 - 4" },
+      { "key": "C", "text": "1 - 2 - 3 - 4" },
+      { "key": "D", "text": "2 - 3 - 1 - 4" }
+    ],
+    "answer": "C",
+    "explanation": "Compare without spaces: DEGUZMAN, DELACRUZ, DELEON, DELPILAR. After DE, G comes before L, so De Guzman is first. Among the DEL names, the fourth letters A, E, and P fix the rest.",
+    "tip": "Compare the first differing letter, not the whole word.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0310",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 1,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "anual" },
+      { "key": "B", "text": "anually" },
+      { "key": "C", "text": "annuall" },
+      { "key": "D", "text": "annual" }
+    ],
+    "answer": "D",
+    "explanation": "Annual has a double n and a single l: a-n-n-u-a-l. The adverb annually doubles the l because of the suffix.",
+    "tip": "Annual doubles the n, not the l.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0311",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 2,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "committee" },
+      { "key": "B", "text": "commitee" },
+      { "key": "C", "text": "comittee" },
+      { "key": "D", "text": "committe" }
+    ],
+    "answer": "A",
+    "explanation": "Committee doubles the m, the t, and the final e: c-o-m-m-i-t-t-e-e. The other choices drop one of the doubled letters.",
+    "tip": "Committee has double m, double t, double e.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0312",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 2,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "existance" },
+      { "key": "B", "text": "existence" },
+      { "key": "C", "text": "existense" },
+      { "key": "D", "text": "exsistence" }
+    ],
+    "answer": "B",
+    "explanation": "Existence ends in -ence: e-x-i-s-t-e-n-c-e. It has no a after the t.",
+    "tip": "Exist plus -ence, not -ance.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0313",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 1,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "recomend" },
+      { "key": "B", "text": "reccomend" },
+      { "key": "C", "text": "recommend" },
+      { "key": "D", "text": "recomendd" }
+    ],
+    "answer": "C",
+    "explanation": "Recommend has one c and two m's: r-e-c-o-m-m-e-n-d. The other choices either drop an m or add an extra c.",
+    "tip": "One c, two m's in recommend.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0314",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 2,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "restuarant" },
+      { "key": "B", "text": "restarant" },
+      { "key": "C", "text": "restaurrant" },
+      { "key": "D", "text": "restaurant" }
+    ],
+    "answer": "D",
+    "explanation": "Restaurant is spelled r-e-s-t-a-u-r-a-n-t. The u comes before the r, and there is only one r in the middle.",
+    "tip": "Rest-au-rant: keep the au together.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0315",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 2,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "harass" },
+      { "key": "B", "text": "harrass" },
+      { "key": "C", "text": "haras" },
+      { "key": "D", "text": "harasse" }
+    ],
+    "answer": "A",
+    "explanation": "Harass has one r and a double s: h-a-r-a-s-s. Harassment keeps the single r as well.",
+    "tip": "One r, two s's.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0316",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 3,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "milennium" },
+      { "key": "B", "text": "millennium" },
+      { "key": "C", "text": "millenium" },
+      { "key": "D", "text": "milleniumm" }
+    ],
+    "answer": "B",
+    "explanation": "Millennium doubles both the l and the n: m-i-l-l-e-n-n-i-u-m. It comes from mille, meaning thousand, plus annus, meaning year.",
+    "tip": "Double l, double n: millennium.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-code-0317",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "comparing-coding",
+    "difficulty": 1,
+    "stem": "Which pair is identical?",
+    "choices": [
+      { "key": "A", "text": "ORD-2025-014  /  ORD-2025-014" },
+      { "key": "B", "text": "ORD-2025-014  /  ORD-2025-041" },
+      { "key": "C", "text": "PR-118  /  PR-181" },
+      { "key": "D", "text": "ADM-07  /  ADM-70" }
+    ],
+    "answer": "A",
+    "explanation": "Only the first pair matches exactly. The others transpose digits: 014 versus 041, 118 versus 181, and 07 versus 70.",
+    "tip": "Compare from left to right and watch for transposed digits.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-code-0318",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "comparing-coding",
+    "difficulty": 1,
+    "stem": "Which pair differs?",
+    "choices": [
+      { "key": "A", "text": "2026-0042  /  2026-0042" },
+      { "key": "B", "text": "0918-222-3344  /  0918-222-3344" },
+      { "key": "C", "text": "RA-6713  /  RA-6713" },
+      { "key": "D", "text": "SEQ-105  /  SEQ-150" }
+    ],
+    "answer": "D",
+    "explanation": "The last pair has 105 in one entry and 150 in the other. The first three pairs are identical character for character.",
+    "tip": "Check the last three digits first.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-code-0319",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "comparing-coding",
+    "difficulty": 2,
+    "stem": "If TABLE is coded as UBCMF, how is CHAIR coded?",
+    "choices": [
+      { "key": "A", "text": "DIBKR" },
+      { "key": "B", "text": "DIBJS" },
+      { "key": "C", "text": "DJBJS" },
+      { "key": "D", "text": "EIBJS" }
+    ],
+    "answer": "B",
+    "explanation": "Each letter moves forward one place in the alphabet: T to U, A to B, and so on. Applying that to CHAIR gives D, I, B, J, S.",
+    "tip": "Confirm the shift on two letters before applying it to the whole word.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-code-0320",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "comparing-coding",
+    "difficulty": 2,
+    "stem": "If A = 1, B = 2, C = 3, and so on, what is the sum of the letters in DOG?",
+    "choices": [
+      { "key": "A", "text": "24" },
+      { "key": "B", "text": "25" },
+      { "key": "C", "text": "26" },
+      { "key": "D", "text": "27" }
+    ],
+    "answer": "C",
+    "explanation": "D is 4, O is 15, and G is 7. Their sum is 4 + 15 + 7 = 26.",
+    "tip": "Write each position above its letter to avoid skipping.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-code-0321",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "comparing-coding",
+    "difficulty": 1,
+    "stem": "Which number matches its word?",
+    "choices": [
+      { "key": "A", "text": "sixty-five = 65" },
+      { "key": "B", "text": "fifty-six = 65" },
+      { "key": "C", "text": "seventy-five = 65" },
+      { "key": "D", "text": "sixteen = 65" }
+    ],
+    "answer": "A",
+    "explanation": "Sixty-five is 65. Fifty-six is 56, seventy-five is 75, and sixteen is 16.",
+    "tip": "Read the word in two parts: tens, then ones.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-code-0322",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "comparing-coding",
+    "difficulty": 2,
+    "stem": "If A = 1 and Z = 26, what is the difference between the values of Z and C?",
+    "choices": [
+      { "key": "A", "text": "20" },
+      { "key": "B", "text": "21" },
+      { "key": "C", "text": "22" },
+      { "key": "D", "text": "23" }
+    ],
+    "answer": "D",
+    "explanation": "Z is 26 and C is 3. Their difference is 26 minus 3, which equals 23.",
+    "tip": "Convert both letters before subtracting.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  }
+]

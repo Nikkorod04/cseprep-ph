@@ -1,0 +1,420 @@
+[
+  {
+    "id": "seed-verb-vocab-0001",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "stem": "The agency's memorandum was so ______ that even the newest employees understood the revised filing procedure on their first read.",
+    "choices": [
+      { "key": "A", "text": "lucid" },
+      { "key": "B", "text": "ambiguous" },
+      { "key": "C", "text": "verbose" },
+      { "key": "D", "text": "curt" }
+    ],
+    "answer": "A",
+    "explanation": "Lucid means clear and easy to understand, which matches the clue that new employees understood it on the first read. Ambiguous means unclear; verbose means wordy; curt means rudely brief.",
+    "tip": "Replace the blank with your own word first, then find the closest match.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-vocab-0002",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "stem": "The audit findings were ______: the report cited no document, witness, or computation to support them.",
+    "choices": [
+      { "key": "A", "text": "substantiated" },
+      { "key": "B", "text": "meticulous" },
+      { "key": "C", "text": "conclusive" },
+      { "key": "D", "text": "baseless" }
+    ],
+    "answer": "D",
+    "explanation": "The colon explains the blank: nothing supports the findings, so they are baseless. Substantiated and conclusive mean the opposite. Meticulous describes careful work, not unsupported claims.",
+    "tip": "A colon usually restates or explains the idea before it.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0003",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 1,
+    "stem": "Each of the applicants ______ required to submit a copy of the transcript of records.",
+    "choices": [
+      { "key": "A", "text": "are" },
+      { "key": "B", "text": "were" },
+      { "key": "C", "text": "is" },
+      { "key": "D", "text": "have been" }
+    ],
+    "answer": "C",
+    "explanation": "The subject is 'Each,' which is singular. The phrase 'of the applicants' is only a modifier and does not change the verb. The present tense also fits the general requirement.",
+    "tip": "Cross out prepositional phrases before checking subject-verb agreement.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-gram-0004",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "grammar-usage",
+    "difficulty": 2,
+    "stem": "Neither the supervisor nor the clerks ______ informed about the schedule change.",
+    "choices": [
+      { "key": "A", "text": "was" },
+      { "key": "B", "text": "were" },
+      { "key": "C", "text": "is" },
+      { "key": "D", "text": "has been" }
+    ],
+    "answer": "B",
+    "explanation": "With 'neither ... nor,' the verb agrees with the nearer subject. 'Clerks' is plural, so the plural 'were' is correct. 'Was' and 'is' would agree with the singular supervisor, which is farther away.",
+    "tip": "Either/or and neither/nor use the nearest-subject rule.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-anal-0005",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "analogy",
+    "difficulty": 1,
+    "stem": "thermometer : temperature :: barometer : ______",
+    "choices": [
+      { "key": "A", "text": "pressure" },
+      { "key": "B", "text": "wind speed" },
+      { "key": "C", "text": "humidity" },
+      { "key": "D", "text": "altitude" }
+    ],
+    "answer": "A",
+    "explanation": "A thermometer measures temperature; a barometer measures atmospheric pressure. The relationship is instrument to the quantity it measures, so the other weather quantities do not fit.",
+    "tip": "Name the relationship in a sentence before checking the choices.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-read-0006",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "reading-comprehension",
+    "difficulty": 2,
+    "stem": "The barangay office announced that business permits would be processed only from 8:00 a.m. to 12:00 p.m. starting next week. Residents who arrive after noon will be asked to return the following day. The change allows staff to conduct field inspections in the afternoon.\n\nWhy will residents who arrive after noon be turned away?",
+    "choices": [
+      { "key": "A", "text": "The office closes permanently at noon." },
+      { "key": "B", "text": "Permits are no longer issued to residents." },
+      { "key": "C", "text": "The registry has run out of forms." },
+      { "key": "D", "text": "Staff will be conducting field inspections." }
+    ],
+    "answer": "D",
+    "explanation": "The last sentence states the reason directly: the change allows staff to conduct field inspections in the afternoon. The other choices add information that the passage never mentions.",
+    "tip": "Answer only from the passage; outside knowledge is a trap.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0007",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 1,
+    "stem": "A barangay budget of P480,000 is allocated as follows: 35% for salaries, 25% for supplies, and the rest for equipment. How much is allocated for equipment?",
+    "choices": [
+      { "key": "A", "text": "P120,000" },
+      { "key": "B", "text": "P168,000" },
+      { "key": "C", "text": "P192,000" },
+      { "key": "D", "text": "P288,000" }
+    ],
+    "answer": "C",
+    "explanation": "Equipment gets the remaining percent: 100% - 35% - 25% = 40%. Then 0.40 x 480,000 = 192,000. Choice B is the supplies share, and choice A is the salaries share.",
+    "tip": "Compute the remaining percent before touching the peso amount.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0008",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "A clerk can encode a report in 6 hours, while another clerk can do the same job in 4 hours. Working together, how long will it take them to finish the report?",
+    "choices": [
+      { "key": "A", "text": "2 hours 24 minutes" },
+      { "key": "B", "text": "2 hours 40 minutes" },
+      { "key": "C", "text": "3 hours" },
+      { "key": "D", "text": "5 hours" }
+    ],
+    "answer": "A",
+    "explanation": "Add the work rates: 1/6 + 1/4 = 5/12 of the job per hour. Invert to get the time: 12/5 = 2.4 hours, which is 2 hours and 24 minutes. Choice D wrongly adds the times.",
+    "tip": "Work rate = 1/time. Add rates, then invert.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0009",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 1,
+    "stem": "The price of a ream of paper rose from P180 to P207. What was the percent increase?",
+    "choices": [
+      { "key": "A", "text": "15%" },
+      { "key": "B", "text": "12%" },
+      { "key": "C", "text": "18%" },
+      { "key": "D", "text": "27%" }
+    ],
+    "answer": "A",
+    "explanation": "The increase is 207 - 180 = 27. Percent change is change divided by the original: 27 / 180 = 0.15, or 15%. Dividing by the new price instead gives the common wrong answer of about 13%.",
+    "tip": "Percent change = change / original, never change / new.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0010",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "The ratio of male to female employees in an office is 3:5. If there are 320 employees in all, how many are female?",
+    "choices": [
+      { "key": "A", "text": "120" },
+      { "key": "B", "text": "160" },
+      { "key": "C", "text": "200" },
+      { "key": "D", "text": "240" }
+    ],
+    "answer": "C",
+    "explanation": "Add the ratio parts: 3 + 5 = 8. One part is 320 / 8 = 40 employees. Females make up 5 parts, so 5 x 40 = 200. Choice A is the number of males.",
+    "tip": "Add the ratio parts first to find the value of one part.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-word-0011",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "word-problems",
+    "difficulty": 2,
+    "stem": "The average of five numbers is 24. When one number is removed, the average of the remaining four becomes 22. What number was removed?",
+    "choices": [
+      { "key": "A", "text": "26" },
+      { "key": "B", "text": "30" },
+      { "key": "C", "text": "32" },
+      { "key": "D", "text": "34" }
+    ],
+    "answer": "C",
+    "explanation": "Convert averages to totals. The original sum is 5 x 24 = 120. The new sum is 4 x 22 = 88. The removed number is 120 - 88 = 32.",
+    "tip": "Averages hide totals. Multiply average by count first.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-series-0012",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "number-series",
+    "difficulty": 2,
+    "stem": "3, 6, 11, 18, 27, ______",
+    "choices": [
+      { "key": "A", "text": "36" },
+      { "key": "B", "text": "40" },
+      { "key": "C", "text": "44" },
+      { "key": "D", "text": "38" }
+    ],
+    "answer": "D",
+    "explanation": "The differences are 3, 5, 7, and 9, increasing by 2 each time. The next difference is 11, so 27 + 11 = 38. The pattern is not a constant difference.",
+    "tip": "Check first differences before ratios.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-num-frac-0013",
+    "tracks": ["professional", "subprofessional"],
+    "section": "numerical",
+    "topic": "fractions-percent",
+    "difficulty": 1,
+    "stem": "Which decimal is equal to 3/8?",
+    "choices": [
+      { "key": "A", "text": "0.30" },
+      { "key": "B", "text": "0.34" },
+      { "key": "C", "text": "0.38" },
+      { "key": "D", "text": "0.375" }
+    ],
+    "answer": "D",
+    "explanation": "Divide 3 by 8 to get 0.375, which is also 37.5%. The eighths are worth memorizing: 1/8 = 12.5%, 3/8 = 37.5%, 5/8 = 62.5%, and 7/8 = 87.5%.",
+    "tip": "Memorize the eighths; they appear often in percent items.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assoc-0014",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "word-association",
+    "difficulty": 1,
+    "stem": "Which does not belong?",
+    "choices": [
+      { "key": "A", "text": "tuna" },
+      { "key": "B", "text": "shark" },
+      { "key": "C", "text": "dolphin" },
+      { "key": "D", "text": "tilapia" }
+    ],
+    "answer": "C",
+    "explanation": "A dolphin is a mammal that breathes air and nurses its young. Tuna, shark, and tilapia are fish. The category is fish, and the dolphin is the exception.",
+    "tip": "Name the category first, then find the exception.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-logic-0015",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "logic",
+    "difficulty": 2,
+    "stem": "If it rains, the field trip is cancelled. The field trip was not cancelled. Therefore, ______.",
+    "choices": [
+      { "key": "A", "text": "it did not rain" },
+      { "key": "B", "text": "it rained" },
+      { "key": "C", "text": "the trip was rescheduled" },
+      { "key": "D", "text": "it may have rained" }
+    ],
+    "answer": "A",
+    "explanation": "This is the valid contrapositive. From 'If P then Q' and 'not Q,' you can conclude 'not P.' Concluding 'it rained' would be the invalid inverse.",
+    "tip": "If P then Q gives you not Q -> not P. Never Q -> P.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-assum-0016",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "assumptions-conclusions",
+    "difficulty": 2,
+    "stem": "All clerks in the office who passed the exam were promoted. Maricel was promoted. Therefore, Maricel passed the exam.\n\nThe reasoning is flawed because ______.",
+    "choices": [
+      { "key": "A", "text": "Maricel may not be a clerk" },
+      { "key": "B", "text": "the premise about clerks is false" },
+      { "key": "C", "text": "being promoted does not necessarily mean passing the exam" },
+      { "key": "D", "text": "some clerks were not promoted" }
+    ],
+    "answer": "C",
+    "explanation": "The argument affirms the consequent. Passing implies promotion, but promotion does not imply passing because other reasons for promotion may exist. The structure 'All P are Q; X is Q; therefore X is P' is invalid.",
+    "tip": "Affirming the consequent is the most common flawed pattern.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-anal-data-0017",
+    "tracks": ["professional"],
+    "section": "analytical",
+    "topic": "data-interpretation",
+    "difficulty": 2,
+    "stem": "Transactions handled by three offices:\n\nOffice | Monday | Tuesday\nA      | 120    | 150\nB      | 90     | 110\nC      | 140    | 100\n\nApproximately what percent of Tuesday's total transactions came from Office A?",
+    "choices": [
+      { "key": "A", "text": "40%" },
+      { "key": "B", "text": "42%" },
+      { "key": "C", "text": "45%" },
+      { "key": "D", "text": "48%" }
+    ],
+    "answer": "B",
+    "explanation": "Tuesday's total is 150 + 110 + 100 = 360. Office A handled 150, so 150 / 360 is about 0.4167, or 41.7%, which rounds to 42%. Monday's numbers are a decoy.",
+    "tip": "Read the column the question asks about before computing.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-file-0018",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "filing-alphabetical",
+    "difficulty": 2,
+    "stem": "Arrange these names in the order they would be filed:\n1. Del Rosario, Maria\n2. Dela Cruz, Juan\n3. De Leon, Ana\n4. Dela Pena, Rico",
+    "choices": [
+      { "key": "A", "text": "2 - 4 - 3 - 1" },
+      { "key": "B", "text": "2 - 3 - 4 - 1" },
+      { "key": "C", "text": "3 - 2 - 4 - 1" },
+      { "key": "D", "text": "4 - 2 - 3 - 1" }
+    ],
+    "answer": "A",
+    "explanation": "Ignore spaces and compare letter by letter: DELACRUZ, DELAPENA, DELEON, DELROSARIO. The fourth letters are C, P, E, and R, which sort C, E, P, R only after the common DEL. So Dela Cruz, Dela Pena, De Leon, Del Rosario.",
+    "tip": "File letter by letter, ignoring spaces and punctuation.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-cler-spell-0019",
+    "tracks": ["subprofessional"],
+    "section": "clerical",
+    "topic": "spelling",
+    "difficulty": 1,
+    "stem": "Which word is spelled correctly?",
+    "choices": [
+      { "key": "A", "text": "accomodate" },
+      { "key": "B", "text": "accommodate" },
+      { "key": "C", "text": "acommodate" },
+      { "key": "D", "text": "acommadate" }
+    ],
+    "answer": "B",
+    "explanation": "Accommodate has two c's and two m's. The common misspellings drop one of each. Remember that the word is big enough to accommodate two of each letter.",
+    "tip": "Accommodate is big enough to accommodate two c's and two m's.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-const-0020",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "constitution",
+    "difficulty": 1,
+    "stem": "The Bill of Rights is found in which article of the 1987 Constitution?",
+    "choices": [
+      { "key": "A", "text": "Article II" },
+      { "key": "B", "text": "Article VI" },
+      { "key": "C", "text": "Article XIII" },
+      { "key": "D", "text": "Article III" }
+    ],
+    "answer": "D",
+    "explanation": "Article III is the Bill of Rights. Article II contains the Declaration of Principles and State Policies, Article VI covers the Legislative Department, and Article XIII covers Social Justice and Human Rights.",
+    "tip": "II principles, III rights, VI legislative, XIII social justice.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-ra67-0021",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "ra-6713",
+    "difficulty": 2,
+    "stem": "Under RA 6713, within how many working days must a public official respond to a letter or request from the public?",
+    "choices": [
+      { "key": "A", "text": "5 working days" },
+      { "key": "B", "text": "10 working days" },
+      { "key": "C", "text": "15 working days" },
+      { "key": "D", "text": "30 working days" }
+    ],
+    "answer": "C",
+    "explanation": "RA 6713 requires a reply within 15 working days from receipt. Do not confuse this with the 30 days allowed to divest a conflicting interest or the April 30 deadline for the SALN.",
+    "tip": "15 working days to reply; 30 days to divest; SALN by April 30.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-geni-envi-0022",
+    "tracks": ["professional", "subprofessional"],
+    "section": "general-info",
+    "topic": "environment",
+    "difficulty": 1,
+    "stem": "RA 9003 is also known as the ______.",
+    "choices": [
+      { "key": "A", "text": "Clean Air Act" },
+      { "key": "B", "text": "Ecological Solid Waste Management Act" },
+      { "key": "C", "text": "Clean Water Act" },
+      { "key": "D", "text": "Wildlife Resources Conservation Act" }
+    ],
+    "answer": "B",
+    "explanation": "RA 9003 is the Ecological Solid Waste Management Act of 2000. RA 8749 is the Clean Air Act, RA 9275 is the Clean Water Act, and RA 9147 covers wildlife resources.",
+    "tip": "8749 air, 9003 waste, 9275 water, 9147 wildlife.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "seed-verb-para-0123",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "paragraph-organization",
+    "difficulty": 2,
+    "stem": "Arrange the sentences to form a coherent paragraph.\n1. Finally, volunteers segregate the collected waste for recycling.\n2. The barangay announces a cleanup drive two weeks in advance.\n3. On the day itself, residents gather at the plaza and form teams.\n4. Next, each team is assigned a street or drainage canal.",
+    "choices": [
+      { "key": "A", "text": "2 - 3 - 4 - 1" },
+      { "key": "B", "text": "1 - 2 - 3 - 4" },
+      { "key": "C", "text": "2 - 4 - 3 - 1" },
+      { "key": "D", "text": "3 - 2 - 4 - 1" }
+    ],
+    "answer": "A",
+    "explanation": "Sentence 2 introduces the event. Sentence 3 moves to the day itself, 4 uses next, and 1 closes with finally. The transitions fix the order.",
+    "tip": "Find the topic sentence, then follow the time signals.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-para-0124",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "paragraph-organization",
+    "difficulty": 2,
+    "stem": "Arrange the sentences to form a coherent paragraph.\n1. The clerk then checks the document for completeness.\n2. Incoming mail is sorted by office of origin.\n3. Documents with missing requirements are returned to the sender.\n4. Complete documents are forwarded to the records section.",
+    "choices": [
+      { "key": "A", "text": "1 - 2 - 4 - 3" },
+      { "key": "B", "text": "2 - 1 - 3 - 4" },
+      { "key": "C", "text": "2 - 3 - 1 - 4" },
+      { "key": "D", "text": "4 - 3 - 2 - 1" }
+    ],
+    "answer": "B",
+    "explanation": "Sorting comes first, then checking. The check produces two branches: incomplete documents are returned, while complete ones are forwarded. Sentence 1's then marks the second step.",
+    "tip": "Look for then, next, and finally to anchor the sequence.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-para-0125",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "paragraph-organization",
+    "difficulty": 2,
+    "stem": "Arrange the sentences to form a coherent paragraph.\n1. As a result, the office shifted to generator power.\n2. A sudden power interruption hit the building at noon.\n3. Work continued, but the air conditioning remained off.\n4. The maintenance team restored the main line by 3 p.m.",
+    "choices": [
+      { "key": "A", "text": "1 - 2 - 4 - 3" },
+      { "key": "B", "text": "2 - 3 - 4 - 1" },
+      { "key": "C", "text": "2 - 1 - 3 - 4" },
+      { "key": "D", "text": "3 - 1 - 2 - 4" }
+    ],
+    "answer": "C",
+    "explanation": "Sentence 2 states the event. Sentence 1 gives its immediate result, 3 describes the effect on work, and 4 closes with the restoration.",
+    "tip": "Cause comes before effect; as a result marks the effect.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-para-0126",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "paragraph-organization",
+    "difficulty": 3,
+    "stem": "Arrange the sentences to form a coherent paragraph.\n1. It also reduces the risk of missing deadlines.\n2. Keeping a daily task list has several benefits.\n3. One benefit is that it clears the mind of small reminders.\n4. Most importantly, it helps employees focus on priority work.",
+    "choices": [
+      { "key": "A", "text": "2 - 1 - 3 - 4" },
+      { "key": "B", "text": "3 - 1 - 4 - 2" },
+      { "key": "C", "text": "4 - 3 - 2 - 1" },
+      { "key": "D", "text": "2 - 3 - 1 - 4" }
+    ],
+    "answer": "D",
+    "explanation": "Sentence 2 is the topic sentence. Sentence 3 introduces the first benefit, 1 adds another with also, and 4 saves the strongest point for most importantly.",
+    "tip": "General statement first, then examples, then the strongest point.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-para-0127",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "paragraph-organization",
+    "difficulty": 1,
+    "stem": "Arrange the sentences to form a coherent paragraph.\n1. The agency was created in 1987 to oversee the program.\n2. Within five years, it had opened offices in every region.\n3. In 2005, the program was expanded to cover new services.\n4. Today, it serves more than two million clients yearly.",
+    "choices": [
+      { "key": "A", "text": "2 - 1 - 3 - 4" },
+      { "key": "B", "text": "1 - 2 - 3 - 4" },
+      { "key": "C", "text": "4 - 1 - 2 - 3" },
+      { "key": "D", "text": "1 - 3 - 2 - 4" }
+    ],
+    "answer": "B",
+    "explanation": "The dates and time markers run forward: 1987, within five years, 2005, and today. That makes 1-2-3-4 the chronological order.",
+    "tip": "When dates appear, arrange them from earliest to latest.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-para-0128",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "paragraph-organization",
+    "difficulty": 2,
+    "stem": "Arrange the sentences to form a coherent paragraph.\n1. Heavy rain flooded the main road on Monday.\n2. As a result, several employees arrived late.\n3. The office extended its grace period for attendance.\n4. By Tuesday, the water had subsided.",
+    "choices": [
+      { "key": "A", "text": "2 - 1 - 4 - 3" },
+      { "key": "B", "text": "1 - 3 - 2 - 4" },
+      { "key": "C", "text": "1 - 2 - 3 - 4" },
+      { "key": "D", "text": "4 - 1 - 2 - 3" }
+    ],
+    "answer": "C",
+    "explanation": "The flood starts the chain, lateness follows as a result, the grace period is the response, and Tuesday closes the timeline.",
+    "tip": "Follow the cause-and-effect chain from the first event.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-para-0129",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "paragraph-organization",
+    "difficulty": 2,
+    "stem": "Arrange the sentences to form a coherent paragraph.\n1. It is calculated by dividing total output by total hours worked.\n2. Productivity is a measure of how efficiently work is done.\n3. A higher ratio means more output for the same time.\n4. Managers use this measure to compare teams fairly.",
+    "choices": [
+      { "key": "A", "text": "2 - 1 - 3 - 4" },
+      { "key": "B", "text": "1 - 2 - 3 - 4" },
+      { "key": "C", "text": "2 - 3 - 1 - 4" },
+      { "key": "D", "text": "4 - 2 - 1 - 3" }
+    ],
+    "answer": "A",
+    "explanation": "Sentence 2 defines productivity. Sentence 1 explains how it is computed, 3 interprets the result, and 4 gives the practical use.",
+    "tip": "Definition, then method, then interpretation, then application.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-para-0130",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "paragraph-organization",
+    "difficulty": 3,
+    "stem": "Arrange the sentences to form a coherent paragraph.\n1. However, the new system required two weeks of training.\n2. The old filing system was slow and prone to errors.\n3. After training, staff completed tasks twice as fast.\n4. The agency therefore replaced it with a digital database.",
+    "choices": [
+      { "key": "A", "text": "2 - 1 - 4 - 3" },
+      { "key": "B", "text": "4 - 2 - 1 - 3" },
+      { "key": "C", "text": "1 - 2 - 4 - 3" },
+      { "key": "D", "text": "2 - 4 - 1 - 3" }
+    ],
+    "answer": "D",
+    "explanation": "The problem comes first, the replacement follows, however introduces the cost of the change, and 3 gives the result after training.",
+    "tip": "However signals a contrast that comes after the main decision.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-para-0131",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "paragraph-organization",
+    "difficulty": 2,
+    "stem": "Arrange the sentences to form a coherent paragraph.\n1. Next, the applicant signs the declaration at the bottom.\n2. The applicant first fills out the personal data sheet.\n3. Finally, the receiving clerk stamps the form and issues a claim stub.\n4. The completed form is then reviewed for missing entries.",
+    "choices": [
+      { "key": "A", "text": "2 - 1 - 4 - 3" },
+      { "key": "B", "text": "2 - 4 - 1 - 3" },
+      { "key": "C", "text": "4 - 2 - 1 - 3" },
+      { "key": "D", "text": "3 - 4 - 1 - 2" }
+    ],
+    "answer": "B",
+    "explanation": "The applicant fills out the form, it is reviewed, the applicant signs, and the clerk stamps it. First, then, next, and finally mark the steps.",
+    "tip": "Follow the numbered transitions: first, then, next, finally.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  },
+  {
+    "id": "seed-verb-para-0132",
+    "tracks": ["professional", "subprofessional"],
+    "section": "verbal",
+    "topic": "paragraph-organization",
+    "difficulty": 2,
+    "stem": "Arrange the sentences to form a coherent paragraph.\n1. The report recommends three changes to the procurement process.\n2. The third is to publish all bids on the agency website.\n3. The first is to shorten the approval cycle to ten days.\n4. The second is to require a single consolidated form.",
+    "choices": [
+      { "key": "A", "text": "1 - 2 - 3 - 4" },
+      { "key": "B", "text": "3 - 4 - 2 - 1" },
+      { "key": "C", "text": "1 - 3 - 4 - 2" },
+      { "key": "D", "text": "2 - 3 - 4 - 1" }
+    ],
+    "answer": "C",
+    "explanation": "Sentence 1 announces the three recommendations. The ordinal words first, second, and third then set the order: 3, 4, 2.",
+    "tip": "Ordinal words are the strongest ordering clue.",
+    "version": 1,
+    "reviewedAt": "2026-11-24"
+  }
+]
