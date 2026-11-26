@@ -164,6 +164,7 @@ The site is served by GitHub Pages from the `/docs` folder on `master`. Update `
 | [`docs/TECH-SPEC.md`](./docs/TECH-SPEC.md) | Architecture, schema, ad integration, build & release |
 | [`docs/AD-REMOVAL-PLAN.md`](./docs/AD-REMOVAL-PLAN.md) | One-time Remove Ads purchase, pricing, Play Billing, testing, phases |
 | [`docs/privacy-policy.html`](./docs/privacy-policy.html) | Public privacy policy for the Play Store listing |
+| [`docs/STORE-LISTING.md`](./docs/STORE-LISTING.md) | Play Store copy, graphics, data safety, content rating, QA checklist |
 
 ## Disclaimer
 

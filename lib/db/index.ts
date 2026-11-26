@@ -26,6 +26,27 @@ export type {
 
 const BOOKMARK_KEY = "cseprep.bookmarks.web";
 const REPORT_KEY = "cseprep.reports.web";
+const DEMO_KEY = "cseprep.demo.v1";
+const DEMO_ENABLED = process.env.EXPO_PUBLIC_DEMO === "1";
+
+interface DemoData {
+  overview?: Overview;
+  streak?: number;
+  topics?: TopicStat[];
+  mocks?: MockRow[];
+  sessions?: SessionRow[];
+  missed?: string[];
+}
+
+function readDemo(): DemoData | null {
+  if (!DEMO_ENABLED) return null;
+  try {
+    const raw = localStorage.getItem(DEMO_KEY);
+    return raw ? (JSON.parse(raw) as DemoData) : null;
+  } catch {
+    return null;
+  }
+}
 
 function readBookmarks(): string[] {
   try {
@@ -56,31 +77,34 @@ export function initDb(): void {}
 export function saveSession(_input: SaveSessionInput): void {}
 
 export function getOverview(): Overview {
-  return { total: 0, correct: 0, today: 0, ms: 0 };
+  return readDemo()?.overview ?? { total: 0, correct: 0, today: 0, ms: 0 };
 }
 
 export function getStreak(): number {
-  return 0;
+  return readDemo()?.streak ?? 0;
 }
 
 export function getTopicStats(): TopicStat[] {
-  return [];
+  return readDemo()?.topics ?? [];
 }
 
-export function getWeakTopics(_limit = 3): TopicStat[] {
-  return [];
+export function getWeakTopics(limit = 3): TopicStat[] {
+  return getTopicStats()
+    .slice()
+    .sort((a, b) => a.accuracy - b.accuracy)
+    .slice(0, limit);
 }
 
-export function getRecentSessions(_limit = 5): SessionRow[] {
-  return [];
+export function getRecentSessions(limit = 5): SessionRow[] {
+  return (readDemo()?.sessions ?? []).slice(0, limit);
 }
 
-export function getMockResults(_limit = 5): MockRow[] {
-  return [];
+export function getMockResults(limit = 5): MockRow[] {
+  return (readDemo()?.mocks ?? []).slice(0, limit);
 }
 
-export function getMissedQuestionIds(_limit = 20): string[] {
-  return [];
+export function getMissedQuestionIds(limit = 20): string[] {
+  return (readDemo()?.missed ?? []).slice(0, limit);
 }
 
 export function isBookmarked(questionId: string): boolean {

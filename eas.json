@@ -10,6 +10,15 @@
     "preview": {
       "distribution": "internal"
     },
+    "internal": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_ADS_MODE": "test"
+      }
+    },
     "production": {
       "autoIncrement": true,
       "env": {
