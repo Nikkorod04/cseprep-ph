@@ -44,6 +44,7 @@ export default function RootLayout() {
           />
           <Stack.Screen name="session/results" options={{ gestureEnabled: false }} />
           <Stack.Screen name="tips/[slug]" />
+          <Stack.Screen name="legal" />
         </Stack>
       ) : (
         <View style={styles.loading}>

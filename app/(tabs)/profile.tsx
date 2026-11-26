@@ -1,5 +1,5 @@
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { useFocusEffect } from "expo-router";
+import { useFocusEffect, useRouter } from "expo-router";
 import { useCallback, useState } from "react";
 import { Alert, Image, StyleSheet, Switch, View } from "react-native";
 import { AppText } from "@/components/ui/AppText";
@@ -29,6 +29,7 @@ import { formatDate } from "@/lib/utils/date";
 const GOALS = [10, 20, 30];
 
 export default function ProfileScreen() {
+  const router = useRouter();
   const { overview, streak, accuracy, mocks, refresh } = useDashboard();
   const {
     track,
@@ -312,6 +313,29 @@ export default function ProfileScreen() {
           connected to the Civil Service Commission. All practice items are
           original.
         </AppText>
+        <View style={styles.divider} />
+        <Touchable
+          onPress={() => router.push("/legal")}
+          haptic="light"
+          scaleTo={0.99}
+          style={styles.legalRow}
+          accessibilityLabel="Privacy and legal"
+        >
+          <MaterialCommunityIcons
+            name="shield-check-outline"
+            size={18}
+            color={colors.primary}
+          />
+          <AppText variant="label" color={colors.primary}>
+            Privacy & legal
+          </AppText>
+          <View style={{ flex: 1 }} />
+          <MaterialCommunityIcons
+            name="chevron-right"
+            size={18}
+            color={colors.muted}
+          />
+        </Touchable>
         <AppText variant="tiny" color={colors.muted}>
           {mocks.length} mock attempts · {overview.total} total items
         </AppText>
@@ -384,6 +408,12 @@ const styles = StyleSheet.create({
   },
   chipWrap: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },
   divider: { height: StyleSheet.hairlineWidth, backgroundColor: colors.line },
+  legalRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: spacing.sm,
+    paddingVertical: spacing.xs,
+  },
   resetRow: {
     flexDirection: "row",
     alignItems: "center",

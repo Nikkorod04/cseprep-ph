@@ -2,7 +2,7 @@
 
 Offline-first Civil Service Exam (CSE-PPT) reviewer for Filipino examinees. Two tracks (Professional & Subprofessional), full mock exams, per-subtopic analytics, an error log, and a tips library. Expo SDK 58 + TypeScript + SQLite + AdMob.
 
-**Status: working scaffold.** Onboarding, home dashboard, practice, quiz engine, mock exam, results, analytics, tips, profile, offline storage, and ad slots are in place with **322 questions**.
+**Status: feature-complete release candidate.** Onboarding (four-step, user-set exam date), home dashboard, practice, quiz engine, mock exam, results, analytics, tips, daily challenge, offline storage, content reports, MaterialCommunityIcons, privacy/legal screen, and working ad slots are in place with **322 questions**.
 
 ---
 
@@ -42,6 +42,7 @@ Open the QR code from `npm run go` with Expo Go. Type check with `npm run typech
 | Tips | 8 guides with rich formatting (bold, italics, subheadings, callouts), search, filters, grouped library, reading progress, practice CTA, and related reads |
 | App shell | Blue Material app bar with elevation and white text; exam countdown on Practice/Mock; guide count on Tips |
 | Profile | Track/goal settings, reminder toggle, error log, reset progress |
+| Privacy & legal | In-app policy and disclaimer at `/legal` (Profile → About), AdMob disclosure, contact |
 | Ads | Anchored banner slot, Expo-Go-safe platform split, test IDs, env overrides |
 | Offline | All content bundled; progress in on-device SQLite; no account |
 
@@ -49,7 +50,7 @@ Open the QR code from `npm run go` with Expo Go. Type check with `npm run typech
 
 - **322 items of ~920** — 136 verbal, 67 numerical, 44 analytical, 42 clerical, 33 general info. Both mocks are now complete: **150 items / 168 min** (Professional) and **145 items / 141 min** (Subprofessional).
 - **Web is preview-only** — `lib/db/index.ts` stubs stats and attempts; bookmarks use localStorage there.
-- **Ads are wired but untested on device** — replace test app/unit IDs before shipping.
+- **Ads are verified on device with Google test units** — banner, interstitial, and rewarded formats load in a development build. Live units are only used by the production profile; EEA consent (UMP) is not wired yet.
 - **Reminders** — scheduling is implemented, but Expo Go may block it; use a dev build.
 - **One active session at a time** — starting a new set replaces a paused one.
 
@@ -142,6 +143,16 @@ No Gmail OAuth is used, and reports never leave the device until the user sends 
 
 ---
 
+## Privacy & legal
+
+The in-app screen lives at `/legal` and is linked from **Profile → About → Privacy & legal**. It covers local data, AdMob, content reports, notifications, RA 10173 rights, and the CSC disclaimer.
+
+The public policy for the Play Store listing is [`docs/privacy-policy.html`](./docs/privacy-policy.html). Host it on any public static host and paste that URL into Play Console → App content → Privacy policy. No server or login is required.
+
+- **GitHub Pages:** push this repo to GitHub, then Settings → Pages → Deploy from a branch → `master` / `/docs`. The URL becomes `https://<username>.github.io/<repo>/privacy-policy.html`.
+- **Netlify Drop:** drag the `docs` folder onto Netlify Drop for a one-off public link.
+- The URL must load without a login and must remain stable while the app is published.
+
 ## Docs
 
 | File | Contents |
@@ -149,6 +160,8 @@ No Gmail OAuth is used, and reports never leave the device until the user sends 
 | [`PLAN.md`](./PLAN.md) | Product plan, exam blueprint, features, monetization, roadmap, KPIs, risks |
 | [`docs/CONTENT-BLUEPRINT.md`](./docs/CONTENT-BLUEPRINT.md) | Question spec, sample items, tips & tricks, formula sheet, study plans |
 | [`docs/TECH-SPEC.md`](./docs/TECH-SPEC.md) | Architecture, schema, ad integration, build & release |
+| [`docs/AD-REMOVAL-PLAN.md`](./docs/AD-REMOVAL-PLAN.md) | One-time Remove Ads purchase, pricing, Play Billing, testing, phases |
+| [`docs/privacy-policy.html`](./docs/privacy-policy.html) | Public privacy policy for the Play Store listing |
 
 ## Disclaimer
 
