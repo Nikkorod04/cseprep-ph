@@ -36,7 +36,9 @@
         "expo-build-properties",
         {
           "android": {
-            "minSdkVersion": 24
+            "minSdkVersion": 24,
+            "enableMinifyInReleaseBuilds": false,
+            "enableShrinkResourcesInReleaseBuilds": false
           }
         }
       ],
@@ -53,8 +55,8 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/splash-icon.png",
-          "imageWidth": 340,
+          "image": "./assets/splash-mark.png",
+          "imageWidth": 300,
           "resizeMode": "contain",
           "backgroundColor": "#1A46C4"
         }

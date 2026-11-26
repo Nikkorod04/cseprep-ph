@@ -51,6 +51,7 @@ Open the QR code from `npm run go` with Expo Go. Type check with `npm run typech
 - **322 items of ~920** — 136 verbal, 67 numerical, 44 analytical, 42 clerical, 33 general info. Both mocks are now complete: **150 items / 168 min** (Professional) and **145 items / 141 min** (Subprofessional).
 - **Web is preview-only** — `lib/db/index.ts` stubs stats and attempts; bookmarks use localStorage there.
 - **Ads are verified on device with Google test units** — banner, interstitial, and rewarded formats load in a development build. Live units are only used by the production profile; EEA consent (UMP) is not wired yet.
+- **Release minification is disabled for now** — Expo SDK 58's default R8 strips WorkManager/Room constructors pulled in by `expo-notifications`, which crashes release builds at launch. `app.json` sets `enableMinifyInReleaseBuilds: false`; re-enable later with the correct keep rules.
 - **Reminders** — scheduling is implemented, but Expo Go may block it; use a dev build.
 - **One active session at a time** — starting a new set replaces a paused one.
 
