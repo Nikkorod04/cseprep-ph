@@ -5,12 +5,7 @@
     "section": "general",
     "minutes": 3,
     "summary": "The CSE is a speed test. Here is the three-pass method that keeps you from losing easy points.",
-    "body": "In the Professional exam you have 170 minutes for 170 items, including the descriptive questionnaire. That is about **67 seconds per item**. Subprofessional is even tighter at roughly **58 seconds**.\n\nMost first-time takers fail not because they cannot solve the hard items, but because they spend four minutes on one hard item and never reach ten easy ones.\n\n## The three passes\n\n• **Pass 1:** answer everything you know in under 30 seconds. Do not compute yet if the answer is not obvious.\n• **Pass 2:** return to the items that need computation or careful reading.\n• **Pass 3:** guess on everything left. There is **no penalty for a wrong answer**, so a blank is always a wasted chance.\n\n## Checkpoints\n\n• After one hour you should be near **item 55**.\n• After two hours, near **item 110**.\n• If you are behind, stop being careful on items you already know and move.\n\n> **Rule of thumb:** if an item passes **90 seconds**, mark it and move. A hard item should never cost you three easy ones.\n\n## Transfer in blocks\n\nMark your answers in the booklet first, then transfer in **blocks of ten**. Transferring one item at a time is how people lose their place and shift every answer after it.",
-    "takeaways": [
-      "**Pace:** about 67 seconds per item for Professional and 58 for Subprofessional.",
-      "**Rule of thumb:** if an item passes 90 seconds, mark it and move.",
-      "**Never blank:** there is no penalty for a wrong answer."
-    ]
+    "body": "In the Professional exam you have 170 minutes for 170 items, including the descriptive questionnaire. That is about **67 seconds per item**. Subprofessional is even tighter at roughly **58 seconds**.\n\nMost first-time takers fail not because they cannot solve the hard items, but because they spend four minutes on one hard item and never reach ten easy ones.\n\n## The three passes\n\n• **Pass 1:** answer everything you know in under 30 seconds. Do not compute yet if the answer is not obvious.\n• **Pass 2:** return to the items that need computation or careful reading.\n• **Pass 3:** guess on everything left. There is **no penalty for a wrong answer**, so a blank is always a wasted chance.\n\n## Checkpoints\n\n• After one hour you should be near **item 55**.\n• After two hours, near **item 110**.\n• If you are behind, stop being careful on items you already know and move.\n\n> **Rule of thumb:** if an item passes **90 seconds**, mark it and move. A hard item should never cost you three easy ones.\n\n## Transfer in blocks\n\nMark your answers in the booklet first, then transfer in **blocks of ten**. Transferring one item at a time is how people lose their place and shift every answer after it."
   },
   {
     "slug": "grammar-traps",
@@ -18,12 +13,7 @@
     "section": "verbal",
     "minutes": 4,
     "summary": "Eight agreement and usage rules that show up in almost every CSE verbal section.",
-    "body": "Cross out prepositional phrases before you check subject-verb agreement. In _The box of forms is on the table_, the subject is **box**, not **forms**.\n\n## Agreement rules\n\n• **Each, every, either, neither, everyone, somebody, nobody:** singular. _Each of the clerks is present._\n• **Either/or and neither/nor:** the verb agrees with the **nearer subject**. _Neither the supervisor nor the clerks were informed._\n• **The number of:** singular. **A number of:** plural.\n• **One of the** + plural noun takes a singular verb. _One of the applicants is absent._\n• **Fewer** for countable things, **less** for mass. _Fewer items, less time._\n• **Who** is a subject, **whom** is an object. Test with _he_ or _him_.\n• Keep lists **parallel**. _Reading, writing, and speaking_, not _reading, writing, and to speak_.\n• An opening phrase must describe the subject right after the comma. _Walking into the office, the clerk noticed the phone_ is correct.\n\n> **The most common trap** is a long phrase between the subject and the verb. Cover the phrase with your finger and read the sentence again.",
-    "takeaways": [
-      "**Strip the phrases:** cross out prepositional phrases before checking agreement.",
-      "**Singular list:** each, every, either, neither, everyone, somebody, nobody.",
-      "**Either/or:** the verb agrees with the nearer subject."
-    ]
+    "body": "Cross out prepositional phrases before you check subject-verb agreement. In _The box of forms is on the table_, the subject is **box**, not **forms**.\n\n## Agreement rules\n\n• **Each, every, either, neither, everyone, somebody, nobody:** singular. _Each of the clerks is present._\n• **Either/or and neither/nor:** the verb agrees with the **nearer subject**. _Neither the supervisor nor the clerks were informed._\n• **The number of:** singular. **A number of:** plural.\n• **One of the** + plural noun takes a singular verb. _One of the applicants is absent._\n• **Fewer** for countable things, **less** for mass. _Fewer items, less time._\n• **Who** is a subject, **whom** is an object. Test with _he_ or _him_.\n• Keep lists **parallel**. _Reading, writing, and speaking_, not _reading, writing, and to speak_.\n• An opening phrase must describe the subject right after the comma. _Walking into the office, the clerk noticed the phone_ is correct.\n\n> **The most common trap** is a long phrase between the subject and the verb. Cover the phrase with your finger and read the sentence again."
   },
   {
     "slug": "number-series-checklist",
@@ -31,12 +21,7 @@
     "section": "numerical",
     "minutes": 3,
     "summary": "Work through these six checks in order and most series items fall in under 40 seconds.",
-    "body": "Do not stare at the whole sequence. Write the **differences** between consecutive terms above the series.\n\n## The six checks\n\n• **Step 1:** constant difference? That is arithmetic. _4, 8, 12, 16._\n• **Step 2:** constant ratio? That is geometric. _3, 6, 12, 24._\n• **Step 3:** differences growing by a constant? Check second differences. _2, 6, 12, 20, 30_ is n(n+1).\n• **Step 4:** two interleaved series? Look at odd and even positions separately.\n• **Step 5:** familiar sets? Squares, cubes, primes, Fibonacci, factorials. _1, 4, 9, 16, 25._\n• **Step 6:** digit tricks? Sum of digits, reversed digits, products. _12, 21, 13, 31._\n\n## Useful shortcut\n\nIf the jumps are **3, 5, 7, 9**, the next jump is **11**. If the jumps are **2, 4, 8, 16**, the jumps are doubling.\n\n> **Trap:** assuming the first difference pattern holds forever. Always test the pattern on at least two gaps before you commit.",
-    "takeaways": [
-      "**Write differences:** list the gaps before you guess.",
-      "**Check the basics:** arithmetic, geometric, second differences, then interleaved series.",
-      "**Odd jumps:** 3, 5, 7, 9 often points to a square or n(n+1) pattern."
-    ]
+    "body": "Do not stare at the whole sequence. Write the **differences** between consecutive terms above the series.\n\n## The six checks\n\n• **Step 1:** constant difference? That is arithmetic. _4, 8, 12, 16._\n• **Step 2:** constant ratio? That is geometric. _3, 6, 12, 24._\n• **Step 3:** differences growing by a constant? Check second differences. _2, 6, 12, 20, 30_ is n(n+1).\n• **Step 4:** two interleaved series? Look at odd and even positions separately.\n• **Step 5:** familiar sets? Squares, cubes, primes, Fibonacci, factorials. _1, 4, 9, 16, 25._\n• **Step 6:** digit tricks? Sum of digits, reversed digits, products. _12, 21, 13, 31._\n\n## Useful shortcut\n\nIf the jumps are **3, 5, 7, 9**, the next jump is **11**. If the jumps are **2, 4, 8, 16**, the jumps are doubling.\n\n> **Trap:** assuming the first difference pattern holds forever. Always test the pattern on at least two gaps before you commit."
   },
   {
     "slug": "percent-word-problems",
@@ -44,12 +29,7 @@
     "section": "numerical",
     "minutes": 4,
     "summary": "Translate English into arithmetic, estimate first, and avoid the two classic traps.",
-    "body": "Turn the sentence into an equation.\n\n• **Of** means multiply.\n• **Is** means equals.\n• **Per** means divide.\n\n## Worked examples\n\n• **20% of 250 is what?** 0.20 x 250 = **50**.\n• **45 is what percent of 180?** 45 / 180 = 0.25 = **25%**.\n• **Percent change** is change divided by the **original**, never by the new value.\n• A **20% discount** means you pay **80%**. One multiplication, not two.\n• A **20% increase** followed by a **20% decrease** does not return to the original. It ends at **96%**.\n\n## Estimate first\n\nIf the choices are 40, 42, 45, and 48, and your rough answer is a little over 40, pick **42**. You do not need the exact decimal.\n\n> **Useful conversions:** 1/8 = 12.5%, 1/6 is about 16.7%, 1/3 is about 33.3%, 3/8 = 37.5%, 5/8 = 62.5%, 7/8 = 87.5%.\n\n## Two traps\n\n• Answering the **wrong quantity** (asking for males when the question asks for females).\n• Dividing by the **new value** in a percent-change item.",
-    "takeaways": [
-      "**Translate:** of = multiply, is = equals, per = divide.",
-      "**Change:** divide by the original value, never the new one.",
-      "**Estimate:** the choices usually make the exact decimal unnecessary."
-    ]
+    "body": "Turn the sentence into an equation.\n\n• **Of** means multiply.\n• **Is** means equals.\n• **Per** means divide.\n\n## Worked examples\n\n• **20% of 250 is what?** 0.20 x 250 = **50**.\n• **45 is what percent of 180?** 45 / 180 = 0.25 = **25%**.\n• **Percent change** is change divided by the **original**, never by the new value.\n• A **20% discount** means you pay **80%**. One multiplication, not two.\n• A **20% increase** followed by a **20% decrease** does not return to the original. It ends at **96%**.\n\n## Estimate first\n\nIf the choices are 40, 42, 45, and 48, and your rough answer is a little over 40, pick **42**. You do not need the exact decimal.\n\n> **Useful conversions:** 1/8 = 12.5%, 1/6 is about 16.7%, 1/3 is about 33.3%, 3/8 = 37.5%, 5/8 = 62.5%, 7/8 = 87.5%.\n\n## Two traps\n\n• Answering the **wrong quantity** (asking for males when the question asks for females).\n• Dividing by the **new value** in a percent-change item."
   },
   {
     "slug": "conditional-logic",
@@ -57,12 +37,7 @@
     "section": "analytical",
     "minutes": 3,
     "summary": "Most logic items are one of three patterns. Learn to name the pattern and the answer is immediate.",
-    "body": "Write the conditional as **P → Q**. _If it rains, the trip is cancelled._\n\n## The three patterns\n\n• **Valid:** P → Q, and P is true, so Q is true. _It rained, so the trip is cancelled._\n• **Valid:** P → Q, and Q is false, so P is false. _The trip was not cancelled, so it did not rain._ This is the **contrapositive**.\n• **Invalid:** P → Q, and Q is true, so P is true. _The trip was cancelled, so it rained._ Other things can cancel a trip.\n\n> **Most common wrong answer:** affirming the consequent. It appears in almost every CSE logic set.\n\n## Syllogisms and assumptions\n\nDraw circles for syllogisms. _All A are B_ puts A inside B. _Some B are C_ puts at least one B in C, but that B might be outside A, so _some A are C_ does not follow.\n\nFor assumptions, use the **negation test**. Negate the choice. If the argument collapses, that choice was a necessary assumption.",
-    "takeaways": [
-      "**Valid:** P → Q and P gives Q; P → Q and not-Q gives not-P.",
-      "**Invalid:** Q therefore P is affirming the consequent.",
-      "**Syllogisms:** draw circles and track the quantifiers."
-    ]
+    "body": "Write the conditional as **P → Q**. _If it rains, the trip is cancelled._\n\n## The three patterns\n\n• **Valid:** P → Q, and P is true, so Q is true. _It rained, so the trip is cancelled._\n• **Valid:** P → Q, and Q is false, so P is false. _The trip was not cancelled, so it did not rain._ This is the **contrapositive**.\n• **Invalid:** P → Q, and Q is true, so P is true. _The trip was cancelled, so it rained._ Other things can cancel a trip.\n\n> **Most common wrong answer:** affirming the consequent. It appears in almost every CSE logic set.\n\n## Syllogisms and assumptions\n\nDraw circles for syllogisms. _All A are B_ puts A inside B. _Some B are C_ puts at least one B in C, but that B might be outside A, so _some A are C_ does not follow.\n\nFor assumptions, use the **negation test**. Negate the choice. If the argument collapses, that choice was a necessary assumption."
   },
   {
     "slug": "filing-rules",
@@ -70,12 +45,7 @@
     "section": "clerical",
     "minutes": 3,
     "summary": "Alphabetizing looks easy until Dela Cruz and De Leon show up in the same item.",
-    "body": "File **letter by letter**, ignoring spaces, hyphens, apostrophes, and punctuation. Compare one character at a time and stop at the first difference.\n\nDela Cruz becomes **DELACRUZ**. Dela Pena becomes **DELAPENA**. De Leon becomes **DELEON**. Del Rosario becomes **DELROSARIO**.\n\n## Ordering example\n\nCompare the fourth letter: **C, P, E, R**. Alphabetical order is **C, E, P, R**. So the order is Dela Cruz, De Leon, Dela Pena, Del Rosario.\n\n## Rules that decide the order\n\n• **Nothing before something.** _Mabini_ comes before _Mabini, Jr._ because the shorter name has nothing after it.\n• Names are filed **last name first**, then first name, then middle initial.\n• **Numbers file before letters**, in numerical order. _9_ before _10_ before _100_.\n• Treat **Mc** and **Mac** as _Mac_ only if the item's rule says so. Otherwise follow strict letter order.\n\n## Comparing and spelling\n\nCompare from **left to right** and stop at the first mismatch. Watch for **O versus zero**, **I versus lowercase l**, and transposed digits like _6713_ versus _6173_.\n\n> **Spelling drill:** accommodate, definitely, separate, occurred, receive, privilege, maintenance, existence, necessary, embarrass, entrepreneur, liaison, questionnaire, bureaucracy.",
-    "takeaways": [
-      "**Letter by letter:** ignore spaces, hyphens, apostrophes, and punctuation.",
-      "**Nothing before something:** Mabini before Mabini, Jr.",
-      "**Order:** last name, first name, then middle initial."
-    ]
+    "body": "File **letter by letter**, ignoring spaces, hyphens, apostrophes, and punctuation. Compare one character at a time and stop at the first difference.\n\nDela Cruz becomes **DELACRUZ**. Dela Pena becomes **DELAPENA**. De Leon becomes **DELEON**. Del Rosario becomes **DELROSARIO**.\n\n## Ordering example\n\nCompare the fourth letter: **C, P, E, R**. Alphabetical order is **C, E, P, R**. So the order is Dela Cruz, De Leon, Dela Pena, Del Rosario.\n\n## Rules that decide the order\n\n• **Nothing before something.** _Mabini_ comes before _Mabini, Jr._ because the shorter name has nothing after it.\n• Names are filed **last name first**, then first name, then middle initial.\n• **Numbers file before letters**, in numerical order. _9_ before _10_ before _100_.\n• Treat **Mc** and **Mac** as _Mac_ only if the item's rule says so. Otherwise follow strict letter order.\n\n## Comparing and spelling\n\nCompare from **left to right** and stop at the first mismatch. Watch for **O versus zero**, **I versus lowercase l**, and transposed digits like _6713_ versus _6173_.\n\n> **Spelling drill:** accommodate, definitely, separate, occurred, receive, privilege, maintenance, existence, necessary, embarrass, entrepreneur, liaison, questionnaire, bureaucracy."
   },
   {
     "slug": "constitution-at-a-glance",
@@ -83,12 +53,7 @@
     "section": "general-info",
     "minutes": 4,
     "summary": "A one-screen map of the 1987 Constitution so article-number questions stop being guesses.",
-    "body": "The 1987 Constitution was ratified in a plebiscite on **February 2, 1987**, and has **18 articles**.\n\n## Article map\n\n• **Article I:** National Territory\n• **Article II:** Declaration of Principles and State Policies\n• **Article III:** Bill of Rights\n• **Article IV:** Citizenship\n• **Article V:** Suffrage\n• **Article VI:** Legislative Department\n• **Article VII:** Executive Department\n• **Article VIII:** Judicial Department\n• **Article IX:** Constitutional Commissions (CSC, COMELEC, COA)\n• **Article X:** Local Government\n• **Article XI:** Accountability of Public Officers\n• **Article XII:** National Economy and Patrimony\n• **Article XIII:** Social Justice and Human Rights (includes the CHR)\n• **Article XIV:** Education, Science, Technology, Arts, Culture, and Sports\n\n## Key numbers\n\n• The Senate has **24** members serving **six-year** terms, with a maximum of **two** consecutive terms.\n• The House has **three-year** terms, with a maximum of **three** consecutive terms.\n• The President must be a natural-born citizen, at least **40** years old, a registered voter, able to read and write, and a resident for at least **10 years**.\n• The Supreme Court has a Chief Justice and **14** Associate Justices, with mandatory retirement at **70**.\n\n> **Pair the article with its number.** Most items only need the number, not the full text.",
-    "takeaways": [
-      "**Big picture:** 18 articles, ratified February 2, 1987.",
-      "**Bill of Rights:** Article III.",
-      "**Commissions:** Article IX covers CSC, COMELEC, and COA."
-    ]
+    "body": "The 1987 Constitution was ratified in a plebiscite on **February 2, 1987**, and has **18 articles**.\n\n## Article map\n\n• **Article I:** National Territory\n• **Article II:** Declaration of Principles and State Policies\n• **Article III:** Bill of Rights\n• **Article IV:** Citizenship\n• **Article V:** Suffrage\n• **Article VI:** Legislative Department\n• **Article VII:** Executive Department\n• **Article VIII:** Judicial Department\n• **Article IX:** Constitutional Commissions (CSC, COMELEC, COA)\n• **Article X:** Local Government\n• **Article XI:** Accountability of Public Officers\n• **Article XII:** National Economy and Patrimony\n• **Article XIII:** Social Justice and Human Rights (includes the CHR)\n• **Article XIV:** Education, Science, Technology, Arts, Culture, and Sports\n\n## Key numbers\n\n• The Senate has **24** members serving **six-year** terms, with a maximum of **two** consecutive terms.\n• The House has **three-year** terms, with a maximum of **three** consecutive terms.\n• The President must be a natural-born citizen, at least **40** years old, a registered voter, able to read and write, and a resident for at least **10 years**.\n• The Supreme Court has a Chief Justice and **14** Associate Justices, with mandatory retirement at **70**.\n\n> **Pair the article with its number.** Most items only need the number, not the full text."
   },
   {
     "slug": "exam-day-checklist",
@@ -96,11 +61,6 @@
     "section": "general",
     "minutes": 2,
     "summary": "What to bring, what to leave, and how to spend the last 24 hours.",
-    "body": "> Verify every item against your own **Notice of Examination**. CSC adjusts logistics per batch, and your notice is the only version that matters.\n\n## Bring\n\n• Your **Notice of Examination** and a valid government ID.\n• **Two black ballpens**, No. 2 pencils, an eraser, and a sharpener.\n• A **transparent water bottle**. Avoid messy snacks.\n\n## Leave at home\n\n• Phones, smartwatches, calculators, and notes. Confiscated devices can void your exam.\n• Gates close at **7:30 a.m.** Late examinees are not admitted. Arrive by **6:30**.\n\n## The night before\n\nDo a **ten-item warm-up**, not a full mock. A full mock the night before only creates fatigue and anxiety. Sleep **seven to eight hours**; recall drops sharply below six.\n\n## During the test\n\n• Eat a real breakfast. The Professional exam runs **three hours and ten minutes** with no extended break.\n• Answer everything, leave **nothing blank**, and check your answer sheet alignment every **25 items**.",
-    "takeaways": [
-      "**Bring:** Notice of Examination, valid ID, two black pens, pencils, eraser.",
-      "**Leave:** phones, smartwatches, calculators, notes.",
-      "**Arrive:** 6:30 a.m.; gates close at 7:30."
-    ]
+    "body": "> Verify every item against your own **Notice of Examination**. CSC adjusts logistics per batch, and your notice is the only version that matters.\n\n## Bring\n\n• Your **Notice of Examination** and a valid government ID.\n• **Two black ballpens**, No. 2 pencils, an eraser, and a sharpener.\n• A **transparent water bottle**. Avoid messy snacks.\n\n## Leave at home\n\n• Phones, smartwatches, calculators, and notes. Confiscated devices can void your exam.\n• Gates close at **7:30 a.m.** Late examinees are not admitted. Arrive by **6:30**.\n\n## The night before\n\nDo a **ten-item warm-up**, not a full mock. A full mock the night before only creates fatigue and anxiety. Sleep **seven to eight hours**; recall drops sharply below six.\n\n## During the test\n\n• Eat a real breakfast. The Professional exam runs **three hours and ten minutes** with no extended break.\n• Answer everything, leave **nothing blank**, and check your answer sheet alignment every **25 items**."
   }
 ]

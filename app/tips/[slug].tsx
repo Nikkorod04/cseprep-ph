@@ -117,62 +117,6 @@ function parseSections(body: string): ArticleSection[] {
   );
 }
 
-function takeawaysFor(sections: ArticleSection[]): string[] {
-  const picks: string[] = [];
-
-  for (const section of sections) {
-    for (const block of section.blocks) {
-      if (block.type !== "bullets") continue;
-      for (const line of block.lines) {
-        if (line.length > 4) picks.push(line);
-        if (picks.length === 3) return picks;
-      }
-    }
-  }
-
-  return picks;
-}
-
-function AtAGlance({
-  takeaways,
-  accent,
-}: {
-  takeaways: string[];
-  accent: string;
-}) {
-  if (takeaways.length === 0) return null;
-
-  return (
-    <Card style={styles.glance}>
-      <View style={styles.glanceHead}>
-        <View style={styles.glanceIcon}>
-          <MaterialCommunityIcons
-            name="lightbulb-on-outline"
-            size={18}
-            color={colors.primary}
-          />
-        </View>
-        <View style={{ flex: 1 }}>
-          <AppText variant="tiny" color={colors.primary}>
-            AT A GLANCE
-          </AppText>
-          <AppText variant="heading">
-            {takeaways.length >= 3
-              ? "Three things to remember"
-              : "Key points"}
-          </AppText>
-        </View>
-      </View>
-      {takeaways.map((line, index) => (
-        <View key={index} style={styles.bulletRow}>
-          <View style={[styles.dot, { backgroundColor: accent }]} />
-          <Inline text={line} style={styles.glanceText} />
-        </View>
-      ))}
-    </Card>
-  );
-}
-
 function ArticleSections({
   sections,
   accent,
@@ -312,10 +256,6 @@ export default function TipDetailScreen() {
     .slice(0, 3);
 
   const sections = parseSections(tip.body);
-  const takeaways =
-    tip.takeaways && tip.takeaways.length > 0
-      ? tip.takeaways
-      : takeawaysFor(sections);
 
   const maxScroll = Math.max(1, contentHeight - viewportHeight);
   const progressWidth = scrollY.interpolate({
@@ -386,7 +326,6 @@ export default function TipDetailScreen() {
 
         <View style={styles.divider} />
 
-        <AtAGlance takeaways={takeaways} accent={style.color} />
         <ArticleSections sections={sections} accent={style.color} />
 
         <Card style={styles.cta}>
@@ -564,31 +503,6 @@ const styles = StyleSheet.create({
   },
   bold: { fontWeight: "700", color: colors.ink },
   italic: { fontStyle: "italic" },
-  glance: {
-    backgroundColor: colors.primarySoft,
-    borderColor: "#C9D6FA",
-    gap: spacing.sm,
-  },
-  glanceHead: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: spacing.sm,
-    marginBottom: spacing.xs,
-  },
-  glanceIcon: {
-    width: 34,
-    height: 34,
-    borderRadius: 12,
-    backgroundColor: colors.white,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  glanceText: {
-    flex: 1,
-    fontSize: 14,
-    lineHeight: 21,
-    color: colors.inkSoft,
-  },
   cta: {
     gap: spacing.sm,
     marginTop: spacing.lg,
