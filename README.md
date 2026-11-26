@@ -147,11 +147,13 @@ No Gmail OAuth is used, and reports never leave the device until the user sends 
 
 The in-app screen lives at `/legal` and is linked from **Profile → About → Privacy & legal**. It covers local data, AdMob, content reports, notifications, RA 10173 rights, and the CSC disclaimer.
 
-The public policy for the Play Store listing is [`docs/privacy-policy.html`](./docs/privacy-policy.html). Host it on any public static host and paste that URL into Play Console → App content → Privacy policy. No server or login is required.
+The public policy for the Play Store listing is live at:
 
-- **GitHub Pages:** push this repo to GitHub, then Settings → Pages → Deploy from a branch → `master` / `/docs`. The URL becomes `https://<username>.github.io/<repo>/privacy-policy.html`.
-- **Netlify Drop:** drag the `docs` folder onto Netlify Drop for a one-off public link.
-- The URL must load without a login and must remain stable while the app is published.
+**https://nikkorod04.github.io/cseprep-ph/privacy-policy.html**
+
+Use that URL in Play Console → App content → Privacy policy. The landing page is **https://nikkorod04.github.io/cseprep-ph/**.
+
+The site is served by GitHub Pages from the `/docs` folder on `master`. Update `docs/privacy-policy.html` and push to publish changes.
 
 ## Docs
 
