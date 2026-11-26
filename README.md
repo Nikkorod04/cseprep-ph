@@ -166,6 +166,8 @@ The site is served by GitHub Pages from the `/docs` folder on `master`. Update `
 | [`docs/AD-REMOVAL-PLAN.md`](./docs/AD-REMOVAL-PLAN.md) | One-time Remove Ads purchase, pricing, Play Billing, testing, phases |
 | [`docs/privacy-policy.html`](./docs/privacy-policy.html) | Public privacy policy for the Play Store listing |
 | [`docs/STORE-LISTING.md`](./docs/STORE-LISTING.md) | Play Store copy, graphics, data safety, content rating, QA checklist |
+| [`docs/CLOSED-TESTING.md`](./docs/CLOSED-TESTING.md) | Google Form tester sign-up, 14-day closed test, FB post and email templates |
+| [`docs/create-tester-form.gs`](./docs/create-tester-form.gs) | One-click Google Apps Script that creates the tester sign-up form |
 
 ## Disclaimer
 
