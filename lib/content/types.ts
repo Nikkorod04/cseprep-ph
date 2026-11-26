@@ -56,6 +56,7 @@ export interface TipArticle {
   section: SectionId | "general";
   minutes: number;
   summary: string;
+  takeaways: string[];
   body: string;
 }
 

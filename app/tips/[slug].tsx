@@ -3,7 +3,6 @@ import { useLocalSearchParams, useRouter } from "expo-router";
 import { useRef, useState } from "react";
 import {
   Animated,
-  Platform,
   ScrollView,
   StyleSheet,
   Text,
@@ -21,12 +20,6 @@ import type { SectionId, TipArticle } from "@/lib/content/types";
 import { startPractice } from "@/lib/quiz/start";
 import { SECTION_STYLE } from "@/theme/sections";
 import { colors, radius, spacing } from "@/theme/tokens";
-
-const READING_FONT = Platform.select({
-  ios: "Georgia",
-  android: "serif",
-  default: "Georgia",
-});
 
 function sectionShort(section: TipArticle["section"]): string {
   return section === "general"
@@ -67,58 +60,196 @@ function Inline({
   );
 }
 
-function ArticleBody({ body, accent }: { body: string; accent: string }) {
+interface ArticleBlock {
+  type: "paragraph" | "bullets" | "callout";
+  lines: string[];
+}
+
+interface ArticleSection {
+  heading: string | null;
+  blocks: ArticleBlock[];
+}
+
+function parseSections(body: string): ArticleSection[] {
+  const blocks = body
+    .replace(/\r\n/g, "\n")
+    .split(/\n{2,}/)
+    .map((block) => block.trim())
+    .filter(Boolean);
+
+  const sections: ArticleSection[] = [{ heading: null, blocks: [] }];
+
+  for (const block of blocks) {
+    const lines = block
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean);
+
+    if (lines.length === 0) continue;
+
+    if (lines.length === 1 && lines[0].startsWith("## ")) {
+      const heading = lines[0].slice(3).trim();
+      if (heading) sections.push({ heading, blocks: [] });
+      continue;
+    }
+
+    const current = sections[sections.length - 1];
+
+    if (
+      lines.every((line) => line.startsWith("• ") || line.startsWith("- "))
+    ) {
+      current.blocks.push({
+        type: "bullets",
+        lines: lines.map((line) => line.slice(2)),
+      });
+    } else if (lines.every((line) => line.startsWith("> "))) {
+      current.blocks.push({
+        type: "callout",
+        lines: lines.map((line) => line.slice(2)),
+      });
+    } else {
+      current.blocks.push({ type: "paragraph", lines });
+    }
+  }
+
+  return sections.filter(
+    (section) => section.heading || section.blocks.length > 0,
+  );
+}
+
+function takeawaysFor(sections: ArticleSection[]): string[] {
+  const picks: string[] = [];
+
+  for (const section of sections) {
+    for (const block of section.blocks) {
+      if (block.type !== "bullets") continue;
+      for (const line of block.lines) {
+        if (line.length > 4) picks.push(line);
+        if (picks.length === 3) return picks;
+      }
+    }
+  }
+
+  return picks;
+}
+
+function AtAGlance({
+  takeaways,
+  accent,
+}: {
+  takeaways: string[];
+  accent: string;
+}) {
+  if (takeaways.length === 0) return null;
+
   return (
-    <>
-      {body.split("\n\n").map((block, index) => {
-        const lines = block
-          .split("\n")
-          .map((line) => line.trim())
-          .filter(Boolean);
+    <Card style={styles.glance}>
+      <View style={styles.glanceHead}>
+        <View style={styles.glanceIcon}>
+          <MaterialCommunityIcons
+            name="lightbulb-on-outline"
+            size={18}
+            color={colors.primary}
+          />
+        </View>
+        <View style={{ flex: 1 }}>
+          <AppText variant="tiny" color={colors.primary}>
+            AT A GLANCE
+          </AppText>
+          <AppText variant="heading">
+            {takeaways.length >= 3
+              ? "Three things to remember"
+              : "Key points"}
+          </AppText>
+        </View>
+      </View>
+      {takeaways.map((line, index) => (
+        <View key={index} style={styles.bulletRow}>
+          <View style={[styles.dot, { backgroundColor: accent }]} />
+          <Inline text={line} style={styles.glanceText} />
+        </View>
+      ))}
+    </Card>
+  );
+}
 
-        if (lines.length === 0) return null;
+function ArticleSections({
+  sections,
+  accent,
+}: {
+  sections: ArticleSection[];
+  accent: string;
+}) {
+  let sectionNumber = 0;
 
-        if (lines.every((line) => line.startsWith("• "))) {
-          return (
-            <View key={index} style={styles.bullets}>
-              {lines.map((line, i) => (
-                <View key={i} style={styles.bulletRow}>
-                  <View style={[styles.dot, { backgroundColor: accent }]} />
-                  <Inline text={line.slice(2)} style={styles.bulletText} />
-                </View>
-              ))}
+  return (
+    <View style={styles.sections}>
+      {sections.map((section, index) => {
+        if (section.heading) sectionNumber += 1;
+
+        return (
+          <Card key={`${section.heading ?? "intro"}-${index}`} style={styles.sectionCard}>
+            <View style={styles.sectionHead}>
+              <View
+                style={[styles.sectionRule, { backgroundColor: accent }]}
+              />
+              <AppText variant="heading" style={styles.sectionTitle}>
+                {section.heading ?? "The short version"}
+              </AppText>
+              {section.heading ? (
+                <AppText variant="tiny" color={colors.muted}>
+                  {String(sectionNumber).padStart(2, "0")}
+                </AppText>
+              ) : null}
             </View>
-          );
-        }
 
-        if (lines.every((line) => line.startsWith("> "))) {
-          return (
-            <View key={index} style={styles.callout}>
-              <View style={[styles.calloutBar, { backgroundColor: accent }]} />
-              <View style={styles.calloutBody}>
-                {lines.map((line, i) => (
-                  <Inline
-                    key={i}
-                    text={line.slice(2)}
-                    style={styles.calloutText}
-                  />
-                ))}
-              </View>
-            </View>
-          );
-        }
+            {section.blocks.map((block, blockIndex) => {
+              if (block.type === "bullets") {
+                return (
+                  <View key={blockIndex} style={styles.bullets}>
+                    {block.lines.map((line, lineIndex) => (
+                      <View key={lineIndex} style={styles.bulletRow}>
+                        <View
+                          style={[styles.dot, { backgroundColor: accent }]}
+                        />
+                        <Inline text={line} style={styles.bulletText} />
+                      </View>
+                    ))}
+                  </View>
+                );
+              }
 
-        if (lines.length === 1 && lines[0].startsWith("## ")) {
-          return (
-            <AppText key={index} style={styles.subheading}>
-              {lines[0].slice(3)}
-            </AppText>
-          );
-        }
+              if (block.type === "callout") {
+                return (
+                  <View key={blockIndex} style={styles.callout}>
+                    <View
+                      style={[styles.calloutBar, { backgroundColor: colors.gold }]}
+                    />
+                    <View style={styles.calloutBody}>
+                      {block.lines.map((line, lineIndex) => (
+                        <Inline
+                          key={lineIndex}
+                          text={line}
+                          style={styles.calloutText}
+                        />
+                      ))}
+                    </View>
+                  </View>
+                );
+              }
 
-        return <Inline key={index} text={block} style={styles.paragraph} />;
+              return (
+                <Inline
+                  key={blockIndex}
+                  text={block.lines.join("\n")}
+                  style={styles.paragraph}
+                />
+              );
+            })}
+          </Card>
+        );
       })}
-    </>
+    </View>
   );
 }
 
@@ -179,6 +310,12 @@ export default function TipDetailScreen() {
         Number(b.section === tip.section) - Number(a.section === tip.section),
     )
     .slice(0, 3);
+
+  const sections = parseSections(tip.body);
+  const takeaways =
+    tip.takeaways && tip.takeaways.length > 0
+      ? tip.takeaways
+      : takeawaysFor(sections);
 
   const maxScroll = Math.max(1, contentHeight - viewportHeight);
   const progressWidth = scrollY.interpolate({
@@ -249,7 +386,8 @@ export default function TipDetailScreen() {
 
         <View style={styles.divider} />
 
-        <ArticleBody body={tip.body} accent={style.color} />
+        <AtAGlance takeaways={takeaways} accent={style.color} />
+        <ArticleSections sections={sections} accent={style.color} />
 
         <Card style={styles.cta}>
           <AppText variant="tiny" color={colors.primary}>
@@ -369,46 +507,49 @@ const styles = StyleSheet.create({
     marginVertical: spacing.xs,
   },
   paragraph: {
-    fontSize: 16,
-    lineHeight: 27,
-    fontFamily: READING_FONT,
-    color: colors.ink,
-  },
-  subheading: {
-    fontSize: 18,
+    fontSize: 15.5,
     lineHeight: 24,
-    fontWeight: "700",
-    color: colors.ink,
-    marginTop: spacing.sm,
+    color: colors.inkSoft,
   },
-  bullets: { gap: spacing.sm + 2 },
+  sections: { gap: spacing.md },
+  sectionCard: { gap: spacing.md },
+  sectionHead: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: spacing.sm,
+  },
+  sectionRule: {
+    width: 4,
+    height: 18,
+    borderRadius: 2,
+  },
+  sectionTitle: { flex: 1 },
+  bullets: { gap: spacing.sm },
   bulletRow: {
     flexDirection: "row",
     alignItems: "flex-start",
     gap: spacing.md,
   },
   dot: {
-    width: 5,
-    height: 5,
+    width: 6,
+    height: 6,
     borderRadius: 3,
-    marginTop: 11,
+    marginTop: 9,
   },
   bulletText: {
     flex: 1,
-    fontSize: 16,
-    lineHeight: 27,
-    fontFamily: READING_FONT,
-    color: colors.ink,
+    fontSize: 15,
+    lineHeight: 24,
+    color: colors.inkSoft,
   },
   callout: {
     flexDirection: "row",
     gap: spacing.md,
-    backgroundColor: colors.surface,
+    backgroundColor: colors.goldSoft,
     borderRadius: radius.md,
     borderWidth: StyleSheet.hairlineWidth,
-    borderColor: colors.line,
+    borderColor: "#F0D48A",
     padding: spacing.md,
-    marginVertical: spacing.xs,
   },
   calloutBar: {
     width: 3,
@@ -417,13 +558,37 @@ const styles = StyleSheet.create({
   },
   calloutBody: { flex: 1, gap: 6 },
   calloutText: {
-    fontSize: 14.5,
-    lineHeight: 22,
-    fontFamily: READING_FONT,
+    fontSize: 14,
+    lineHeight: 21,
     color: colors.inkSoft,
   },
-  bold: { fontWeight: "700" },
+  bold: { fontWeight: "700", color: colors.ink },
   italic: { fontStyle: "italic" },
+  glance: {
+    backgroundColor: colors.primarySoft,
+    borderColor: "#C9D6FA",
+    gap: spacing.sm,
+  },
+  glanceHead: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: spacing.sm,
+    marginBottom: spacing.xs,
+  },
+  glanceIcon: {
+    width: 34,
+    height: 34,
+    borderRadius: 12,
+    backgroundColor: colors.white,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  glanceText: {
+    flex: 1,
+    fontSize: 14,
+    lineHeight: 21,
+    color: colors.inkSoft,
+  },
   cta: {
     gap: spacing.sm,
     marginTop: spacing.lg,

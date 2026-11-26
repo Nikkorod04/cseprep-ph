@@ -286,7 +286,9 @@ interface Question {
 
 ## 5. Tips & Tricks library
 
-Each article: a 1-line rule, a worked example, and 2–4 "traps." Target 250–400 words. Slug per topic.
+Each article: a 1-line rule, a worked example, and 2-4 "traps." Target 250-400 words. Slug per topic.
+
+Each JSON article also has a `takeaways` array with **three short bullets** (under ~120 characters, bold lead-in). The app renders them in the **At a glance** card at the top of the article, then groups the body into section cards.
 
 ### 5.1 Test-taking strategy (applies to all sections)
 
