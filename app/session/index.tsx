@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Redirect, useRouter } from "expo-router";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
@@ -13,10 +13,18 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { AppText } from "@/components/ui/AppText";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
+import { ReportSheet } from "@/components/ReportSheet";
 import { Touchable } from "@/components/ui/Touchable";
 import { SECTION_BY_ID, topicName } from "@/lib/content";
 import type { Choice, ChoiceKey } from "@/lib/content/types";
-import { isBookmarked, saveSession, toggleBookmark } from "@/lib/db";
+import { saveDailyResult } from "@/lib/daily";
+import {
+  addReport,
+  isBookmarked,
+  isReported,
+  saveSession,
+  toggleBookmark,
+} from "@/lib/db";
 import { formatClock, scoreSession } from "@/lib/quiz/engine";
 import { saveCurrentSession, useSession } from "@/lib/store/session";
 import { tapFeedback } from "@/lib/utils/haptics";
@@ -34,6 +42,8 @@ export default function SessionScreen() {
   const [selected, setSelected] = useState<ChoiceKey | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [bookmarked, setBookmarked] = useState(false);
+  const [reported, setReported] = useState(false);
+  const [reportOpen, setReportOpen] = useState(false);
   const [now, setNow] = useState(() => Date.now());
 
   const itemStart = useRef(Date.now());
@@ -69,6 +79,7 @@ export default function SessionScreen() {
   useEffect(() => {
     if (!current) return;
     setBookmarked(isBookmarked(current.id));
+    setReported(isReported(current.id));
   }, [current?.id]);
 
   useEffect(() => {
@@ -139,6 +150,16 @@ export default function SessionScreen() {
             }
           : undefined,
     });
+
+    if (cfg.mode === "daily" && cfg.daily) {
+      void saveDailyResult({
+        date: cfg.daily,
+        correct: summary.correct,
+        total: list.length,
+        rating: summary.rating,
+        completedAt: finishedAt,
+      });
+    }
 
     useSession.setState({ answers: map });
     useSession.getState().finish();
@@ -301,7 +322,7 @@ export default function SessionScreen() {
           accessibilityRole="button"
           accessibilityLabel="Exit session"
         >
-          <Ionicons name="close" size={22} color={colors.ink} />
+          <MaterialCommunityIcons name="close" size={22} color={colors.ink} />
         </Touchable>
         <View style={styles.topCenter}>
           <AppText variant="label" numberOfLines={1}>
@@ -318,8 +339,8 @@ export default function SessionScreen() {
             isStudy && styles.studyChip,
           ]}
         >
-          <Ionicons
-            name={isStudy ? "book-outline" : timed ? "timer-outline" : "infinite-outline"}
+          <MaterialCommunityIcons
+            name={isStudy ? "book-open-page-variant-outline" : timed ? "timer-outline" : "infinity"}
             size={14}
             color={lowTime ? colors.danger : isStudy ? colors.primary : colors.inkSoft}
           />
@@ -379,12 +400,30 @@ export default function SessionScreen() {
             }
           >
             <Animated.View style={{ transform: [{ scale: bookmarkScale }] }}>
-              <Ionicons
+              <MaterialCommunityIcons
                 name={bookmarked ? "bookmark" : "bookmark-outline"}
                 size={18}
                 color={bookmarked ? colors.gold : colors.muted}
               />
             </Animated.View>
+          </Touchable>
+          <Touchable
+            onPress={() => setReportOpen(true)}
+            hitSlop={10}
+            haptic="light"
+            scaleTo={0.85}
+            style={styles.bookmarkBtn}
+            accessibilityLabel={
+              reported
+                ? "Reported. Report this item again"
+                : "Report this item"
+            }
+          >
+            <MaterialCommunityIcons
+              name={reported ? "flag" : "flag-outline"}
+              size={18}
+              color={reported ? colors.gold : colors.muted}
+            />
           </Touchable>
         </View>
 
@@ -426,13 +465,13 @@ export default function SessionScreen() {
             ]}
           >
             <View style={styles.explanationHead}>
-              <Ionicons
+              <MaterialCommunityIcons
                 name={
                   feedback === "success"
-                    ? "checkmark-circle"
+                    ? "check-circle"
                     : feedback === "danger"
                       ? "close-circle"
-                      : "information-circle"
+                      : "information"
                 }
                 size={20}
                 color={
@@ -463,7 +502,7 @@ export default function SessionScreen() {
             <AppText variant="small">{current.explanation}</AppText>
             {current.tip ? (
               <View style={styles.tipRow}>
-                <Ionicons name="bulb-outline" size={15} color={colors.gold} />
+                <MaterialCommunityIcons name="lightbulb-outline" size={15} color={colors.gold} />
                 <AppText variant="tiny" color={colors.inkSoft} style={{ flex: 1 }}>
                   {current.tip}
                 </AppText>
@@ -501,8 +540,8 @@ export default function SessionScreen() {
                 !revealed
                   ? "eye-outline"
                   : isLast
-                    ? "checkmark"
-                    : "arrow-forward"
+                    ? "check"
+                    : "arrow-right"
               }
               full={false}
               style={{ flex: 2 }}
@@ -515,13 +554,25 @@ export default function SessionScreen() {
             label={
               isLast ? (isMock ? "Submit mock" : "Finish set") : "Next item"
             }
-            icon={isLast ? "checkmark" : "arrow-forward"}
+            icon={isLast ? "check" : "arrow-right"}
             haptic="none"
             disabled={isMock ? !selected : !revealed}
             onPress={goNext}
           />
         )}
       </View>
+
+      <ReportSheet
+        visible={reportOpen}
+        onClose={() => setReportOpen(false)}
+        alreadyReported={reported}
+        onSubmit={(reason) => {
+          if (!current) return;
+          addReport(current.id, reason);
+          setReported(true);
+          tapFeedback("success");
+        }}
+      />
     </SafeAreaView>
   );
 }
@@ -615,10 +666,10 @@ function ChoiceRow({
         {choice.text}
       </AppText>
       {state === "correct" ? (
-        <Ionicons name="checkmark-circle" size={20} color={colors.success} />
+        <MaterialCommunityIcons name="check-circle" size={20} color={colors.success} />
       ) : null}
       {state === "wrong" ? (
-        <Ionicons name="close-circle" size={20} color={colors.danger} />
+        <MaterialCommunityIcons name="close-circle" size={20} color={colors.danger} />
       ) : null}
     </Touchable>
   );

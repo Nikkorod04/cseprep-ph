@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
 import { useRouter } from "expo-router";
 import { useMemo, useState } from "react";
@@ -44,7 +44,7 @@ const GROUP_ORDER: TipArticle["section"][] = [
 function styleFor(section: TipArticle["section"]) {
   return section === "general"
     ? {
-        icon: "sparkles-outline" as const,
+        icon: "creation-outline" as const,
         color: colors.primary,
         soft: colors.primarySoft,
       }
@@ -108,7 +108,7 @@ export default function TipsScreen() {
     >
 
       <View style={styles.search}>
-        <Ionicons name="search" size={16} color={colors.muted} />
+        <MaterialCommunityIcons name="magnify" size={16} color={colors.muted} />
         <TextInput
           value={query}
           onChangeText={setQuery}
@@ -127,7 +127,7 @@ export default function TipsScreen() {
             style={styles.clearBtn}
             accessibilityLabel="Clear search"
           >
-            <Ionicons name="close-circle" size={18} color={colors.muted} />
+            <MaterialCommunityIcons name="close-circle" size={18} color={colors.muted} />
           </Touchable>
         ) : null}
       </View>
@@ -163,7 +163,7 @@ export default function TipsScreen() {
           >
             <View style={styles.featuredTop}>
               <View style={styles.featuredIcon}>
-                <Ionicons name="flash" size={17} color={colors.gold} />
+                <MaterialCommunityIcons name="flash" size={17} color={colors.gold} />
               </View>
               <AppText variant="tiny" color={colors.gold}>
                 FEATURED GUIDE
@@ -187,7 +187,7 @@ export default function TipsScreen() {
               <AppText variant="label" color={colors.gold}>
                 Read guide
               </AppText>
-              <Ionicons name="arrow-forward" size={15} color={colors.gold} />
+              <MaterialCommunityIcons name="arrow-right" size={15} color={colors.gold} />
             </View>
           </LinearGradient>
         </Touchable>
@@ -219,7 +219,7 @@ export default function TipsScreen() {
                     <View
                       style={[styles.rowIcon, { backgroundColor: style.soft }]}
                     >
-                      <Ionicons
+                      <MaterialCommunityIcons
                         name={style.icon}
                         size={19}
                         color={style.color}
@@ -240,8 +240,8 @@ export default function TipsScreen() {
                         {tip.minutes} MIN READ
                       </AppText>
                     </View>
-                    <Ionicons
-                      name="chevron-forward"
+                    <MaterialCommunityIcons
+                      name="chevron-right"
                       size={17}
                       color={colors.muted}
                     />
@@ -256,7 +256,7 @@ export default function TipsScreen() {
       {groups.length === 0 ? (
         <Card style={styles.empty}>
           <View style={styles.emptyIcon}>
-            <Ionicons name="search-outline" size={20} color={colors.muted} />
+            <MaterialCommunityIcons name="magnify" size={20} color={colors.muted} />
           </View>
           <AppText variant="heading">No guides found</AppText>
           <AppText variant="small" color={colors.muted} style={{ textAlign: "center" }}>

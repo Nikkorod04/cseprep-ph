@@ -27,7 +27,8 @@ export function preloadInterstitial(): void {
       loaded = true;
       loading = false;
     });
-    ad.addAdEventListener(ads.AdEventType.ERROR, () => {
+    ad.addAdEventListener(ads.AdEventType.ERROR, (error: unknown) => {
+      if (__DEV__) console.warn("[ads] interstitial failed", error);
       loaded = false;
       loading = false;
       ad = null;

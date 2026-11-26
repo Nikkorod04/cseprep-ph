@@ -55,7 +55,8 @@ export function RewardedBonus({ onReward }: Props) {
             setReloadKey((key) => key + 1);
           }
         }),
-        ad.addAdEventListener(ads.AdEventType.ERROR, () => {
+        ad.addAdEventListener(ads.AdEventType.ERROR, (error: unknown) => {
+          if (__DEV__) console.warn("[ads] rewarded failed", error);
           adRef.current = null;
           if (!cancelled) setStatus("error");
         }),

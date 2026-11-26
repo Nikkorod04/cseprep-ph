@@ -66,3 +66,10 @@ export interface SaveSessionInput {
   answers: AttemptInput[];
   mock?: { rating: number; passed: boolean; breakdown: string };
 }
+
+export interface ReportRow {
+  id: number;
+  question_id: string;
+  reason: string;
+  created_at: number;
+}

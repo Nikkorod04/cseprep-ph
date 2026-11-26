@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useFocusEffect } from "expo-router";
 import { useCallback, useState } from "react";
 import { StyleSheet, View } from "react-native";
@@ -69,7 +69,7 @@ export default function PracticeScreen() {
             {TRACK_LABEL[track]} track · random across every section.
           </AppText>
         </View>
-        <Ionicons name="shuffle" size={22} color={colors.primary} />
+        <MaterialCommunityIcons name="shuffle-variant" size={22} color={colors.primary} />
       </Card>
       <Button
         label="Start 20 mixed items"
@@ -118,7 +118,7 @@ export default function PracticeScreen() {
               style={styles.sectionHead}
             >
               <View style={[styles.iconBox, { backgroundColor: style.soft }]}>
-                <Ionicons name={style.icon} size={20} color={style.color} />
+                <MaterialCommunityIcons name={style.icon} size={20} color={style.color} />
               </View>
               <View style={{ flex: 1 }}>
                 <AppText variant="heading">{section.name}</AppText>
@@ -127,7 +127,7 @@ export default function PracticeScreen() {
                   {acc === null ? "not started" : `${Math.round(acc)}% mastery`}
                 </AppText>
               </View>
-              <Ionicons
+              <MaterialCommunityIcons
                 name={isOpen ? "chevron-up" : "chevron-down"}
                 size={18}
                 color={colors.muted}
@@ -186,8 +186,8 @@ export default function PracticeScreen() {
                         style={styles.topicAction}
                         accessibilityLabel={`Study ${topic.name}`}
                       >
-                        <Ionicons
-                          name="book-outline"
+                        <MaterialCommunityIcons
+                          name="book-open-page-variant-outline"
                           size={20}
                           color={disabled ? colors.line : colors.inkSoft}
                         />
@@ -207,7 +207,7 @@ export default function PracticeScreen() {
                         style={styles.topicAction}
                         accessibilityLabel={`Practice ${topic.name}`}
                       >
-                        <Ionicons
+                        <MaterialCommunityIcons
                           name="play-circle"
                           size={24}
                           color={disabled ? colors.line : colors.primary}

@@ -1,16 +1,16 @@
-import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 import type { ColorValue } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { tapFeedback } from "@/lib/utils/haptics";
 import { colors, font } from "@/theme/tokens";
 
-type IconName = keyof typeof Ionicons.glyphMap;
+type IconName = keyof typeof MaterialCommunityIcons.glyphMap;
 
-function tabIcon(name: IconName) {
-  return ({ color, size }: { color: ColorValue; size: number }) => (
-    <Ionicons
-      name={name}
+function tabIcon(active: IconName, inactive: IconName) {
+  return ({ color, size, focused }: { color: ColorValue; size: number; focused: boolean }) => (
+    <MaterialCommunityIcons
+      name={focused ? active : inactive}
       size={size}
       color={typeof color === "string" ? color : undefined}
     />
@@ -45,23 +45,38 @@ export default function TabsLayout() {
     >
       <Tabs.Screen
         name="home"
-        options={{ title: "Home", tabBarIcon: tabIcon("home-outline") }}
+        options={{
+          title: "Home",
+          tabBarIcon: tabIcon("home-variant", "home-variant-outline"),
+        }}
       />
       <Tabs.Screen
         name="practice"
-        options={{ title: "Practice", tabBarIcon: tabIcon("create-outline") }}
+        options={{
+          title: "Practice",
+          tabBarIcon: tabIcon("pencil", "pencil-outline"),
+        }}
       />
       <Tabs.Screen
         name="mock"
-        options={{ title: "Mock", tabBarIcon: tabIcon("timer-outline") }}
+        options={{
+          title: "Mock",
+          tabBarIcon: tabIcon("timer", "timer-outline"),
+        }}
       />
       <Tabs.Screen
         name="tips"
-        options={{ title: "Tips", tabBarIcon: tabIcon("bulb-outline") }}
+        options={{
+          title: "Tips",
+          tabBarIcon: tabIcon("lightbulb-on", "lightbulb-on-outline"),
+        }}
       />
       <Tabs.Screen
         name="profile"
-        options={{ title: "Profile", tabBarIcon: tabIcon("person-outline") }}
+        options={{
+          title: "Profile",
+          tabBarIcon: tabIcon("account", "account-outline"),
+        }}
       />
     </Tabs>
   );

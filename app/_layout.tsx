@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { ActivityIndicator, StyleSheet, View } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { initDb } from "@/lib/db";
+import { initAds } from "@/lib/ads/init";
 import { preloadInterstitial } from "@/lib/ads/interstitial";
 import { useSettings } from "@/lib/store/settings";
 import { colors } from "@/theme/tokens";
@@ -17,6 +18,7 @@ export default function RootLayout() {
   useEffect(() => {
     initDb();
     void hydrate();
+    initAds();
     preloadInterstitial();
   }, [hydrate]);
 

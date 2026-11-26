@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Redirect, useRouter } from "expo-router";
 import { useEffect, useRef } from "react";
 import { StyleSheet, View } from "react-native";
@@ -105,7 +105,11 @@ export default function ResultsScreen() {
     <Screen>
       <View style={styles.header}>
         <AppText variant="tiny" color={colors.muted}>
-          {config.mode === "mock" ? "MOCK EXAM COMPLETE" : "SESSION COMPLETE"}
+          {config.mode === "mock"
+            ? "MOCK EXAM COMPLETE"
+            : config.mode === "daily"
+              ? "DAILY CHALLENGE COMPLETE"
+              : "SESSION COMPLETE"}
         </AppText>
         <AppText variant="title">{config.title}</AppText>
       </View>
@@ -135,8 +139,8 @@ export default function ResultsScreen() {
             },
           ]}
         >
-          <Ionicons
-            name={summary.passed ? "checkmark-circle" : "trending-up"}
+          <MaterialCommunityIcons
+            name={summary.passed ? "check-circle" : "trending-up"}
             size={16}
             color={summary.passed ? colors.success : "#8A5A00"}
           />
@@ -233,7 +237,7 @@ export default function ResultsScreen() {
             <Button
               label="Study topic"
               variant="secondary"
-              icon="book-outline"
+              icon="book-open-page-variant-outline"
               full={false}
               style={{ flex: 1 }}
               onPress={studyWeakest}

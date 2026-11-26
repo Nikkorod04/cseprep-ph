@@ -3,6 +3,7 @@ import { SCHEMA } from "./schema";
 import type {
   MockRow,
   Overview,
+  ReportRow,
   SaveSessionInput,
   SessionRow,
   TopicStat,
@@ -12,6 +13,7 @@ export type {
   AttemptInput,
   MockRow,
   Overview,
+  ReportRow,
   SaveSessionInput,
   SessionRow,
   TopicStat,
@@ -247,6 +249,53 @@ export function getBookmarkedIds(limit = 100): string[] {
       limit,
     )
     .map((row) => row.question_id);
+}
+
+export function isReported(questionId: string): boolean {
+  const db = getDb();
+  if (!db) return false;
+  return Boolean(
+    db.getFirstSync<{ question_id: string }>(
+      `SELECT question_id FROM reports WHERE question_id = ?`,
+      questionId,
+    ),
+  );
+}
+
+export function addReport(questionId: string, reason: string): void {
+  const db = getDb();
+  if (!db) return;
+  const duplicate = db.getFirstSync<{ question_id: string }>(
+    `SELECT question_id FROM reports WHERE question_id = ? AND reason = ?`,
+    questionId,
+    reason,
+  );
+  if (duplicate) return;
+  db.runSync(
+    `INSERT INTO reports (question_id, reason, created_at, synced)
+     VALUES (?, ?, ?, 0)`,
+    questionId,
+    reason,
+    Date.now(),
+  );
+}
+
+export function getReports(limit = 100): ReportRow[] {
+  const db = getDb();
+  if (!db) return [];
+  return db.getAllSync<ReportRow>(
+    `SELECT id, question_id, reason, created_at
+     FROM reports
+     ORDER BY created_at DESC
+     LIMIT ?`,
+    limit,
+  );
+}
+
+export function clearReports(): void {
+  const db = getDb();
+  if (!db) return;
+  db.runSync(`DELETE FROM reports`);
 }
 
 export function resetProgress(): void {

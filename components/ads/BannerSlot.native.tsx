@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { StyleSheet, View } from "react-native";
 import { ADS_ENABLED, AD_UNITS } from "@/lib/ads/config";
 import { colors, spacing } from "@/theme/tokens";
@@ -6,6 +6,9 @@ import { colors, spacing } from "@/theme/tokens";
 type AdsModule = typeof import("react-native-google-mobile-ads");
 
 let cached: AdsModule | null | undefined;
+
+const MAX_RETRIES = 2;
+const RETRY_MS = 20000;
 
 /**
  * Loads AdMob only when the native module is present (dev/production build).
@@ -23,19 +26,42 @@ function loadAds(): AdsModule | null {
   return cached;
 }
 
+type Status = "loading" | "loaded" | "failed";
+
 export function BannerSlot() {
   const ads = useMemo(() => loadAds(), []);
+  const [status, setStatus] = useState<Status>("loading");
+  const [attempt, setAttempt] = useState(0);
 
-  if (!ads) return null;
+  // A failed request leaves a zero-height view behind; retry quietly instead of
+  // reserving an empty strip at the bottom of the screen.
+  useEffect(() => {
+    if (status !== "failed" || attempt >= MAX_RETRIES) return;
+    const timer = setTimeout(() => {
+      setStatus("loading");
+      setAttempt((value) => value + 1);
+    }, RETRY_MS);
+    return () => clearTimeout(timer);
+  }, [status, attempt]);
+
+  if (!ads || status === "failed") return null;
 
   const { BannerAd, BannerAdSize } = ads;
 
   return (
     <View style={styles.wrap}>
       <BannerAd
+        key={attempt}
         unitId={AD_UNITS.banner}
         size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
         requestOptions={{ requestNonPersonalizedAdsOnly: true }}
+        onAdLoaded={() => setStatus("loaded")}
+        onAdFailedToLoad={(error) => {
+          if (__DEV__) {
+            console.warn("[ads] banner failed", error?.message ?? error);
+          }
+          setStatus("failed");
+        }}
       />
     </View>
   );

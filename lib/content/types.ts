@@ -9,7 +9,13 @@ export type SectionId =
 
 export type ChoiceKey = "A" | "B" | "C" | "D";
 
-export type SessionMode = "practice" | "timed" | "mock" | "diagnostic" | "study";
+export type SessionMode =
+  | "practice"
+  | "timed"
+  | "mock"
+  | "diagnostic"
+  | "study"
+  | "daily";
 
 export interface Choice {
   key: ChoiceKey;

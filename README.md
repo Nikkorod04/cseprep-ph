@@ -32,6 +32,8 @@ Open the QR code from `npm run go` with Expo Go. Type check with `npm run typech
 | Study mode | Read every item in a topic at your own pace, reveal the answer when ready, bookmark anything |
 | Resume | Sessions autosave as you answer; continue from Home; mock clocks pause when you leave |
 | Library | Study your bookmarked items and retry questions from the error log |
+| Daily challenge | A fixed 10-item mixed set per local day, tracked once per day |
+| Report item | Flag wrong keys, ambiguity, typos, or duplicates from any quiz item; review and share from Profile |
 | Interaction polish | Spring press feedback, light haptics, animated bars and score ring, screen fade, accessible pressable rows |
 | Quiz | One item at a time, instant feedback + explanation + tip, haptics |
 | Mock | Blueprint-weighted exam, countdown timer, auto-submit, no feedback until the end |
@@ -123,6 +125,20 @@ Item ids are permanent — progress is keyed by them. Edit an item, bump `versio
   Install the APK on the phone, then reload. `eas.json` is already configured with `development`, `preview`, and `production` profiles.
 - **UMP consent** (EEA) is not wired yet. All requests ask for non-personalized ads.
 - Never tap your own live ads. Use test IDs only during development.
+
+### Content reports
+
+Reports are stored in the local `reports` table. **Profile → Content reports** shows the latest ones, and **Email report** opens a prefilled message to `nikkorod04@gmail.com` with the item IDs, section/topic, reason, and a short stem. Nothing is sent until the user taps Send in their mail app. If no composer is available, it falls back to a `mailto:` link.
+
+No Gmail OAuth is used, and reports never leave the device until the user sends them.
+
+## Brand
+
+- **Icon:** white C with a gold check on blue — Concept A
+- **Colors:** blue `#1A46C4`, gold `#F2B01E`, white
+- **Splash:** blue field, mark, wordmark, gold tagline
+- **Assets:** `icon.png`, `android-icon-foreground.png`, `android-icon-monochrome.png`, `splash-icon.png`, `favicon.png`, `brand-mark.png` (app bar, onboarding, About)
+- **Source:** vector art in `assets/branding/`, regenerated with `node scripts/render-brand.mjs`
 
 ---
 

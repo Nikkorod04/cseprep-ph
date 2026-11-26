@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { StyleSheet, View } from "react-native";
 import { AppText } from "@/components/ui/AppText";
 import { Button } from "@/components/ui/Button";
@@ -38,7 +38,7 @@ export default function MockScreen() {
       <Card style={styles.hero}>
         <View style={styles.heroTop}>
           <View style={styles.heroIcon}>
-            <Ionicons name="timer" size={22} color={colors.white} />
+            <MaterialCommunityIcons name="timer-outline" size={22} color={colors.white} />
           </View>
           <View style={{ flex: 1 }}>
             <AppText variant="heading">Full simulation</AppText>
@@ -131,8 +131,8 @@ export default function MockScreen() {
                 {relativeTime(mock.finished_at)}
               </AppText>
             </View>
-            <Ionicons
-              name={mock.passed ? "checkmark-circle" : "alert-circle"}
+            <MaterialCommunityIcons
+              name={mock.passed ? "check-circle" : "alert-circle"}
               size={20}
               color={mock.passed ? colors.success : colors.gold}
             />
@@ -141,7 +141,7 @@ export default function MockScreen() {
       )}
 
       <Card style={styles.note}>
-        <Ionicons name="information-circle-outline" size={18} color={colors.primary} />
+        <MaterialCommunityIcons name="information-outline" size={18} color={colors.primary} />
         <AppText variant="small" color={colors.inkSoft} style={{ flex: 1 }}>
           CSC does not publish exact per-subtest counts. Item allocations here
           follow the working blueprint; the real exam is 170 items in 190

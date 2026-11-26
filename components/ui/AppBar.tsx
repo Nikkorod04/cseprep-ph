@@ -1,8 +1,7 @@
-import { Ionicons } from "@expo/vector-icons";
 import type { ReactNode } from "react";
-import { StyleSheet, View } from "react-native";
+import { Image, StyleSheet, View } from "react-native";
 import { AppText } from "./AppText";
-import { colors, radius, spacing } from "@/theme/tokens";
+import { colors, spacing } from "@/theme/tokens";
 
 interface Props {
   title: string;
@@ -13,9 +12,10 @@ interface Props {
 export function AppBar({ title, right }: Props) {
   return (
     <View style={styles.bar}>
-      <View style={styles.mark}>
-        <Ionicons name="school" size={15} color={colors.white} />
-      </View>
+      <Image
+        source={require("../../assets/brand-mark.png")}
+        style={styles.mark}
+      />
       <AppText
         variant="heading"
         color={colors.white}
@@ -46,12 +46,11 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 4 },
   },
   mark: {
-    width: 28,
-    height: 28,
-    borderRadius: radius.sm,
-    backgroundColor: "rgba(255,255,255,0.18)",
-    alignItems: "center",
-    justifyContent: "center",
+    width: 30,
+    height: 30,
+    borderRadius: 9,
+    borderWidth: StyleSheet.hairlineWidth,
+    borderColor: "rgba(255,255,255,0.28)",
   },
   title: { fontSize: 19, fontWeight: "700", letterSpacing: 0.2, flexShrink: 1 },
   spacer: { flex: 1 },

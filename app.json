@@ -15,9 +15,8 @@
       "package": "ph.cseprep.app",
       "versionCode": 1,
       "adaptiveIcon": {
-        "backgroundColor": "#F4F6FB",
+        "backgroundColor": "#1A46C4",
         "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
@@ -49,7 +48,27 @@
           "userTrackingUsageDescription": "This identifier is used to show relevant ads. You can opt out anytime."
         }
       ],
-      "expo-font"
-    ]
+      "expo-font",
+      "expo-mail-composer",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 340,
+          "resizeMode": "contain",
+          "backgroundColor": "#1A46C4"
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "e7ce64f3-a4a5-44dd-95c1-c4306548c3e3"
+      }
+    }
   }
 }

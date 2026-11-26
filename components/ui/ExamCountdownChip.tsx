@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { StyleSheet, View } from "react-native";
 import { AppText } from "./AppText";
 import { useSettings } from "@/lib/store/settings";
@@ -12,7 +12,7 @@ export function ExamCountdownChip() {
 
   return (
     <View style={styles.chip}>
-      <Ionicons name="calendar-outline" size={12} color={colors.white} />
+      <MaterialCommunityIcons name="calendar-month-outline" size={12} color={colors.white} />
       <AppText variant="tiny" color={colors.white}>
         {days !== null && days > 0 ? `${days}D` : "EXAM"}
       </AppText>

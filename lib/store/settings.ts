@@ -27,7 +27,8 @@ interface SettingsState extends SettingsData {
 const DEFAULTS: SettingsData = {
   onboarded: false,
   track: "professional",
-  examDate: "2027-03-14",
+  // CSC releases final schedules late, so we don't preselect a date.
+  examDate: null,
   dailyGoal: 10,
   remindersEnabled: false,
   reminderHour: 19,

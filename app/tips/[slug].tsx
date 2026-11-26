@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { useRef, useState } from "react";
 import {
@@ -143,7 +143,7 @@ export default function TipDetailScreen() {
             style={styles.back}
             accessibilityLabel="Back"
           >
-            <Ionicons name="chevron-back" size={22} color={colors.ink} />
+            <MaterialCommunityIcons name="chevron-left" size={22} color={colors.ink} />
           </Touchable>
           <AppText variant="heading">Tips & tricks</AppText>
         </View>
@@ -160,7 +160,7 @@ export default function TipDetailScreen() {
   const style =
     tip.section === "general"
       ? {
-          icon: "sparkles-outline" as const,
+          icon: "creation-outline" as const,
           color: colors.primary,
           soft: colors.primarySoft,
         }
@@ -209,7 +209,7 @@ export default function TipDetailScreen() {
           style={styles.back}
           accessibilityLabel="Back"
         >
-          <Ionicons name="chevron-back" size={22} color={colors.ink} />
+          <MaterialCommunityIcons name="chevron-left" size={22} color={colors.ink} />
         </Touchable>
         <AppText variant="heading">Tips & tricks</AppText>
       </View>
@@ -285,8 +285,8 @@ export default function TipDetailScreen() {
                     {item.minutes} MIN
                   </AppText>
                 </View>
-                <Ionicons
-                  name="arrow-forward"
+                <MaterialCommunityIcons
+                  name="arrow-right"
                   size={16}
                   color={colors.muted}
                 />

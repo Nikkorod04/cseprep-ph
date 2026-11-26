@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import type { ComponentProps } from "react";
 import {
   ActivityIndicator,
@@ -13,7 +13,7 @@ import { colors, radius, spacing } from "@/theme/tokens";
 import type { HapticKind } from "@/lib/utils/haptics";
 
 type Variant = "primary" | "secondary" | "ghost" | "gold" | "danger";
-type IconName = ComponentProps<typeof Ionicons>["name"];
+type IconName = ComponentProps<typeof MaterialCommunityIcons>["name"];
 
 interface Props {
   label: string;
@@ -77,7 +77,7 @@ export function Button({
         <ActivityIndicator color={fg} />
       ) : (
         <View style={styles.row}>
-          {icon ? <Ionicons name={icon} size={18} color={fg} /> : null}
+          {icon ? <MaterialCommunityIcons name={icon} size={18} color={fg} /> : null}
           <AppText variant="label" color={fg} style={styles.label}>
             {label}
           </AppText>

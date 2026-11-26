@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
 import { useRouter } from "expo-router";
 import { StyleSheet, View } from "react-native";
@@ -11,9 +11,10 @@ import { Touchable } from "@/components/ui/Touchable";
 import { TIPS, topicName } from "@/lib/content";
 import { TRACK_LABEL } from "@/lib/content/types";
 import { useDashboard } from "@/lib/hooks/useDashboard";
+import { useDailyResult } from "@/lib/hooks/useDailyResult";
 import { useSavedSession } from "@/lib/hooks/useSavedSession";
 import { formatClock } from "@/lib/quiz/engine";
-import { startPractice } from "@/lib/quiz/start";
+import { startDailyChallenge, startPractice } from "@/lib/quiz/start";
 import { restoreSession } from "@/lib/store/session";
 import { useSettings } from "@/lib/store/settings";
 import { SECTION_STYLE } from "@/theme/sections";
@@ -30,6 +31,7 @@ export default function HomeScreen() {
   const weakest = topics.slice(0, 3);
   const tip = TIPS[0];
   const saved = useSavedSession();
+  const daily = useDailyResult();
 
   async function resume() {
     const ok = await restoreSession();
@@ -48,7 +50,7 @@ export default function HomeScreen() {
       {saved ? (
         <Card style={styles.resumeCard}>
           <View style={styles.resumeIcon}>
-            <Ionicons name="bookmark" size={18} color="#8A5A00" />
+            <MaterialCommunityIcons name="bookmark" size={18} color="#8A5A00" />
           </View>
           <View style={{ flex: 1 }}>
             <AppText variant="tiny" color="#8A5A00">
@@ -122,7 +124,7 @@ export default function HomeScreen() {
               : `${Math.max(0, dailyGoal - overview.today)} items to hit your goal`}
           </AppText>
           <View style={styles.streakRow}>
-            <Ionicons name="flame" size={15} color={colors.gold} />
+            <MaterialCommunityIcons name="fire" size={15} color={colors.gold} />
             <AppText variant="label" color={colors.inkSoft}>
               {streak}-day streak
             </AppText>
@@ -133,9 +135,37 @@ export default function HomeScreen() {
         </View>
       </Card>
 
+      <Card style={styles.dailyCard}>
+        <View style={styles.dailyIcon}>
+          <MaterialCommunityIcons name="calendar-star" size={18} color={colors.primary} />
+        </View>
+        <View style={{ flex: 1 }}>
+          <AppText variant="tiny" color={colors.primary}>
+            DAILY CHALLENGE
+          </AppText>
+          <AppText variant="label">
+            {daily ? "Completed today" : "10 mixed items"}
+          </AppText>
+          <AppText variant="tiny" color={colors.muted}>
+            {daily
+              ? `${daily.correct} of ${daily.total} · ${Math.round(daily.rating)}%`
+              : "A fixed mixed set for today"}
+          </AppText>
+        </View>
+        {daily ? (
+          <MaterialCommunityIcons name="check-circle" size={26} color={colors.success} />
+        ) : (
+          <Button
+            label="Start"
+            full={false}
+            onPress={() => startDailyChallenge()}
+          />
+        )}
+      </Card>
+
       <View style={styles.actions}>
         <ActionTile
-          icon="create-outline"
+          icon="pencil-outline"
           label="Practice"
           tint={colors.primary}
           soft={colors.primarySoft}
@@ -149,7 +179,7 @@ export default function HomeScreen() {
           onPress={() => router.push("/mock")}
         />
         <ActionTile
-          icon="bulb-outline"
+          icon="lightbulb-outline"
           label="Tips"
           tint="#B45309"
           soft="#FEF0DC"
@@ -169,7 +199,7 @@ export default function HomeScreen() {
         scaleTo={0.98}
         style={styles.browseLink}
       >
-        <Ionicons name="book-outline" size={15} color={colors.primary} />
+        <MaterialCommunityIcons name="book-open-page-variant-outline" size={15} color={colors.primary} />
         <AppText variant="small" color={colors.primary}>
           Prefer to read? Browse by topic
         </AppText>
@@ -205,7 +235,7 @@ export default function HomeScreen() {
                 style={styles.topicRow}
               >
                 <View style={[styles.topicIcon, { backgroundColor: style.soft }]}>
-                  <Ionicons name={style.icon} size={15} color={style.color} />
+                  <MaterialCommunityIcons name={style.icon} size={15} color={style.color} />
                 </View>
                 <View style={{ flex: 1 }}>
                   <AppText variant="label">
@@ -232,7 +262,7 @@ export default function HomeScreen() {
         >
           <Card style={styles.tipCard}>
             <View style={styles.tipIcon}>
-              <Ionicons name="bulb" size={18} color={colors.gold} />
+              <MaterialCommunityIcons name="lightbulb" size={18} color={colors.gold} />
             </View>
             <View style={{ flex: 1 }}>
               <AppText variant="tiny" color={colors.gold}>
@@ -243,7 +273,7 @@ export default function HomeScreen() {
                 {tip.summary}
               </AppText>
             </View>
-            <Ionicons name="chevron-forward" size={18} color={colors.muted} />
+            <MaterialCommunityIcons name="chevron-right" size={18} color={colors.muted} />
           </Card>
         </Touchable>
       ) : null}
@@ -258,7 +288,7 @@ function ActionTile({
   soft,
   onPress,
 }: {
-  icon: keyof typeof Ionicons.glyphMap;
+  icon: keyof typeof MaterialCommunityIcons.glyphMap;
   label: string;
   tint: string;
   soft: string;
@@ -272,7 +302,7 @@ function ActionTile({
       style={styles.action}
     >
       <View style={[styles.actionIcon, { backgroundColor: soft }]}>
-        <Ionicons name={icon} size={20} color={tint} />
+        <MaterialCommunityIcons name={icon} size={20} color={tint} />
       </View>
       <AppText variant="label">{label}</AppText>
     </Touchable>
@@ -335,6 +365,20 @@ const styles = StyleSheet.create({
     alignItems: "center",
     gap: spacing.lg,
     marginBottom: spacing.md,
+  },
+  dailyCard: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: spacing.md,
+    marginBottom: spacing.md,
+  },
+  dailyIcon: {
+    width: 38,
+    height: 38,
+    borderRadius: radius.pill,
+    backgroundColor: colors.primarySoft,
+    alignItems: "center",
+    justifyContent: "center",
   },
   streakRow: {
     flexDirection: "row",

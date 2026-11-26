@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import type { ComponentProps } from "react";
 import { StyleSheet } from "react-native";
 import { AppText } from "./AppText";
@@ -9,7 +9,7 @@ interface Props {
   label: string;
   selected?: boolean;
   onPress: () => void;
-  icon?: ComponentProps<typeof Ionicons>["name"];
+  icon?: ComponentProps<typeof MaterialCommunityIcons>["name"];
 }
 
 export function Chip({ label, selected = false, onPress, icon }: Props) {
@@ -23,7 +23,7 @@ export function Chip({ label, selected = false, onPress, icon }: Props) {
       style={[styles.chip, selected && styles.selected]}
     >
       {icon ? (
-        <Ionicons
+        <MaterialCommunityIcons
           name={icon}
           size={15}
           color={selected ? colors.primary : colors.inkSoft}

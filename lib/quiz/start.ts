@@ -7,6 +7,7 @@ import {
 } from "@/lib/content";
 import type { Question, SectionId, Track } from "@/lib/content/types";
 import { getBookmarkedIds, getMissedQuestionIds } from "@/lib/db";
+import { todayKey } from "@/lib/daily";
 import { useSession } from "@/lib/store/session";
 import { useSettings } from "@/lib/store/settings";
 import {
@@ -15,6 +16,7 @@ import {
   newSessionId,
   sample,
 } from "./engine";
+import { buildDailyChallenge } from "./daily";
 
 export interface StartPracticeOptions {
   section?: SectionId;
@@ -153,6 +155,29 @@ export function startMissedPractice(): boolean {
       title: "Missed items",
       subtitle: `${items.length} items collected from your error log`,
       count: items.length,
+    },
+    items,
+  );
+
+  router.push("/session");
+  return true;
+}
+
+export function startDailyChallenge(): boolean {
+  const track = useSettings.getState().track;
+  const key = todayKey();
+  const items = buildDailyChallenge(track, key);
+  if (items.length === 0) return false;
+
+  useSession.getState().start(
+    {
+      id: newSessionId(),
+      mode: "daily",
+      track,
+      title: "Daily challenge",
+      subtitle: `${items.length} mixed items · ${key}`,
+      count: items.length,
+      daily: key,
     },
     items,
   );

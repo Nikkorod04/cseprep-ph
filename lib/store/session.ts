@@ -20,6 +20,8 @@ export interface SessionConfig {
   section?: SectionId;
   topic?: string;
   count: number;
+  /** Local date key for the daily challenge, e.g. 2026-11-25. */
+  daily?: string;
   /** Total seconds for the session, used for display. */
   seconds?: number;
   /** Absolute deadline while a timed session is running. */

@@ -69,7 +69,6 @@ export function Touchable({
         onPress?.(event);
       }}
       style={[
-        style,
         {
           transform: [{ scale }],
           opacity: scale.interpolate({
@@ -78,6 +77,7 @@ export function Touchable({
             extrapolate: "clamp",
           }),
         },
+        style,
       ]}
     >
       {children}
