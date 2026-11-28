@@ -13,7 +13,7 @@
     },
     "android": {
       "package": "ph.cseprep.app",
-      "versionCode": 1,
+      "versionCode": 2,
       "adaptiveIcon": {
         "backgroundColor": "#1A46C4",
         "foregroundImage": "./assets/android-icon-foreground.png",
